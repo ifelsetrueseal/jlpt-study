@@ -6,38 +6,68 @@ import { CaretRight, Fire } from "@phosphor-icons/react/dist/ssr";
 import { DECKS } from "@/lib/decks";
 import { splitDue } from "@/lib/srs";
 import {
+  dailyCounts,
+  deckProgress,
+  totals,
+  type DeckProgress,
+  type Totals,
+} from "@/lib/stats";
+import {
   loadHistory,
+  loadNotes,
   loadProgress,
   loadSettings,
   saveSettings,
   streak,
 } from "@/lib/storage";
-import type { DeckId, HistoryEntry } from "@/lib/types";
+import type { DeckId } from "@/lib/types";
 import { today } from "@/lib/utils";
 import { Card } from "@/components/ui/card";
+import {
+  MeterLegend,
+  ProgressMeter,
+  StatTile,
+  WeekBars,
+} from "@/components/stats";
 
-type Counts = Record<DeckId, { review: number; fresh: number }>;
+const DECK_IDS: DeckId[] = ["kanji", "word"];
+
+type Stats = {
+  due: Record<DeckId, { review: number; fresh: number }>;
+  progress: Record<DeckId, DeckProgress>;
+  week: { date: string; count: number }[];
+  totals: Totals;
+  streak: number;
+  notes: number;
+};
 
 export default function Home() {
-  const [counts, setCounts] = useState<Counts | null>(null);
+  const [stats, setStats] = useState<Stats | null>(null);
   const [size, setSize] = useState(20);
-  const [history, setHistory] = useState<HistoryEntry[]>([]);
-  const [days, setDays] = useState(0);
+  const now = today();
 
   useEffect(() => {
     const progress = loadProgress();
-    const now = today();
-    const next = {} as Counts;
-    for (const deck of ["kanji", "word"] as DeckId[]) {
-      const { review, fresh } = splitDue(DECKS[deck].cards, progress, now);
-      next[deck] = { review: review.length, fresh: fresh.length };
+    const history = loadHistory();
+    const nowDate = today();
+    const due = {} as Stats["due"];
+    const deckStats = {} as Stats["progress"];
+    for (const deck of DECK_IDS) {
+      const cards = DECKS[deck].cards;
+      const { review, fresh } = splitDue(cards, progress, nowDate);
+      due[deck] = { review: review.length, fresh: fresh.length };
+      deckStats[deck] = deckProgress(cards, progress);
     }
-    const h = loadHistory();
     // localStorage 는 마운트 뒤에만 읽을 수 있어 여기서 상태를 채울 수밖에 없다
     // eslint-disable-next-line react-hooks/set-state-in-effect
-    setCounts(next);
-    setHistory(h);
-    setDays(streak(h, now));
+    setStats({
+      due,
+      progress: deckStats,
+      week: dailyCounts(history, nowDate),
+      totals: totals(history),
+      streak: streak(history, nowDate),
+      notes: Object.keys(loadNotes()).length,
+    });
     setSize(loadSettings().sessionSize);
   }, []);
 
@@ -50,16 +80,16 @@ export default function Home() {
     <main className="pt-safe pb-safe px-safe flex flex-col gap-4 p-5">
       <header className="flex items-end justify-between pt-6">
         <h1 className="text-2xl font-semibold">JLPT 암기</h1>
-        {days > 0 && (
+        {!!stats?.streak && (
           <span className="text-sub flex items-center gap-1 text-sm">
             <Fire size={16} weight="fill" className="text-warn" />
-            {days}일 연속
+            {stats.streak}일 연속
           </span>
         )}
       </header>
 
-      {(["kanji", "word"] as DeckId[]).map((deck) => {
-        const c = counts?.[deck];
+      {DECK_IDS.map((deck) => {
+        const c = stats?.due[deck];
         return (
           <Link key={deck} href={`/study/${deck}`}>
             <Card className="flex items-center justify-between p-5">
@@ -81,6 +111,49 @@ export default function Home() {
         );
       })}
 
+      {stats && (
+        <>
+          <Card className="flex flex-col gap-4 p-5">
+            <p className="text-sm font-medium">진도</p>
+            {DECK_IDS.map((deck) => (
+              <ProgressMeter
+                key={deck}
+                label={DECKS[deck].label}
+                data={stats.progress[deck]}
+              />
+            ))}
+            <MeterLegend />
+          </Card>
+
+          <Card className="flex flex-col gap-3 p-5">
+            <div className="flex items-baseline justify-between">
+              <p className="text-sm font-medium">최근 7일</p>
+              <p className="text-muted text-xs tabular-nums">
+                {stats.week.reduce((s, d) => s + d.count, 0)}장
+              </p>
+            </div>
+            <WeekBars data={stats.week} today={now} />
+          </Card>
+
+          <Card className="grid grid-cols-4 gap-2 p-5">
+            <StatTile value={stats.totals.days} unit="일" label="학습한 날" />
+            <StatTile value={stats.totals.cards} unit="장" label="누적" />
+            <StatTile
+              value={stats.totals.minutes}
+              unit="분"
+              label="공부 시간"
+            />
+            <StatTile value={stats.totals.firstTry} unit="%" label="한 번에" />
+          </Card>
+
+          {stats.notes > 0 && (
+            <p className="text-muted text-center text-xs">
+              내가 쓴 암기법 {stats.notes}개
+            </p>
+          )}
+        </>
+      )}
+
       <Card className="p-5">
         <div className="mb-3 flex items-baseline justify-between">
           <span className="text-sm font-medium">한 세션 분량</span>
@@ -100,28 +173,6 @@ export default function Home() {
           복습이 밀리면 절반까지 복습으로, 나머지는 새 카드로 채웁니다.
         </p>
       </Card>
-
-      {history.length > 0 && (
-        <Card className="p-5">
-          <p className="mb-3 text-sm font-medium">최근 기록</p>
-          <ul className="flex flex-col gap-2">
-            {history.slice(0, 7).map((h, i) => (
-              <li
-                key={i}
-                className="text-sub flex justify-between text-sm tabular-nums"
-              >
-                <span>
-                  {Number(h.date.slice(5, 7))}월 {Number(h.date.slice(8))}일 ·{" "}
-                  {DECKS[h.deck].label}
-                </span>
-                <span className="text-muted">
-                  {h.correct}/{h.total} · {Math.round(h.durationSec / 60)}분
-                </span>
-              </li>
-            ))}
-          </ul>
-        </Card>
-      )}
     </main>
   );
 }
