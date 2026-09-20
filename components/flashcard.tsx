@@ -1,6 +1,8 @@
 "use client";
 
-import { Furigana } from "@/lib/furigana";
+import { SpeakerHigh } from "@phosphor-icons/react/dist/ssr";
+import { Furigana, stripFurigana } from "@/lib/furigana";
+import { plainReading, speak } from "@/lib/speech";
 import { kanjiIn, lookupKanji } from "@/lib/decks";
 import type { Card as CardData } from "@/lib/types";
 import { MnemonicBlock, NoteEditor } from "@/components/mnemonic";
@@ -25,6 +27,11 @@ export function Flashcard({ card, reveal, notes, onNote }: Props) {
   } = reveal;
   // 예문은 앞면엔 안 띄운다. 뜻이든 읽기든 한 번 열고 나서 보는 참고 자료.
   const showExample = showMeaning || showReading;
+  // 한자 한 글자는 읽기가 여럿이라 TTS 가 못 고른다. 음독을 먼저 들려준다.
+  const readAloud =
+    card.deck === "kanji"
+      ? plainReading(card.on[0] ?? card.kun[0] ?? card.char)
+      : card.reading;
   // 연상법은 한자 덱이면 그 한자, 단어 덱이면 단어에 든 한자 전부
   const kanjiList =
     card.deck === "kanji"
@@ -69,9 +76,23 @@ export function Flashcard({ card, reveal, notes, onNote }: Props) {
               <p className="font-jp text-sub text-lg">{card.reading}</p>
             ))}
         </div>
-        <p className="font-jp text-6xl leading-tight">
-          {card.deck === "kanji" ? card.char : card.word}
-        </p>
+        {/*
+          스피커는 absolute 로 띄운다. 흐름에 끼면 그만큼 글자가 왼쪽으로
+          밀려서 화면 정중앙을 벗어난다.
+        */}
+        <button
+          onClick={() => speak(readAloud)}
+          aria-label="일본어로 듣기"
+          className="relative flex items-center"
+        >
+          <span className="font-jp text-6xl leading-tight">
+            {card.deck === "kanji" ? card.char : card.word}
+          </span>
+          <SpeakerHigh
+            size={20}
+            className="text-muted absolute top-1/2 -right-7 -translate-y-1/2"
+          />
+        </button>
         <p className="min-h-8 text-xl font-medium">
           {showMeaning &&
             (card.deck === "kanji" ? card.korMeaning : card.meaning)}
@@ -81,12 +102,20 @@ export function Flashcard({ card, reveal, notes, onNote }: Props) {
       {showExample && card.deck === "word" && card.example && (
         <>
           <div className="border-border border-t" />
-          <div className="font-jp text-center text-base leading-loose">
-            <Furigana text={card.example.jp} show={showReading} />
+          <div className="text-center">
+            <button
+              onClick={() => speak(stripFurigana(card.example!.jp))}
+              aria-label="예문 듣기"
+              className="font-jp text-base leading-loose"
+            >
+              <Furigana text={card.example.jp} show={showReading} />
+              <SpeakerHigh
+                size={16}
+                className="text-muted ml-1.5 inline shrink-0 align-middle"
+              />
+            </button>
             {showMeaning && (
-              <p className="text-muted mt-2 font-sans text-sm">
-                {card.example.ko}
-              </p>
+              <p className="text-muted mt-2 text-sm">{card.example.ko}</p>
             )}
           </div>
         </>
