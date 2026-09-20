@@ -58,28 +58,60 @@ export function NoteEditor({
   onChange: (v: string) => void;
 }) {
   const [open, setOpen] = useState(false);
+  const mine = value.trim().length > 0;
 
   if (!open) {
     return (
-      <button
-        onClick={() => setOpen(true)}
-        className="text-muted hover:text-sub py-2 text-xs underline underline-offset-4"
-      >
-        {value ? "내 암기법 수정" : "내 암기법 쓰기"}
-      </button>
+      <div className="flex items-center justify-center gap-3">
+        <button
+          onClick={() => setOpen(true)}
+          className="text-muted hover:text-sub py-2 text-xs underline underline-offset-4"
+        >
+          {mine ? "내 암기법 수정" : "내 암기법 쓰기"}
+        </button>
+        {/* 메모를 비우면 MnemonicBlock 이 기본 연상법으로 되돌아간다 */}
+        {mine && (
+          <button
+            onClick={() => onChange("")}
+            className="text-muted hover:text-sub py-2 text-xs underline underline-offset-4"
+          >
+            기본 암기법으로
+          </button>
+        )}
+      </div>
     );
   }
 
   return (
-    <textarea
-      autoFocus
-      value={value}
-      onChange={(e) => onChange(e.target.value)}
-      onFocus={(e) => e.target.scrollIntoView({ block: "center" })}
-      onBlur={() => setOpen(false)}
-      rows={3}
-      placeholder="이 한자를 어떻게 외울지 나만의 연상을 써보세요"
-      className="rounded-control bg-elev border-border placeholder:text-muted w-full border p-3 text-sm outline-none"
-    />
+    <div className="flex flex-col gap-2">
+      <textarea
+        autoFocus
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        onFocus={(e) => e.target.scrollIntoView({ block: "center" })}
+        rows={3}
+        placeholder="이 한자를 어떻게 외울지 나만의 연상을 써보세요"
+        className="rounded-control bg-elev border-border placeholder:text-muted w-full border p-3 text-sm outline-none"
+      />
+      <div className="flex justify-center gap-3">
+        <button
+          onClick={() => setOpen(false)}
+          className="text-muted hover:text-sub py-2 text-xs underline underline-offset-4"
+        >
+          완료
+        </button>
+        {mine && (
+          <button
+            onClick={() => {
+              onChange("");
+              setOpen(false);
+            }}
+            className="text-muted hover:text-sub py-2 text-xs underline underline-offset-4"
+          >
+            기본 암기법으로
+          </button>
+        )}
+      </div>
+    </div>
   );
 }

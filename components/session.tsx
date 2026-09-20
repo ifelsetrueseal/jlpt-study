@@ -107,7 +107,10 @@ export function Session({ deck }: { deck: DeckId }) {
   }
 
   function setNote(key: string, value: string) {
-    const next = { ...notes, [key]: value };
+    const next = { ...notes };
+    // 비우면 키를 지운다 — 빈 문자열이 쌓이면 저장소만 지저분해진다
+    if (value.trim()) next[key] = value;
+    else delete next[key];
     setNotes(next);
     saveNotes(next);
   }
