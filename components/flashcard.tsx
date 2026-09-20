@@ -36,9 +36,9 @@ export function Flashcard({
       : kanjiIn(card.word);
 
   return (
-    <div className="flex flex-1 flex-col gap-5 overflow-y-auto overscroll-contain p-5">
+    <div className="flex flex-1 flex-col gap-5 overflow-y-auto overscroll-contain px-5 pt-2 pb-32">
       {/* 앞면 */}
-      <div className="flex flex-col items-center gap-2 pt-8 text-center">
+      <div className="mt-auto flex flex-col items-center gap-2 text-center">
         {showReading &&
           (card.deck === "kanji" ? (
             // 음독·훈독은 섞어 놓으면 어느 쪽인지 구분이 안 된다

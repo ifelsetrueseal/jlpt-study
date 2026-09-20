@@ -118,7 +118,7 @@ export function Session({ deck }: { deck: DeckId }) {
 
   return (
     <div className="flex h-dvh flex-col px-safe">
-      <header className="pt-safe flex items-center gap-3 p-4">
+      <header className="pt-safe flex items-center gap-3 px-4 py-2">
         <Link href="/" aria-label="홈으로" className="text-sub">
           <ArrowLeft size={22} />
         </Link>
@@ -142,7 +142,7 @@ export function Session({ deck }: { deck: DeckId }) {
         onNote={setNote}
       />
 
-      <div className="pb-safe flex gap-2 p-4">
+      <div className="bg-bg border-border pb-safe fixed inset-x-0 bottom-0 z-10 mx-auto flex w-full max-w-lg gap-2 border-t px-4 pt-3">
         <Button size="lg" className="flex-1" onClick={() => answer(false)}>
           다시 학습
         </Button>
