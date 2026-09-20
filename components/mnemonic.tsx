@@ -63,7 +63,7 @@ export function NoteEditor({
     return (
       <button
         onClick={() => setOpen(true)}
-        className="text-muted hover:text-sub text-xs underline underline-offset-4"
+        className="text-muted hover:text-sub py-2 text-xs underline underline-offset-4"
       >
         {value ? "내 암기법 수정" : "내 암기법 쓰기"}
       </button>
@@ -75,6 +75,7 @@ export function NoteEditor({
       autoFocus
       value={value}
       onChange={(e) => onChange(e.target.value)}
+      onFocus={(e) => e.target.scrollIntoView({ block: "center" })}
       onBlur={() => setOpen(false)}
       rows={3}
       placeholder="이 한자를 어떻게 외울지 나만의 연상을 써보세요"

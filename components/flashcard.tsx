@@ -5,6 +5,7 @@ import { kanjiIn, lookupKanji } from "@/lib/decks";
 import type { Card as CardData } from "@/lib/types";
 import { Button } from "@/components/ui/button";
 import { MnemonicBlock, NoteEditor } from "@/components/mnemonic";
+import { Readings } from "@/components/reading";
 
 type Props = {
   card: CardData;
@@ -35,7 +36,7 @@ export function Flashcard({
       : kanjiIn(card.word);
 
   return (
-    <div className="flex flex-1 flex-col gap-5 overflow-y-auto p-5">
+    <div className="flex flex-1 flex-col gap-5 overflow-y-auto overscroll-contain p-5">
       {/* 앞면 */}
       <div className="flex flex-col items-center gap-2 pt-8 text-center">
         {showReading &&
@@ -45,13 +46,17 @@ export function Flashcard({
               {card.on.length > 0 && (
                 <div className="flex items-baseline gap-2">
                   <dt className="text-muted text-xs">음</dt>
-                  <dd className="font-jp">{card.on.join("・")}</dd>
+                  <dd>
+                    <Readings items={card.on} />
+                  </dd>
                 </div>
               )}
               {card.kun.length > 0 && (
                 <div className="flex items-baseline gap-2">
                   <dt className="text-muted text-xs">훈</dt>
-                  <dd className="font-jp">{card.kun.join("・")}</dd>
+                  <dd>
+                    <Readings items={card.kun} />
+                  </dd>
                 </div>
               )}
             </dl>
@@ -100,10 +105,14 @@ export function Flashcard({
                         {k.korMeaning}
                       </span>
                       {k.on.length > 0 && (
-                        <span className="font-jp">음 {k.on.join("・")}</span>
+                        <span>
+                          음 <Readings items={k.on} />
+                        </span>
                       )}
                       {k.kun.length > 0 && (
-                        <span className="font-jp">훈 {k.kun.join("・")}</span>
+                        <span>
+                          훈 <Readings items={k.kun} />
+                        </span>
                       )}
                     </>
                   )}

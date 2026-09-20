@@ -21,7 +21,7 @@ export function Button({
     <button
       className={cn(
         "rounded-control font-medium transition disabled:opacity-40",
-        size === "lg" ? "px-5 py-4 text-base" : "px-4 py-2.5 text-sm",
+        size === "lg" ? "px-5 py-4 text-base" : "px-4 py-3 text-sm",
         VARIANTS[variant],
         className,
       )}

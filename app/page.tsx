@@ -45,7 +45,7 @@ export default function Home() {
   }
 
   return (
-    <main className="flex flex-col gap-4 p-5 pb-10">
+    <main className="pt-safe pb-safe px-safe flex flex-col gap-4 p-5">
       <header className="flex items-end justify-between pt-6">
         <h1 className="text-2xl font-semibold">JLPT 암기</h1>
         {days > 0 && (
@@ -91,7 +91,8 @@ export default function Home() {
           step={5}
           value={size}
           onChange={(e) => changeSize(Number(e.target.value))}
-          className="accent-accent w-full"
+          // 슬라이더 막대는 얇아서 위아래로 여백을 줘 손가락으로 잡을 수 있게 한다
+          className="accent-accent w-full py-3"
         />
         <p className="text-muted mt-2 text-xs">
           복습이 밀리면 절반까지 복습으로, 나머지는 새 카드로 채웁니다.

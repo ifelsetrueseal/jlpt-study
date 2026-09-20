@@ -47,7 +47,39 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   word-break: keep-all;
+  /* 웹뷰에서 당겨서 새로고침·고무줄 스크롤 방지 */
   overscroll-behavior-y: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* 학습 중 글자를 길게 눌러 선택되는 것 방지. 메모 입력만 예외. */
+body {
+  -webkit-user-select: none;
+  user-select: none;
+}
+textarea,
+input {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+/* 버튼 이중탭 확대와 300ms 지연 제거. 핀치 확대는 그대로 둔다. */
+button,
+a,
+[role="button"] {
+  touch-action: manipulation;
+}
+
+/* 노치·홈 인디케이터 여백. 값이 없는 기기에선 0 이라 일반 브라우저도 안전하다. */
+.pt-safe {
+  padding-top: env(safe-area-inset-top);
+}
+.pb-safe {
+  padding-bottom: max(1.5rem, env(safe-area-inset-bottom));
+}
+.px-safe {
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
 }
 
 :where(a, button, input, textarea, select, [tabindex]):focus-visible {

@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: "#121212",
-  // 카드 탭할 때 확대 튀는 것 방지
-  maximumScale: 1,
+  // 노치·홈 인디케이터 영역까지 배경을 깔고, 여백은 safe-area 로 직접 준다
+  viewportFit: "cover",
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body>
-        <div className="mx-auto flex min-h-full w-full max-w-lg flex-col">
+        <div className="mx-auto flex min-h-dvh w-full max-w-lg flex-col">
           {children}
         </div>
       </body>
