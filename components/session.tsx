@@ -2,7 +2,12 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { ArrowLeft } from "@phosphor-icons/react/dist/ssr";
+import {
+  ArrowLeft,
+  Eye,
+  EyeSlash,
+  PencilSimple,
+} from "@phosphor-icons/react/dist/ssr";
 import { DECKS } from "@/lib/decks";
 import { buildSession, cardKey, grade, nextInterval } from "@/lib/srs";
 import {
@@ -14,21 +19,27 @@ import {
   saveProgress,
 } from "@/lib/storage";
 import type { Card, DeckId, ProgressMap } from "@/lib/types";
-import { today } from "@/lib/utils";
+import { cn, today } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { Flashcard } from "@/components/flashcard";
+import { Flashcard, type Reveal } from "@/components/flashcard";
+import { WritingPad } from "@/components/writing-pad";
+
+const HIDDEN: Reveal = { meaning: false, reading: false, mnemonic: false };
+const SHOWN: Reveal = { meaning: true, reading: true, mnemonic: true };
 
 export function Session({ deck }: { deck: DeckId }) {
   const [queue, setQueue] = useState<Card[] | null>(null);
   const [progress, setProgress] = useState<ProgressMap>({});
   const [notes, setNotes] = useState<Record<string, string>>({});
-  const [reveal, setReveal] = useState({ meaning: false, reading: false });
+  const [reveal, setReveal] = useState<Reveal>(HIDDEN);
+  const [writing, setWriting] = useState(false);
   const [done, setDone] = useState<{ total: number; correct: number } | null>(
     null,
   );
-  const total = useRef(0);
+  const [total, setTotal] = useState(0);
   const correct = useRef(0);
-  const startedAt = useRef(Date.now());
+  // 렌더 중에 Date.now() 를 부르지 않도록 세션 시작 시점에 채운다
+  const startedAt = useRef(0);
 
   // localStorage 는 마운트 후에만 읽을 수 있다(SSR 불일치 방지)
   useEffect(() => {
@@ -38,16 +49,19 @@ export function Session({ deck }: { deck: DeckId }) {
       p,
       loadSettings().sessionSize,
     );
-    total.current = session.length;
     startedAt.current = Date.now();
+    // localStorage 는 마운트 뒤에만 읽을 수 있어 여기서 상태를 채울 수밖에 없다
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setTotal(session.length);
     setProgress(p);
     setNotes(loadNotes());
     setQueue(session);
   }, [deck]);
 
   const card = queue?.[0];
+  const allShown = reveal.meaning && reveal.reading && reveal.mnemonic;
   const remaining = queue?.length ?? 0;
-  const answered = total.current - remaining;
+  const answered = total - remaining;
 
   function answer(known: boolean) {
     if (!card || !queue) return;
@@ -56,20 +70,21 @@ export function Session({ deck }: { deck: DeckId }) {
     setProgress(next);
     saveProgress(next);
 
+    setWriting(false);
     // 모르는 카드는 큐 뒤로 보내 이번 세션 안에서 다시 만난다
     const rest = known ? queue.slice(1) : [...queue.slice(1), card];
     if (known) correct.current += 1;
-    setReveal({ meaning: false, reading: false });
+    setReveal(HIDDEN);
 
     if (rest.length === 0) {
       appendHistory({
         date: today(),
         deck,
-        total: total.current,
+        total,
         correct: correct.current,
         durationSec: Math.round((Date.now() - startedAt.current) / 1000),
       });
-      setDone({ total: total.current, correct: correct.current });
+      setDone({ total, correct: correct.current });
     }
     setQueue(rest);
   }
@@ -123,24 +138,47 @@ export function Session({ deck }: { deck: DeckId }) {
           <ArrowLeft size={22} />
         </Link>
         <span className="text-muted text-sm tabular-nums">
-          {answered}/{total.current}
+          {answered}/{total}
         </span>
         <div className="bg-elev h-1.5 flex-1 overflow-hidden rounded-full">
           <div
             className="bg-accent h-full transition-[width]"
-            style={{ width: `${(answered / Math.max(total.current, 1)) * 100}%` }}
+            style={{ width: `${(answered / Math.max(total, 1)) * 100}%` }}
           />
         </div>
+        <button
+          onClick={() => setWriting(true)}
+          aria-label="손으로 써보기"
+          className="text-sub -mr-1 flex h-10 w-10 items-center justify-center"
+        >
+          <PencilSimple size={20} />
+        </button>
+        <button
+          onClick={() => setReveal(allShown ? HIDDEN : SHOWN)}
+          aria-label={allShown ? "전부 가리기" : "전부 보기"}
+          className={cn(
+            "-mr-1 flex h-10 w-10 items-center justify-center",
+            allShown ? "text-accent" : "text-sub",
+          )}
+        >
+          {allShown ? <Eye size={20} /> : <EyeSlash size={20} />}
+        </button>
       </header>
 
       <Flashcard
         card={card}
-        showMeaning={reveal.meaning}
-        showReading={reveal.reading}
+        reveal={reveal}
         onReveal={(f) => setReveal((r) => ({ ...r, [f]: true }))}
         notes={notes}
         onNote={setNote}
       />
+
+      {writing && (
+        <WritingPad
+          guide={card.deck === "kanji" ? card.char : card.word}
+          onClose={() => setWriting(false)}
+        />
+      )}
 
       <div className="bg-bg border-border pb-safe fixed inset-x-0 bottom-0 z-10 mx-auto flex w-full max-w-lg gap-2 border-t px-4 pt-3">
         <Button size="lg" className="flex-1" onClick={() => answer(false)}>

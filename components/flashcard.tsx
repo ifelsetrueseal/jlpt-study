@@ -7,28 +7,21 @@ import { Button } from "@/components/ui/button";
 import { MnemonicBlock, NoteEditor } from "@/components/mnemonic";
 import { Readings } from "@/components/reading";
 
+export type RevealField = "meaning" | "reading" | "mnemonic";
+export type Reveal = Record<RevealField, boolean>;
+
 type Props = {
   card: CardData;
-  /** 뜻 공개 여부 */
-  showMeaning: boolean;
-  /** 읽기(히라가나) 공개 여부 */
-  showReading: boolean;
-  onReveal: (field: "meaning" | "reading") => void;
+  reveal: Reveal;
+  onReveal: (field: RevealField) => void;
   notes: Record<string, string>;
   onNote: (key: string, value: string) => void;
 };
 
-export function Flashcard({
-  card,
-  showMeaning,
-  showReading,
-  onReveal,
-  notes,
-  onNote,
-}: Props) {
-  // 뒷면(상세 + 연상법)은 둘 다 공개한 뒤에 연다. 연상법 문구에 읽기가
-  // 들어 있어서 하나만 열면 나머지 답이 새기 때문.
-  const revealed = showMeaning && showReading;
+export function Flashcard({ card, reveal, onReveal, notes, onNote }: Props) {
+  const { meaning: showMeaning, reading: showReading, mnemonic: showMnemonic } = reveal;
+  // 예문은 앞면엔 안 띄운다. 뜻이든 읽기든 한 번 열고 나서 보는 참고 자료.
+  const showExample = showMeaning || showReading;
   // 연상법은 한자 덱이면 그 한자, 단어 덱이면 단어에 든 한자 전부
   const kanjiList =
     card.deck === "kanji"
@@ -73,7 +66,7 @@ export function Flashcard({
         )}
       </div>
 
-      {card.deck === "word" && card.example && (
+      {showExample && card.deck === "word" && card.example && (
         <>
           <div className="border-border border-t" />
           <div className="font-jp text-center text-base leading-loose">
@@ -87,8 +80,8 @@ export function Flashcard({
         </>
       )}
 
-      {/* 뒷면 — 공개된 뒤에만 */}
-      {revealed && (
+      {/* 연상법 — 따로 열어야 보인다 */}
+      {showMnemonic && (
         <div className="flex flex-col gap-3">
           {kanjiList.map((k) => {
             const key = `kanji:${k.char}`;
@@ -136,23 +129,31 @@ export function Flashcard({
         </div>
       )}
 
-      {/* 공개 버튼 */}
+      {/* 공개 버튼 — 보고 싶은 것만 골라서 연다 */}
       <div className="mt-auto flex gap-2 pt-4">
         <Button
           variant="outline"
-          className="flex-1"
+          className="flex-1 px-2"
           disabled={showMeaning}
           onClick={() => onReveal("meaning")}
         >
-          {card.deck === "kanji" ? "뜻" : "의미"}
+          의미
         </Button>
         <Button
           variant="outline"
-          className="flex-1"
+          className="flex-1 px-2"
           disabled={showReading}
           onClick={() => onReveal("reading")}
         >
           {card.deck === "kanji" ? "음·훈" : "히라가나"}
+        </Button>
+        <Button
+          variant="outline"
+          className="flex-1 px-2"
+          disabled={showMnemonic}
+          onClick={() => onReveal("mnemonic")}
+        >
+          연상법
         </Button>
       </div>
     </div>

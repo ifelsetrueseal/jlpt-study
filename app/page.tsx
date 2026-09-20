@@ -33,6 +33,8 @@ export default function Home() {
       next[deck] = { review: review.length, fresh: fresh.length };
     }
     const h = loadHistory();
+    // localStorage 는 마운트 뒤에만 읽을 수 있어 여기서 상태를 채울 수밖에 없다
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setCounts(next);
     setHistory(h);
     setDays(streak(h, now));
