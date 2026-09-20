@@ -3,6 +3,8 @@
 import { useEffect, useRef, useState } from "react";
 import {
   ArrowCounterClockwise,
+  Eye,
+  EyeSlash,
   GridFour,
   Trash,
   X,
@@ -13,6 +15,7 @@ type Point = { x: number; y: number };
 /**
  * 획을 따라 써보는 연습 패드. 글자를 흐리게 깔고 그 위에 손으로 쓴다.
  * 획은 저장하지 않는다 — 카드를 넘기면 사라지는 연습용.
+ * 한자 덱에서만 쓴다 — 쓰기는 한자 한 글자 단위 훈련이라 단어에는 안 붙인다.
  */
 export function WritingPad({
   guide,
@@ -25,6 +28,8 @@ export function WritingPad({
   const strokes = useRef<Point[][]>([]);
   const drawing = useRef(false);
   const [grid, setGrid] = useState(true);
+  // 본보기 글자를 지우고 외워서 써볼 수 있게 한다
+  const [showGuide, setShowGuide] = useState(true);
   const [count, setCount] = useState(0); // 버튼 비활성 판단용
 
   function ctx() {
@@ -114,7 +119,7 @@ export function WritingPad({
   }
 
   return (
-    <div className="bg-bg fixed inset-0 z-30 flex">
+    <div className="bg-bg/90 fixed inset-0 z-30 flex">
       <div className="relative mx-auto w-full max-w-lg">
         {/*
           연습칸. viewBox 100x100 정사각형이라 화면 비율이 달라져도
@@ -137,18 +142,20 @@ export function WritingPad({
               </g>
             </g>
           )}
-          <text
-            x="50"
-            y="50"
-            textAnchor="middle"
-            dominantBaseline="central"
-            fontSize={84 / guide.length}
-            fill="white"
-            fillOpacity="0.08"
-            className="font-jp"
-          >
-            {guide}
-          </text>
+          {showGuide && (
+            <text
+              x="50"
+              y="50"
+              textAnchor="middle"
+              dominantBaseline="central"
+              fontSize={84 / guide.length}
+              fill="white"
+              fillOpacity="0.08"
+              className="font-jp"
+            >
+              {guide}
+            </text>
+          )}
         </svg>
         <canvas
           ref={canvasRef}
@@ -175,6 +182,13 @@ export function WritingPad({
               label="전부 지우기"
             >
               <Trash size={20} />
+            </PadButton>
+            <PadButton
+              onClick={() => setShowGuide((v) => !v)}
+              label={showGuide ? "본보기 글자 가리기" : "본보기 글자 보기"}
+              active={showGuide}
+            >
+              {showGuide ? <Eye size={20} /> : <EyeSlash size={20} />}
             </PadButton>
             <PadButton
               onClick={() => setGrid((v) => !v)}
