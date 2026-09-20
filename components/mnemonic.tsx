@@ -14,8 +14,11 @@ export function MnemonicBlock({
   kanji: Kanji;
   note?: string;
 }) {
+  const text = note?.trim() || kanji.mnemonic;
   return (
     <div className="rounded-control bg-mnemonic-weak border border-mnemonic/30 p-3">
+      {/* 상형자는 쪼갤 조각이 없어서 분해 줄 자체를 생략한다 */}
+      {kanji.parts.length > 0 && (
       <div className="mb-2 flex flex-wrap items-center gap-1.5 text-sm">
         {kanji.parts.map((p, i) => (
           <span key={i} className="flex items-center gap-1">
@@ -26,17 +29,20 @@ export function MnemonicBlock({
             <span className="text-sub text-xs">{p.name}</span>
           </span>
         ))}
-        {kanji.parts.length > 0 && (
-          <span className="text-muted mx-1">=</span>
-        )}
+        <span className="text-muted mx-1">=</span>
         <span className="font-jp text-text text-lg leading-none">
           {kanji.char}
         </span>
       </div>
+      )}
       <p className="text-text/90 text-sm leading-relaxed">
-        {note?.trim() || kanji.mnemonic}
-        {note?.trim() && (
+        {text.replace(" (억지)", "")}
+        {note?.trim() ? (
           <span className="text-mnemonic ml-1.5 text-xs">내 메모</span>
+        ) : (
+          text.includes("(억지)") && (
+            <span className="text-muted ml-1.5 text-xs">억지</span>
+          )
         )}
       </p>
     </div>
