@@ -5,7 +5,6 @@ import {
   ArrowCounterClockwise,
   Eye,
   EyeSlash,
-  GridFour,
   Trash,
   X,
 } from "@phosphor-icons/react/dist/ssr";
@@ -28,8 +27,8 @@ export function WritingPad({
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const strokes = useRef<Point[][]>([]);
   const drawing = useRef(false);
-  const [grid, setGrid] = useState(true);
-  // 본보기는 기본으로 꺼둔다. 외워서 쓰다 막히면 눈 아이콘으로 잠깐 확인.
+  // 격자와 본보기 글자는 같이 뜨고 같이 사라진다. 기본은 빈 칸 —
+  // 외워서 쓰다 막히면 눈 아이콘으로 잠깐 켜서 확인한다.
   const [showGuide, setShowGuide] = useState(false);
   const [count, setCount] = useState(0); // 버튼 비활성 판단용
 
@@ -123,8 +122,8 @@ export function WritingPad({
     <div className="bg-bg fixed inset-0 z-30 flex">
       <div className="relative mx-auto w-full max-w-lg">
         {/*
-          연습칸. viewBox 100x100 정사각형이라 화면 비율이 달라져도
-          글자와 안내선이 같이 스케일된다 — vmin 으로 잡으면 기기마다 틀어진다.
+          연습칸(격자 + 본보기 글자). viewBox 100x100 정사각형이라 화면 비율이
+          달라져도 같이 스케일된다 — vmin 으로 잡으면 기기마다 틀어진다.
         */}
         <svg
           viewBox="0 0 100 100"
@@ -132,30 +131,34 @@ export function WritingPad({
           className="pointer-events-none absolute inset-0 h-full w-full"
           aria-hidden
         >
-          {grid && (
-            <g className="text-border" stroke="currentColor" strokeWidth="0.3">
-              <rect x="2" y="2" width="96" height="96" fill="none" />
-              <g strokeDasharray="2 3">
-                <line x1="50" y1="2" x2="50" y2="98" />
-                <line x1="2" y1="50" x2="98" y2="50" />
-                <line x1="2" y1="2" x2="98" y2="98" />
-                <line x1="98" y1="2" x2="2" y2="98" />
-              </g>
-            </g>
-          )}
           {showGuide && (
-            <text
-              x="50"
-              y="50"
-              textAnchor="middle"
-              dominantBaseline="central"
-              fontSize={84 / guide.length}
-              fill="white"
-              fillOpacity="0.08"
-              className="font-jp"
-            >
-              {guide}
-            </text>
+            <>
+              <g
+                className="text-border"
+                stroke="currentColor"
+                strokeWidth="0.3"
+              >
+                <rect x="2" y="2" width="96" height="96" fill="none" />
+                <g strokeDasharray="2 3">
+                  <line x1="50" y1="2" x2="50" y2="98" />
+                  <line x1="2" y1="50" x2="98" y2="50" />
+                  <line x1="2" y1="2" x2="98" y2="98" />
+                  <line x1="98" y1="2" x2="2" y2="98" />
+                </g>
+              </g>
+              <text
+                x="50"
+                y="50"
+                textAnchor="middle"
+                dominantBaseline="central"
+                fontSize={84 / guide.length}
+                fill="white"
+                fillOpacity="0.08"
+                className="font-jp"
+              >
+                {guide}
+              </text>
+            </>
           )}
         </svg>
         <canvas
@@ -186,17 +189,10 @@ export function WritingPad({
             </PadButton>
             <PadButton
               onClick={() => setShowGuide((v) => !v)}
-              label={showGuide ? "본보기 글자 가리기" : "본보기 글자 보기"}
+              label={showGuide ? "본보기 가리기" : "본보기 보기"}
               active={showGuide}
             >
               {showGuide ? <Eye size={20} /> : <EyeSlash size={20} />}
-            </PadButton>
-            <PadButton
-              onClick={() => setGrid((v) => !v)}
-              label={grid ? "안내선 끄기" : "안내선 켜기"}
-              active={grid}
-            >
-              <GridFour size={20} />
             </PadButton>
             <PadButton onClick={onClose} label="쓰기 끝내기">
               <X size={20} />
