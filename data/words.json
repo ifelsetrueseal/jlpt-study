@@ -3,1290 +3,2150 @@
   "word": "青い",
   "reading": "あおい",
   "meaning": "파랗다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "空[そら]がとても青[あお]いです。",
+   "ko": "하늘이 아주 파랗습니다."
+  }
  },
  {
   "word": "赤い",
   "reading": "あかい",
   "meaning": "빨갛다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "赤[あか]いりんごを二[ふた]つ買[か]いました。",
+   "ko": "빨간 사과를 두 개 샀습니다."
+  }
  },
  {
   "word": "明るい",
   "reading": "あかるい",
   "meaning": "밝다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "この部屋[へや]は窓[まど]が大[おお]きくて明[あか]るいです。",
+   "ko": "이 방은 창문이 커서 밝습니다."
+  }
  },
  {
   "word": "秋",
   "reading": "あき",
   "meaning": "가을",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "秋[あき]になると木[き]の葉[は]が赤[あか]くなります。",
+   "ko": "가을이 되면 나뭇잎이 빨개집니다."
+  }
  },
  {
   "word": "開ける",
   "reading": "あける",
   "meaning": "열다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "暑[あつ]いので窓[まど]を開[あ]けてください。",
+   "ko": "더우니까 창문을 열어 주세요."
+  }
  },
  {
   "word": "味",
   "reading": "あじ",
   "meaning": "맛",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "この料理[りょうり]は味[あじ]がうすいですね。",
+   "ko": "이 요리는 맛이 싱겁네요."
+  }
  },
  {
   "word": "頭",
   "reading": "あたま",
   "meaning": "머리",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "朝[あさ]から頭[あたま]が痛[いた]いです。",
+   "ko": "아침부터 머리가 아픕니다."
+  }
  },
  {
   "word": "暑い",
   "reading": "あつい",
   "meaning": "덥다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "今年[ことし]の夏[なつ]は本当[ほんとう]に暑[あつ]いです。",
+   "ko": "올여름은 정말 덥습니다."
+  }
  },
  {
   "word": "暑さ",
   "reading": "あつさ",
   "meaning": "더위",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "この暑[あつ]さでは外[そと]に出[で]たくありません。",
+   "ko": "이 더위에는 밖에 나가고 싶지 않습니다."
+  }
  },
  {
   "word": "集まる",
   "reading": "あつまる",
   "meaning": "모이다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "公園[こうえん]に子[こ]どもたちが集[あつ]まりました。",
+   "ko": "공원에 아이들이 모였습니다."
+  }
  },
  {
   "word": "集める",
   "reading": "あつめる",
   "meaning": "모으다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "兄[あに]は古[ふる]い切手[きって]を集[あつ]めています。",
+   "ko": "형은 오래된 우표를 모으고 있습니다."
+  }
  },
  {
   "word": "姉",
   "reading": "あね",
   "meaning": "언니, 누나",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "姉[あね]は銀行[ぎんこう]で働[はたら]いています。",
+   "ko": "누나는 은행에서 일하고 있습니다."
+  }
  },
  {
   "word": "洗う",
   "reading": "あらう",
   "meaning": "씻다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "ご飯[はん]を食[た]べる前[まえ]に手[て]を洗[あら]いましょう。",
+   "ko": "밥을 먹기 전에 손을 씻읍시다."
+  }
  },
  {
   "word": "歩く",
   "reading": "あるく",
   "meaning": "걷다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "駅[えき]まで十分[じゅっぷん]ぐらい歩[ある]きます。",
+   "ko": "역까지 10분 정도 걷습니다."
+  }
  },
  {
   "word": "池",
   "reading": "いけ",
   "meaning": "연못",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "公園[こうえん]の池[いけ]に魚[さかな]がいます。",
+   "ko": "공원 연못에 물고기가 있습니다."
+  }
  },
  {
   "word": "石",
   "reading": "いし",
   "meaning": "돌",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "川[かわ]で白[しろ]い石[いし]を拾[ひろ]いました。",
+   "ko": "강에서 하얀 돌을 주웠습니다."
+  }
  },
  {
   "word": "急ぐ",
   "reading": "いそぐ",
   "meaning": "서두르다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "時間[じかん]がないので急[いそ]ぎましょう。",
+   "ko": "시간이 없으니까 서두릅시다."
+  }
  },
  {
   "word": "糸",
   "reading": "いと",
   "meaning": "실",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "赤[あか]い糸[いと]でボタンをつけました。",
+   "ko": "빨간 실로 단추를 달았습니다."
+  }
  },
  {
   "word": "妹",
   "reading": "いもうと",
   "meaning": "여동생",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "妹[いもうと]は今年[ことし]大学[だいがく]に入[はい]りました。",
+   "ko": "여동생은 올해 대학에 들어갔습니다."
+  }
  },
  {
   "word": "色",
   "reading": "いろ",
   "meaning": "색",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "この色[いろ]のかばんが好[す]きです。",
+   "ko": "이 색 가방을 좋아합니다."
+  }
  },
  {
   "word": "動く",
   "reading": "うごく",
   "meaning": "움직이다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "この時計[とけい]はもう動[うご]きません。",
+   "ko": "이 시계는 이제 움직이지 않습니다."
+  }
  },
  {
   "word": "歌",
   "reading": "うた",
   "meaning": "노래",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "母[はは]が好[す]きな歌[うた]を聞[き]きました。",
+   "ko": "어머니가 좋아하는 노래를 들었습니다."
+  }
  },
  {
   "word": "歌う",
   "reading": "うたう",
   "meaning": "노래를 부르다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "みんなで一緒[いっしょ]に歌[うた]いましょう。",
+   "ko": "다 같이 함께 노래합시다."
+  }
  },
  {
   "word": "写す",
   "reading": "うつす",
   "meaning": "베끼다, 찍다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "黒板[こくばん]の字[じ]をノートに写[うつ]します。",
+   "ko": "칠판의 글씨를 노트에 옮겨 적습니다."
+  }
  },
  {
   "word": "海",
   "reading": "うみ",
   "meaning": "바다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "夏[なつ]に家族[かぞく]と海[うみ]へ行[い]きました。",
+   "ko": "여름에 가족과 바다에 갔습니다."
+  }
  },
  {
   "word": "売る",
   "reading": "うる",
   "meaning": "팔다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "あの店[みせ]では野菜[やさい]を安[やす]く売[う]っています。",
+   "ko": "저 가게에서는 채소를 싸게 팔고 있습니다."
+  }
  },
  {
   "word": "売れる",
   "reading": "うれる",
   "meaning": "팔리다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "この本[ほん]は今[いま]とてもよく売[う]れています。",
+   "ko": "이 책은 지금 아주 잘 팔리고 있습니다."
+  }
  },
  {
   "word": "起きる",
   "reading": "おきる",
   "meaning": "일어나다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "毎朝[まいあさ]六時[ろくじ]に起[お]きます。",
+   "ko": "매일 아침 6시에 일어납니다."
+  }
  },
  {
   "word": "送る",
   "reading": "おくる",
   "meaning": "보내다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "友[とも]だちに手紙[てがみ]を送[おく]りました。",
+   "ko": "친구에게 편지를 보냈습니다."
+  }
  },
  {
   "word": "行う",
   "reading": "おこなう",
   "meaning": "행하다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "試合[しあい]は来週[らいしゅう]の日曜日[にちようび]に行[おこな]われます。",
+   "ko": "시합은 다음 주 일요일에 열립니다."
+  }
  },
  {
   "word": "教える",
   "reading": "おしえる",
   "meaning": "가르치다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "先生[せんせい]が英語[えいご]を教[おし]えてくれます。",
+   "ko": "선생님이 영어를 가르쳐 줍니다."
+  }
  },
  {
   "word": "押す",
   "reading": "おす",
   "meaning": "누르다, 밀다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "ここのボタンを押[お]してください。",
+   "ko": "여기 버튼을 눌러 주세요."
+  }
  },
  {
   "word": "お姉さん",
   "reading": "おねえさん",
   "meaning": "언니, 누나",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "お姉[ねえ]さんはピアノがとても上手[じょうず]です。",
+   "ko": "언니는 피아노를 아주 잘 칩니다."
+  }
  },
  {
   "word": "重い",
   "reading": "おもい",
   "meaning": "무겁다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "この荷物[にもつ]は重[おも]くて持[も]てません。",
+   "ko": "이 짐은 무거워서 들 수 없습니다."
+  }
  },
  {
   "word": "親指",
   "reading": "おやゆび",
   "meaning": "엄지",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "転[ころ]んで親指[おやゆび]をけがしました。",
+   "ko": "넘어져서 엄지를 다쳤습니다."
+  }
  },
  {
   "word": "泳ぐ",
   "reading": "およぐ",
   "meaning": "헤엄치다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "夏[なつ]は海[うみ]で泳[およ]ぎたいです。",
+   "ko": "여름에는 바다에서 헤엄치고 싶습니다."
+  }
  },
  {
   "word": "終わる",
   "reading": "おわる",
   "meaning": "끝나다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "授業[じゅぎょう]は三時[さんじ]に終[お]わります。",
+   "ko": "수업은 3시에 끝납니다."
+  }
  },
  {
   "word": "帰る",
   "reading": "かえる",
   "meaning": "돌아가다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "今日[きょう]は早[はや]く家[いえ]に帰[かえ]ります。",
+   "ko": "오늘은 일찍 집에 돌아갑니다."
+  }
  },
  {
   "word": "顔",
   "reading": "かお",
   "meaning": "얼굴",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "朝[あさ]起[お]きてすぐ顔[かお]を洗[あら]います。",
+   "ko": "아침에 일어나서 바로 세수를 합니다."
+  }
  },
  {
   "word": "貸す",
   "reading": "かす",
   "meaning": "빌려주다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "すみません、ペンを貸[か]してください。",
+   "ko": "죄송한데 펜을 빌려주세요."
+  }
  },
  {
   "word": "風",
   "reading": "かぜ",
   "meaning": "바람",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "今日[きょう]は風[かぜ]が強[つよ]いですね。",
+   "ko": "오늘은 바람이 강하네요."
+  }
  },
  {
   "word": "数える",
   "reading": "かぞえる",
   "meaning": "세다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "お金[かね]を三[さん]回[かい]数[かぞ]えました。",
+   "ko": "돈을 세 번 셌습니다."
+  }
  },
  {
   "word": "方",
   "reading": "かた",
   "meaning": "분, 사람(높임)",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "あちらの方[かた]が新[あたら]しい先生[せんせい]です。",
+   "ko": "저쪽 분이 새로 오신 선생님입니다."
+  }
  },
  {
   "word": "紙",
   "reading": "かみ",
   "meaning": "종이",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "白[しろ]い紙[かみ]に名前[なまえ]を書[か]いてください。",
+   "ko": "흰 종이에 이름을 써 주세요."
+  }
  },
  {
   "word": "通う",
   "reading": "かよう",
   "meaning": "다니다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "弟[おとうと]は自転車[じてんしゃ]で学校[がっこう]に通[かよ]っています。",
+   "ko": "남동생은 자전거로 학교에 다니고 있습니다."
+  }
  },
  {
   "word": "体",
   "reading": "からだ",
   "meaning": "몸",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "毎日[まいにち]運動[うんどう]して体[からだ]を強[つよ]くします。",
+   "ko": "매일 운동해서 몸을 튼튼하게 합니다."
+  }
  },
  {
   "word": "軽い",
   "reading": "かるい",
   "meaning": "가볍다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "このかばんは思[おも]ったより軽[かる]いです。",
+   "ko": "이 가방은 생각보다 가볍습니다."
+  }
  },
  {
   "word": "代わり",
   "reading": "かわり",
   "meaning": "대신",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "兄[あに]の代[か]わりに私[わたし]が行[い]きます。",
+   "ko": "형 대신 제가 가겠습니다."
+  }
  },
  {
   "word": "考える",
   "reading": "かんがえる",
   "meaning": "생각하다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "答[こた]えをもう一度[いちど]考[かんが]えてみます。",
+   "ko": "답을 한 번 더 생각해 보겠습니다."
+  }
  },
  {
   "word": "決まる",
   "reading": "きまる",
   "meaning": "결정되다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "旅行[りょこう]の日[ひ]がやっと決[き]まりました。",
+   "ko": "여행 날짜가 드디어 정해졌습니다."
+  }
  },
  {
   "word": "薬",
   "reading": "くすり",
   "meaning": "약",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "食事[しょくじ]の後[あと]でこの薬[くすり]を飲[の]んでください。",
+   "ko": "식사 후에 이 약을 드세요."
+  }
  },
  {
   "word": "首",
   "reading": "くび",
   "meaning": "목",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "長[なが]く本[ほん]を読[よ]んで首[くび]が痛[いた]いです。",
+   "ko": "책을 오래 읽어서 목이 아픕니다."
+  }
  },
  {
   "word": "雲",
   "reading": "くも",
   "meaning": "구름",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "空[そら]に白[しろ]い雲[くも]が浮[う]かんでいます。",
+   "ko": "하늘에 하얀 구름이 떠 있습니다."
+  }
  },
  {
   "word": "暗い",
   "reading": "くらい",
   "meaning": "어둡다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "部屋[へや]が暗[くら]いので電気[でんき]をつけました。",
+   "ko": "방이 어두워서 불을 켰습니다."
+  }
  },
  {
   "word": "黒い",
   "reading": "くろい",
   "meaning": "검다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "黒[くろ]いかばんを持[も]った女性[じょせい]を見[み]ました。",
+   "ko": "검은 가방을 든 여성을 봤습니다."
+  }
  },
  {
   "word": "声",
   "reading": "こえ",
   "meaning": "목소리",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "先生[せんせい]の声[こえ]が後[うし]ろまで聞[き]こえます。",
+   "ko": "선생님 목소리가 뒤까지 들립니다."
+  }
  },
  {
   "word": "氷",
   "reading": "こおり",
   "meaning": "얼음",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "飲[の]み物[もの]に氷[こおり]を入[い]れてください。",
+   "ko": "음료에 얼음을 넣어 주세요."
+  }
  },
  {
   "word": "心",
   "reading": "こころ",
   "meaning": "마음",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "彼[かれ]は心[こころ]のやさしい人[ひと]です。",
+   "ko": "그는 마음이 따뜻한 사람입니다."
+  }
  },
  {
   "word": "答える",
   "reading": "こたえる",
   "meaning": "대답하다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "先生[せんせい]の質問[しつもん]に答[こた]えました。",
+   "ko": "선생님의 질문에 대답했습니다."
+  }
  },
  {
   "word": "寒い",
   "reading": "さむい",
   "meaning": "춥다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "冬[ふゆ]の朝[あさ]はとても寒[さむ]いです。",
+   "ko": "겨울 아침은 아주 춥습니다."
+  }
  },
  {
   "word": "皿",
   "reading": "さら",
   "meaning": "접시",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "使[つか]った皿[さら]を洗[あら]ってください。",
+   "ko": "사용한 접시를 씻어 주세요."
+  }
  },
  {
   "word": "死ぬ",
   "reading": "しぬ",
   "meaning": "죽다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "祖母[そぼ]の飼[か]っていた鳥[とり]が死[し]にました。",
+   "ko": "할머니가 키우던 새가 죽었습니다."
+  }
  },
  {
   "word": "知る",
   "reading": "しる",
   "meaning": "알다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "その話[はなし]はニュースで知[し]りました。",
+   "ko": "그 이야기는 뉴스로 알았습니다."
+  }
  },
  {
   "word": "白い",
   "reading": "しろい",
   "meaning": "하얗다, 희다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "白[しろ]いシャツを着[き]て会社[かいしゃ]へ行[い]きます。",
+   "ko": "흰 셔츠를 입고 회사에 갑니다."
+  }
  },
  {
   "word": "好きだ",
   "reading": "すきだ",
   "meaning": "좋아하다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "私[わたし]は日本[にほん]の音楽[おんがく]が好[す]きだ。",
+   "ko": "나는 일본 음악을 좋아한다."
+  }
  },
  {
   "word": "少し",
   "reading": "すこし",
   "meaning": "조금",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "もう少[すこ]し待[ま]ってください。",
+   "ko": "조금만 더 기다려 주세요."
+  }
  },
  {
   "word": "進む",
   "reading": "すすむ",
   "meaning": "나아가다, 진행되다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "工事[こうじ]が予定[よてい]より早[はや]く進[すす]んでいます。",
+   "ko": "공사가 예정보다 빨리 진행되고 있습니다."
+  }
  },
  {
   "word": "楽しい",
   "reading": "たのしい",
   "meaning": "즐겁다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "友[とも]だちと話[はな]すのはとても楽[たの]しいです。",
+   "ko": "친구와 이야기하는 것은 아주 즐겁습니다."
+  }
  },
  {
   "word": "足りない",
   "reading": "たりない",
   "meaning": "모자라다, 부족하다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "お金[かね]が足[た]りないので買[か]えません。",
+   "ko": "돈이 모자라서 살 수 없습니다."
+  }
  },
  {
   "word": "足りる",
   "reading": "たりる",
   "meaning": "충분하다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "千円[せんえん]あれば足[た]りると思[おも]います。",
+   "ko": "천 엔 있으면 충분할 거라고 생각합니다."
+  }
  },
  {
   "word": "近い",
   "reading": "ちかい",
   "meaning": "가깝다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "駅[えき]から近[ちか]いアパートを探[さが]しています。",
+   "ko": "역에서 가까운 아파트를 찾고 있습니다."
+  }
  },
  {
   "word": "力",
   "reading": "ちから",
   "meaning": "힘",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "重[おも]い机[つくえ]を力[ちから]を入[い]れて動[うご]かしました。",
+   "ko": "무거운 책상을 힘을 줘서 움직였습니다."
+  }
  },
  {
   "word": "使う",
   "reading": "つかう",
   "meaning": "사용하다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "この部屋[へや]は会議[かいぎ]に使[つか]います。",
+   "ko": "이 방은 회의에 사용합니다."
+  }
  },
  {
   "word": "机",
   "reading": "つくえ",
   "meaning": "책상",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "机[つくえ]の上[うえ]に本[ほん]が三[さん]冊[さつ]あります。",
+   "ko": "책상 위에 책이 세 권 있습니다."
+  }
  },
  {
   "word": "強い",
   "reading": "つよい",
   "meaning": "강하다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "兄[あに]は私[わたし]より力[ちから]が強[つよ]いです。",
+   "ko": "형은 저보다 힘이 셉니다."
+  }
  },
  {
   "word": "手紙",
   "reading": "てがみ",
   "meaning": "편지",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "祖母[そぼ]に手紙[てがみ]を書[か]きました。",
+   "ko": "할머니께 편지를 썼습니다."
+  }
  },
  {
   "word": "遠い",
   "reading": "とおい",
   "meaning": "멀다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "家[いえ]から会社[かいしゃ]までかなり遠[とお]いです。",
+   "ko": "집에서 회사까지 꽤 멉니다."
+  }
  },
  {
   "word": "遠く",
   "reading": "とおく",
   "meaning": "멀리",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "遠[とお]くに山[やま]が見[み]えます。",
+   "ko": "멀리 산이 보입니다."
+  }
  },
  {
   "word": "通る",
   "reading": "とおる",
   "meaning": "지나다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "毎朝[まいあさ]この道[みち]を通[とお]ります。",
+   "ko": "매일 아침 이 길을 지나갑니다."
+  }
  },
  {
   "word": "止まる",
   "reading": "とまる",
   "meaning": "멈추다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "急行[きゅうこう]はこの駅[えき]に止[と]まりません。",
+   "ko": "급행은 이 역에 서지 않습니다."
+  }
  },
  {
   "word": "鳥",
   "reading": "とり",
   "meaning": "새",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "朝[あさ]、庭[にわ]に鳥[とり]が来[き]ました。",
+   "ko": "아침에 마당에 새가 왔습니다."
+  }
  },
  {
   "word": "夏",
   "reading": "なつ",
   "meaning": "여름",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "夏[なつ]は海[うみ]に行[い]く人[ひと]が多[おお]いです。",
+   "ko": "여름에는 바다에 가는 사람이 많습니다."
+  }
  },
  {
   "word": "習う",
   "reading": "ならう",
   "meaning": "배우다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "去年[きょねん]からピアノを習[なら]っています。",
+   "ko": "작년부터 피아노를 배우고 있습니다."
+  }
  },
  {
   "word": "眠い",
   "reading": "ねむい",
   "meaning": "졸리다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "ゆうべ遅[おそ]く寝[ね]たので眠[ねむ]いです。",
+   "ko": "어젯밤 늦게 자서 졸립니다."
+  }
  },
  {
   "word": "眠る",
   "reading": "ねむる",
   "meaning": "자다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "暑[あつ]くて夜[よる]よく眠[ねむ]れません。",
+   "ko": "더워서 밤에 잘 못 잡니다."
+  }
  },
  {
   "word": "乗る",
   "reading": "のる",
   "meaning": "타다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "駅[えき]で急行[きゅうこう]に乗[の]りました。",
+   "ko": "역에서 급행을 탔습니다."
+  }
  },
  {
   "word": "運ぶ",
   "reading": "はこぶ",
   "meaning": "나르다, 옮기다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "この荷物[にもつ]を二階[にかい]まで運[はこ]んでください。",
+   "ko": "이 짐을 2층까지 옮겨 주세요."
+  }
  },
  {
   "word": "始める",
   "reading": "はじめる",
   "meaning": "시작하다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "来月[らいげつ]から日本語[にほんご]の勉強[べんきょう]を始[はじ]めます。",
+   "ko": "다음 달부터 일본어 공부를 시작합니다."
+  }
  },
  {
   "word": "走る",
   "reading": "はしる",
   "meaning": "달리다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "毎朝[まいあさ]公園[こうえん]を走[はし]っています。",
+   "ko": "매일 아침 공원을 달리고 있습니다."
+  }
  },
  {
   "word": "働く",
   "reading": "はたらく",
   "meaning": "일하다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "父[ちち]は工場[こうじょう]で働[はたら]いています。",
+   "ko": "아버지는 공장에서 일하고 있습니다."
+  }
  },
  {
   "word": "花",
   "reading": "はな",
   "meaning": "꽃",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "庭[にわ]に赤[あか]い花[はな]がさきました。",
+   "ko": "마당에 빨간 꽃이 피었습니다."
+  }
  },
  {
   "word": "早い",
   "reading": "はやい",
   "meaning": "빠르다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "今日[きょう]は帰[かえ]りが早[はや]いですね。",
+   "ko": "오늘은 귀가가 이르네요."
+  }
  },
  {
   "word": "早く",
   "reading": "はやく",
   "meaning": "일찍, 빨리",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "明日[あした]は早[はや]く起[お]きてください。",
+   "ko": "내일은 일찍 일어나 주세요."
+  }
  },
  {
   "word": "春",
   "reading": "はる",
   "meaning": "봄",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "春[はる]になると花[はな]がたくさんさきます。",
+   "ko": "봄이 되면 꽃이 많이 핍니다."
+  }
  },
  {
   "word": "火",
   "reading": "ひ",
   "meaning": "불",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "料理[りょうり]の後[あと]は火[ひ]を消[け]してください。",
+   "ko": "요리 후에는 불을 꺼 주세요."
+  }
  },
  {
   "word": "光",
   "reading": "ひかり",
   "meaning": "빛",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "朝[あさ]の光[ひかり]が窓[まど]から入[はい]ってきます。",
+   "ko": "아침 햇빛이 창문으로 들어옵니다."
+  }
  },
  {
   "word": "光る",
   "reading": "ひかる",
   "meaning": "빛나다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "空[そら]に星[ほし]が光[ひか]っています。",
+   "ko": "하늘에 별이 빛나고 있습니다."
+  }
  },
  {
   "word": "引く",
   "reading": "ひく",
   "meaning": "당기다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "このドアは押[お]さないで引[ひ]いてください。",
+   "ko": "이 문은 밀지 말고 당겨 주세요."
+  }
  },
  {
   "word": "低い",
   "reading": "ひくい",
   "meaning": "낮다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "この机[つくえ]は子[こ]どもには低[ひく]いです。",
+   "ko": "이 책상은 아이에게는 낮습니다."
+  }
  },
  {
   "word": "昼",
   "reading": "ひる",
   "meaning": "낮",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "昼[ひる]はいつも食堂[しょくどう]で食[た]べます。",
+   "ko": "점심은 늘 식당에서 먹습니다."
+  }
  },
  {
   "word": "広い",
   "reading": "ひろい",
   "meaning": "넓다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "新[あたら]しい家[いえ]は前[まえ]より広[ひろ]いです。",
+   "ko": "새 집은 전보다 넓습니다."
+  }
  },
  {
   "word": "太い",
   "reading": "ふとい",
   "meaning": "굵다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "この木[き]はとても太[ふと]いですね。",
+   "ko": "이 나무는 아주 굵네요."
+  }
  },
  {
   "word": "船",
   "reading": "ふね",
   "meaning": "배",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "港[みなと]から大[おお]きい船[ふね]が出[で]ました。",
+   "ko": "항구에서 큰 배가 나갔습니다."
+  }
  },
  {
   "word": "冬",
   "reading": "ふゆ",
   "meaning": "겨울",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "北[きた]の町[まち]の冬[ふゆ]は雪[ゆき]が多[おお]いです。",
+   "ko": "북쪽 마을의 겨울은 눈이 많습니다."
+  }
  },
  {
   "word": "古い",
   "reading": "ふるい",
   "meaning": "낡다, 오래되다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "この建物[たてもの]は百年[ひゃくねん]ぐらい古[ふる]いそうです。",
+   "ko": "이 건물은 백 년 정도 됐다고 합니다."
+  }
  },
  {
   "word": "町",
   "reading": "まち",
   "meaning": "도시, 마을",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "この町[まち]には図書館[としょかん]が二[ふた]つあります。",
+   "ko": "이 마을에는 도서관이 두 개 있습니다."
+  }
  },
  {
   "word": "待つ",
   "reading": "まつ",
   "meaning": "기다리다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "駅[えき]の前[まえ]で三十分[さんじゅっぷん]待[ま]ちました。",
+   "ko": "역 앞에서 30분 기다렸습니다."
+  }
  },
  {
   "word": "間に合う",
   "reading": "まにあう",
   "meaning": "시간에 맞추다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "急[いそ]いだので電車[でんしゃ]に間[ま]に合[あ]いました。",
+   "ko": "서둘러서 전철 시간에 맞췄습니다."
+  }
  },
  {
   "word": "短い",
   "reading": "みじかい",
   "meaning": "짧다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "この小説[しょうせつ]は短[みじか]くてすぐ読[よ]めます。",
+   "ko": "이 소설은 짧아서 금방 읽을 수 있습니다."
+  }
  },
  {
   "word": "港",
   "reading": "みなと",
   "meaning": "항구",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "港[みなと]まで散歩[さんぽ]に行[い]きませんか。",
+   "ko": "항구까지 산책하러 가지 않을래요?"
+  }
  },
  {
   "word": "村",
   "reading": "むら",
   "meaning": "마을",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "祖母[そぼ]は小[ちい]さい村[むら]に住[す]んでいます。",
+   "ko": "할머니는 작은 마을에 살고 계십니다."
+  }
  },
  {
   "word": "目",
   "reading": "め",
   "meaning": "눈",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "本[ほん]を読[よ]みすぎて目[め]が疲[つか]れました。",
+   "ko": "책을 너무 읽어서 눈이 피로합니다."
+  }
  },
  {
   "word": "持つ",
   "reading": "もつ",
   "meaning": "들다, 가지다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "重[おも]いので一緒[いっしょ]に持[も]ちましょう。",
+   "ko": "무거우니까 같이 듭시다."
+  }
  },
  {
   "word": "森",
   "reading": "もり",
   "meaning": "숲",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "森[もり]の中[なか]は静[しず]かで涼[すず]しいです。",
+   "ko": "숲속은 조용하고 시원합니다."
+  }
  },
  {
   "word": "夜",
   "reading": "よる",
   "meaning": "밤",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "夜[よる]は星[ほし]がよく見[み]えます。",
+   "ko": "밤에는 별이 잘 보입니다."
+  }
  },
  {
   "word": "弱い",
   "reading": "よわい",
   "meaning": "약하다",
-  "readingType": "훈독"
+  "readingType": "훈독",
+  "example": {
+   "jp": "今日[きょう]は風[かぜ]が弱[よわ]くて過[す]ごしやすいです。",
+   "ko": "오늘은 바람이 약해서 지내기 좋습니다."
+  }
  },
  {
   "word": "安心",
   "reading": "あんしん",
   "meaning": "안심",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "無事[ぶじ]に着[つ]いたと聞[き]いて安心[あんしん]しました。",
+   "ko": "무사히 도착했다고 들어서 안심했습니다."
+  }
  },
  {
   "word": "以外",
   "reading": "いがい",
   "meaning": "이외",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "日曜日[にちようび]以外[いがい]は毎日[まいにち]働[はたら]きます。",
+   "ko": "일요일 이외에는 매일 일합니다."
+  }
  },
  {
   "word": "意見",
   "reading": "いけん",
   "meaning": "의견",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "会議[かいぎ]で自分[じぶん]の意見[いけん]を言[い]いました。",
+   "ko": "회의에서 자기 의견을 말했습니다."
+  }
  },
  {
   "word": "医者",
   "reading": "いしゃ",
   "meaning": "의사",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "熱[ねつ]があるので医者[いしゃ]に行[い]きます。",
+   "ko": "열이 있어서 의사에게 갑니다."
+  }
  },
  {
   "word": "以上",
   "reading": "いじょう",
   "meaning": "이상",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "会場[かいじょう]に百人[ひゃくにん]以上[いじょう]集[あつ]まりました。",
+   "ko": "행사장에 백 명 이상 모였습니다."
+  }
  },
  {
   "word": "一度",
   "reading": "いちど",
   "meaning": "한 번",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "京都[きょうと]には一度[いちど]行[い]ったことがあります。",
+   "ko": "교토에는 한 번 간 적이 있습니다."
+  }
  },
  {
   "word": "運転",
   "reading": "うんてん",
   "meaning": "운전",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "父[ちち]は車[くるま]の運転[うんてん]が上手[じょうず]です。",
+   "ko": "아버지는 차 운전을 잘합니다."
+  }
  },
  {
   "word": "運動",
   "reading": "うんどう",
   "meaning": "운동",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "健康[けんこう]のために毎日[まいにち]運動[うんどう]しています。",
+   "ko": "건강을 위해 매일 운동하고 있습니다."
+  }
  },
  {
   "word": "営業",
   "reading": "えいぎょう",
   "meaning": "영업",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "あの店[みせ]は九時[くじ]まで営業[えいぎょう]しています。",
+   "ko": "저 가게는 9시까지 영업합니다."
+  }
  },
  {
   "word": "英語",
   "reading": "えいご",
   "meaning": "영어",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "姉[あね]は英語[えいご]の先生[せんせい]になりました。",
+   "ko": "누나는 영어 선생님이 되었습니다."
+  }
  },
  {
   "word": "音楽",
   "reading": "おんがく",
   "meaning": "음악",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "勉強[べんきょう]しながら音楽[おんがく]を聞[き]きます。",
+   "ko": "공부하면서 음악을 듣습니다."
+  }
  },
  {
   "word": "会場",
   "reading": "かいじょう",
   "meaning": "회장, 행사장",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "試合[しあい]の会場[かいじょう]は駅[えき]の近[ちか]くです。",
+   "ko": "시합 장소는 역 근처입니다."
+  }
  },
  {
   "word": "火事",
   "reading": "かじ",
   "meaning": "화재",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "近所[きんじょ]で火事[かじ]があって驚[おどろ]きました。",
+   "ko": "근처에서 화재가 나서 놀랐습니다."
+  }
  },
  {
   "word": "家族",
   "reading": "かぞく",
   "meaning": "가족",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "家族[かぞく]みんなで旅行[りょこう]に行[い]きました。",
+   "ko": "가족 모두 함께 여행을 갔습니다."
+  }
  },
  {
   "word": "気分",
   "reading": "きぶん",
   "meaning": "기분",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "よく眠[ねむ]ったので気分[きぶん]がいいです。",
+   "ko": "잘 자서 기분이 좋습니다."
+  }
  },
  {
   "word": "急行",
   "reading": "きゅうこう",
   "meaning": "급행",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "特急[とっきゅう]より急行[きゅうこう]のほうが安[やす]いです。",
+   "ko": "특급보다 급행이 더 쌉니다."
+  }
  },
  {
   "word": "急に",
   "reading": "きゅうに",
   "meaning": "급히, 갑자기",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "急[きゅう]に用事[ようじ]ができて行[い]けません。",
+   "ko": "갑자기 볼일이 생겨서 못 갑니다."
+  }
  },
  {
   "word": "教室",
   "reading": "きょうしつ",
   "meaning": "교실",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "三[さん]番[ばん]の教室[きょうしつ]で授業[じゅぎょう]があります。",
+   "ko": "3번 교실에서 수업이 있습니다."
+  }
  },
  {
   "word": "去年",
   "reading": "きょねん",
   "meaning": "작년",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "去年[きょねん]の夏[なつ]は本当[ほんとう]に暑[あつ]かったです。",
+   "ko": "작년 여름은 정말 더웠습니다."
+  }
  },
  {
   "word": "銀行",
   "reading": "ぎんこう",
   "meaning": "은행",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "銀行[ぎんこう]は三時[さんじ]に閉[し]まります。",
+   "ko": "은행은 3시에 닫습니다."
+  }
  },
  {
   "word": "近所",
   "reading": "きんじょ",
   "meaning": "근처",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "近所[きんじょ]に新[あたら]しい食堂[しょくどう]ができました。",
+   "ko": "근처에 새 식당이 생겼습니다."
+  }
  },
  {
   "word": "区",
   "reading": "く",
   "meaning": "구(행정구역 단위)",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "私[わたし]は北区[きたく]に住[す]んでいます。",
+   "ko": "저는 기타구에 살고 있습니다."
+  }
  },
  {
   "word": "空港",
   "reading": "くうこう",
   "meaning": "공항",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "空港[くうこう]までバスで一時間[いちじかん]かかります。",
+   "ko": "공항까지 버스로 한 시간 걸립니다."
+  }
  },
  {
   "word": "計画",
   "reading": "けいかく",
   "meaning": "계획",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "夏休[なつやす]みの計画[けいかく]をもう立[た]てましたか。",
+   "ko": "여름방학 계획을 벌써 세웠습니까?"
+  }
  },
  {
   "word": "経験",
   "reading": "けいけん",
   "meaning": "경험",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "この仕事[しごと]は経験[けいけん]がなくても大丈夫[だいじょうぶ]です。",
+   "ko": "이 일은 경험이 없어도 괜찮습니다."
+  }
  },
  {
   "word": "県",
   "reading": "けん",
   "meaning": "현(일본 행정구역)",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "となりの県[けん]まで車[くるま]で行[い]きました。",
+   "ko": "옆 현까지 차로 갔습니다."
+  }
  },
  {
   "word": "研究",
   "reading": "けんきゅう",
   "meaning": "연구",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "兄[あに]は大学[だいがく]で音楽[おんがく]を研究[けんきゅう]しています。",
+   "ko": "형은 대학에서 음악을 연구하고 있습니다."
+  }
  },
  {
   "word": "公園",
   "reading": "こうえん",
   "meaning": "공원",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "子[こ]どもたちが公園[こうえん]で遊[あそ]んでいます。",
+   "ko": "아이들이 공원에서 놀고 있습니다."
+  }
  },
  {
   "word": "工事",
   "reading": "こうじ",
   "meaning": "공사",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "道[みち]の工事[こうじ]で少[すこ]しうるさいです。",
+   "ko": "도로 공사로 조금 시끄럽습니다."
+  }
  },
  {
   "word": "工場",
   "reading": "こうじょう",
   "meaning": "공장",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "この工場[こうじょう]では自転車[じてんしゃ]を作[つく]っています。",
+   "ko": "이 공장에서는 자전거를 만들고 있습니다."
+  }
  },
  {
   "word": "今度",
   "reading": "こんど",
   "meaning": "이번, 다음",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "今度[こんど]の日曜日[にちようび]に会[あ]いましょう。",
+   "ko": "이번 일요일에 만납시다."
+  }
  },
  {
   "word": "最近",
   "reading": "さいきん",
   "meaning": "최근",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "最近[さいきん]、朝[あさ]早[はや]く起[お]きています。",
+   "ko": "요즘 아침에 일찍 일어나고 있습니다."
+  }
  },
  {
   "word": "最後",
   "reading": "さいご",
   "meaning": "최후, 마지막",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "最後[さいご]まで話[はなし]を聞[き]いてください。",
+   "ko": "끝까지 이야기를 들어 주세요."
+  }
  },
  {
   "word": "産業",
   "reading": "さんぎょう",
   "meaning": "산업",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "この町[まち]の産業[さんぎょう]は漁業[ぎょぎょう]です。",
+   "ko": "이 마을의 산업은 어업입니다."
+  }
  },
  {
   "word": "試合",
   "reading": "しあい",
   "meaning": "시합",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "明日[あした]の試合[しあい]は中止[ちゅうし]になりました。",
+   "ko": "내일 시합은 중지되었습니다."
+  }
  },
  {
   "word": "質問",
   "reading": "しつもん",
   "meaning": "질문",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "何[なに]か質問[しつもん]はありませんか。",
+   "ko": "뭔가 질문은 없습니까?"
+  }
  },
  {
   "word": "自転車",
   "reading": "じてんしゃ",
   "meaning": "자전거",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "駅[えき]まで自転車[じてんしゃ]で行[い]きます。",
+   "ko": "역까지 자전거로 갑니다."
+  }
  },
  {
   "word": "市民",
   "reading": "しみん",
   "meaning": "시민",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "この図書館[としょかん]は市民[しみん]なら無料[むりょう]です。",
+   "ko": "이 도서관은 시민이면 무료입니다."
+  }
  },
  {
   "word": "社会",
   "reading": "しゃかい",
   "meaning": "사회",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "学校[がっこう]を出[で]て社会[しゃかい]に出[で]ました。",
+   "ko": "학교를 나와 사회에 나왔습니다."
+  }
  },
  {
   "word": "住所",
   "reading": "じゅうしょ",
   "meaning": "주소",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "ここに名前[なまえ]と住所[じゅうしょ]を書[か]いてください。",
+   "ko": "여기에 이름과 주소를 써 주세요."
+  }
  },
  {
   "word": "出発",
   "reading": "しゅっぱつ",
   "meaning": "출발",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "バスは八時[はちじ]に出発[しゅっぱつ]します。",
+   "ko": "버스는 8시에 출발합니다."
+  }
  },
  {
   "word": "小説",
   "reading": "しょうせつ",
   "meaning": "소설",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "この小説[しょうせつ]は一日[いちにち]で読[よ]み終[お]わりました。",
+   "ko": "이 소설은 하루 만에 다 읽었습니다."
+  }
  },
  {
   "word": "食堂",
   "reading": "しょくどう",
   "meaning": "식당",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "昼[ひる]は会社[かいしゃ]の食堂[しょくどう]で食[た]べます。",
+   "ko": "점심은 회사 식당에서 먹습니다."
+  }
  },
  {
   "word": "食料品",
   "reading": "しょくりょうひん",
   "meaning": "식료품",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "スーパーで食料品[しょくりょうひん]を買[か]いました。",
+   "ko": "슈퍼에서 식료품을 샀습니다."
+  }
  },
  {
   "word": "女性",
   "reading": "じょせい",
   "meaning": "여성",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "この会社[かいしゃ]は女性[じょせい]の社員[しゃいん]が多[おお]いです。",
+   "ko": "이 회사는 여성 사원이 많습니다."
+  }
  },
  {
   "word": "人口",
   "reading": "じんこう",
   "meaning": "인구",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "この町[まち]の人口[じんこう]は少[すく]なくなりました。",
+   "ko": "이 마을의 인구는 줄었습니다."
+  }
  },
  {
   "word": "親切だ",
   "reading": "しんせつだ",
   "meaning": "친절하다",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "店[みせ]の人[ひと]はとても親切[しんせつ]だった。",
+   "ko": "가게 사람은 아주 친절했다."
+  }
  },
  {
   "word": "新聞社",
   "reading": "しんぶんしゃ",
   "meaning": "신문사",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "兄[あに]は新聞社[しんぶんしゃ]で働[はたら]いています。",
+   "ko": "형은 신문사에서 일하고 있습니다."
+  }
  },
  {
   "word": "水道",
   "reading": "すいどう",
   "meaning": "수도",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "台所[だいどころ]の水道[すいどう]が止[と]まりました。",
+   "ko": "부엌 수도가 끊겼습니다."
+  }
  },
  {
   "word": "生産",
   "reading": "せいさん",
   "meaning": "생산",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "この工場[こうじょう]では車[くるま]を生産[せいさん]しています。",
+   "ko": "이 공장에서는 자동차를 생산하고 있습니다."
+  }
  },
  {
   "word": "西洋",
   "reading": "せいよう",
   "meaning": "서양",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "祖母[そぼ]は西洋[せいよう]の音楽[おんがく]が好[す]きです。",
+   "ko": "할머니는 서양 음악을 좋아합니다."
+  }
  },
  {
   "word": "世界",
   "reading": "せかい",
   "meaning": "세계",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "世界[せかい]にはいろいろな文化[ぶんか]があります。",
+   "ko": "세계에는 여러 문화가 있습니다."
+  }
  },
  {
   "word": "説明",
   "reading": "せつめい",
   "meaning": "설명",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "先生[せんせい]がもう一度[いちど]説明[せつめい]してくれました。",
+   "ko": "선생님이 한 번 더 설명해 주셨습니다."
+  }
  },
  {
   "word": "世話",
   "reading": "せわ",
   "meaning": "도와줌, 보살핌",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "毎朝[まいあさ]、犬[いぬ]の世話[せわ]をしています。",
+   "ko": "매일 아침 개를 돌보고 있습니다."
+  }
  },
  {
   "word": "祖母",
   "reading": "そぼ",
   "meaning": "조모, 할머니",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "祖母[そぼ]は今年[ことし]九十[きゅうじゅう]になります。",
+   "ko": "할머니는 올해 아흔이 되십니다."
+  }
  },
  {
   "word": "大使館",
   "reading": "たいしかん",
   "meaning": "대사관",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "ビザのことで大使館[たいしかん]に行[い]きました。",
+   "ko": "비자 때문에 대사관에 갔습니다."
+  }
  },
  {
   "word": "注意",
   "reading": "ちゅうい",
   "meaning": "주의",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "車[くるま]に注意[ちゅうい]して渡[わた]ってください。",
+   "ko": "차를 조심해서 건너 주세요."
+  }
  },
  {
   "word": "中止",
   "reading": "ちゅうし",
   "meaning": "중지",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "雨[あめ]で試合[しあい]は中止[ちゅうし]になりました。",
+   "ko": "비로 시합은 중지되었습니다."
+  }
  },
  {
   "word": "地理",
   "reading": "ちり",
   "meaning": "지리",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "日本[にほん]の地理[ちり]について習[なら]いました。",
+   "ko": "일본의 지리에 대해 배웠습니다."
+  }
  },
  {
   "word": "都合",
   "reading": "つごう",
   "meaning": "사정, 형편",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "その日[ひ]は都合[つごう]が悪[わる]いです。",
+   "ko": "그날은 사정이 안 좋습니다."
+  }
  },
  {
   "word": "店員",
   "reading": "てんいん",
   "meaning": "점원",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "店員[てんいん]に品物[しなもの]の場所[ばしょ]を聞[き]きました。",
+   "ko": "점원에게 물건 위치를 물었습니다."
+  }
  },
  {
   "word": "都会",
   "reading": "とかい",
   "meaning": "도시",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "都会[とかい]は便利[べんり]ですが人[ひと]が多[おお]いです。",
+   "ko": "도시는 편리하지만 사람이 많습니다."
+  }
  },
  {
   "word": "特別だ",
   "reading": "とくべつだ",
   "meaning": "특별하다",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "今日[きょう]は特別[とくべつ]な日[ひ]です。",
+   "ko": "오늘은 특별한 날입니다."
+  }
  },
  {
   "word": "図書館",
   "reading": "としょかん",
   "meaning": "도서관",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "図書館[としょかん]で小説[しょうせつ]を三[さん]冊[さつ]借[か]りました。",
+   "ko": "도서관에서 소설을 세 권 빌렸습니다."
+  }
  },
  {
   "word": "特急",
   "reading": "とっきゅう",
   "meaning": "특급",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "特急[とっきゅう]に乗[の]れば一時間[いちじかん]で着[つ]きます。",
+   "ko": "특급을 타면 한 시간에 도착합니다."
+  }
  },
  {
   "word": "何枚",
   "reading": "なんまい",
   "meaning": "몇 매, 몇 장",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "紙[かみ]は何枚[なんまい]必要[ひつよう]ですか。",
+   "ko": "종이는 몇 장 필요합니까?"
+  }
  },
  {
   "word": "二台",
   "reading": "にだい",
   "meaning": "두 대",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "家[いえ]の前[まえ]に車[くるま]が二台[にだい]止[と]まっています。",
+   "ko": "집 앞에 차가 두 대 서 있습니다."
+  }
  },
  {
   "word": "日記",
   "reading": "にっき",
   "meaning": "일기",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "毎晩[まいばん]、寝[ね]る前[まえ]に日記[にっき]を書[か]きます。",
+   "ko": "매일 밤 자기 전에 일기를 씁니다."
+  }
  },
  {
   "word": "入院",
   "reading": "にゅういん",
   "meaning": "입원",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "父[ちち]は先週[せんしゅう]から入院[にゅういん]しています。",
+   "ko": "아버지는 지난주부터 입원해 있습니다."
+  }
  },
  {
   "word": "場所",
   "reading": "ばしょ",
   "meaning": "장소",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "待[ま]ち合[あ]わせの場所[ばしょ]を教[おし]えてください。",
+   "ko": "만날 장소를 알려 주세요."
+  }
  },
  {
   "word": "発音",
   "reading": "はつおん",
   "meaning": "발음",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "この言葉[ことば]は発音[はつおん]が難[むずか]しいです。",
+   "ko": "이 단어는 발음이 어렵습니다."
+  }
  },
  {
   "word": "反対",
   "reading": "はんたい",
   "meaning": "반대",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "その意見[いけん]には反対[はんたい]です。",
+   "ko": "그 의견에는 반대입니다."
+  }
  },
  {
   "word": "病院",
   "reading": "びょういん",
   "meaning": "병원",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "頭[あたま]が痛[いた]いので病院[びょういん]へ行[い]きます。",
+   "ko": "머리가 아파서 병원에 갑니다."
+  }
  },
  {
   "word": "服",
   "reading": "ふく",
   "meaning": "옷",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "新[あたら]しい服[ふく]を買[か]いに行[い]きました。",
+   "ko": "새 옷을 사러 갔습니다."
+  }
  },
  {
   "word": "不便だ",
   "reading": "ふべんだ",
   "meaning": "불편하다",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "駅[えき]から遠[とお]くて少[すこ]し不便[ふべん]だ。",
+   "ko": "역에서 멀어서 조금 불편하다."
+  }
  },
  {
   "word": "文",
   "reading": "ぶん",
   "meaning": "문장",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "この文[ぶん]の意味[いみ]が分[わ]かりません。",
+   "ko": "이 문장의 뜻을 모르겠습니다."
+  }
  },
  {
   "word": "文学",
   "reading": "ぶんがく",
   "meaning": "문학",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "大学[だいがく]で日本[にほん]の文学[ぶんがく]を勉強[べんきょう]しました。",
+   "ko": "대학에서 일본 문학을 공부했습니다."
+  }
  },
  {
   "word": "勉強",
   "reading": "べんきょう",
   "meaning": "공부",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "毎日[まいにち]二時間[にじかん]日本語[にほんご]を勉強[べんきょう]します。",
+   "ko": "매일 두 시간 일본어를 공부합니다."
+  }
  },
  {
   "word": "門",
   "reading": "もん",
   "meaning": "문",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "学校[がっこう]の門[もん]の前[まえ]で待[ま]っています。",
+   "ko": "학교 문 앞에서 기다리고 있습니다."
+  }
  },
  {
   "word": "野菜",
   "reading": "やさい",
   "meaning": "채소",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "毎朝[まいあさ]、野菜[やさい]をたくさん食[た]べます。",
+   "ko": "매일 아침 채소를 많이 먹습니다."
+  }
  },
  {
   "word": "有名だ",
   "reading": "ゆうめいだ",
   "meaning": "유명하다",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "この店[みせ]はラーメンで有名[ゆうめい]だ。",
+   "ko": "이 가게는 라멘으로 유명하다."
+  }
  },
  {
   "word": "用事",
   "reading": "ようじ",
   "meaning": "볼일, 용무",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "用事[ようじ]があるので先[さき]に帰[かえ]ります。",
+   "ko": "볼일이 있어서 먼저 돌아가겠습니다."
+  }
  },
  {
   "word": "洋服",
   "reading": "ようふく",
   "meaning": "양복, 옷",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "洋服[ようふく]より着物[きもの]のほうが好[す]きです。",
+   "ko": "양복보다 기모노를 더 좋아합니다."
+  }
  },
  {
   "word": "予習",
   "reading": "よしゅう",
   "meaning": "예습",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "明日[あした]の授業[じゅぎょう]の予習[よしゅう]をしました。",
+   "ko": "내일 수업 예습을 했습니다."
+  }
  },
  {
   "word": "予定",
   "reading": "よてい",
   "meaning": "예정",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "来月[らいげつ]、国[くに]へ帰[かえ]る予定[よてい]です。",
+   "ko": "다음 달에 고향에 돌아갈 예정입니다."
+  }
  },
  {
   "word": "予報",
   "reading": "よほう",
   "meaning": "예보",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "天気[てんき]予報[よほう]では明日[あした]は雨[あめ]です。",
+   "ko": "일기예보로는 내일은 비입니다."
+  }
  },
  {
   "word": "利用",
   "reading": "りよう",
   "meaning": "이용",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "この図書館[としょかん]は誰[だれ]でも利用[りよう]できます。",
+   "ko": "이 도서관은 누구나 이용할 수 있습니다."
+  }
  },
  {
   "word": "旅行",
   "reading": "りょこう",
   "meaning": "여행",
-  "readingType": "음독"
+  "readingType": "음독",
+  "example": {
+   "jp": "春[はる]に家族[かぞく]と旅行[りょこう]する予定[よてい]です。",
+   "ko": "봄에 가족과 여행할 예정입니다."
+  }
  },
  {
   "word": "お正月",
   "reading": "おしょうがつ",
   "meaning": "양력설, 새해",
-  "readingType": "혼합"
+  "readingType": "혼합",
+  "example": {
+   "jp": "お正月[しょうがつ]には祖母[そぼ]の家[いえ]に行[い]きます。",
+   "ko": "설에는 할머니 댁에 갑니다."
+  }
  },
  {
   "word": "北区",
   "reading": "きたく",
   "meaning": "기타구(지명)",
-  "readingType": "혼합"
+  "readingType": "혼합",
+  "example": {
+   "jp": "会社[かいしゃ]は北区[きたく]にあります。",
+   "ko": "회사는 기타구에 있습니다."
+  }
  },
  {
   "word": "切手",
   "reading": "きって",
   "meaning": "우표",
-  "readingType": "혼합"
+  "readingType": "혼합",
+  "example": {
+   "jp": "手紙[てがみ]に切手[きって]をはって送[おく]りました。",
+   "ko": "편지에 우표를 붙여서 보냈습니다."
+  }
  },
  {
   "word": "着物",
   "reading": "きもの",
   "meaning": "옷, 일본 전통 의상",
-  "readingType": "혼합"
+  "readingType": "혼합",
+  "example": {
+   "jp": "お正月[しょうがつ]に着物[きもの]を着[き]ました。",
+   "ko": "설에 기모노를 입었습니다."
+  }
  },
  {
   "word": "仕事",
   "reading": "しごと",
   "meaning": "일, 직업",
-  "readingType": "혼합"
+  "readingType": "혼합",
+  "example": {
+   "jp": "今日[きょう]は仕事[しごと]が早[はや]く終[お]わりました。",
+   "ko": "오늘은 일이 일찍 끝났습니다."
+  }
  },
  {
   "word": "品物",
   "reading": "しなもの",
   "meaning": "물건",
-  "readingType": "혼합"
+  "readingType": "혼합",
+  "example": {
+   "jp": "この店[みせ]は品物[しなもの]が多[おお]くて安[やす]いです。",
+   "ko": "이 가게는 물건이 많고 쌉니다."
+  }
  },
  {
   "word": "台所",
   "reading": "だいどころ",
   "meaning": "부엌",
-  "readingType": "혼합"
+  "readingType": "혼합",
+  "example": {
+   "jp": "母[はは]は台所[だいどころ]で料理[りょうり]をしています。",
+   "ko": "어머니는 부엌에서 요리를 하고 있습니다."
+  }
  },
  {
   "word": "建物",
   "reading": "たてもの",
   "meaning": "건물",
-  "readingType": "혼합"
+  "readingType": "혼합",
+  "example": {
+   "jp": "駅[えき]の前[まえ]の高[たか]い建物[たてもの]が病院[びょういん]です。",
+   "ko": "역 앞의 높은 건물이 병원입니다."
+  }
  },
  {
   "word": "茶色",
   "reading": "ちゃいろ",
   "meaning": "갈색",
-  "readingType": "혼합"
+  "readingType": "혼합",
+  "example": {
+   "jp": "茶色[ちゃいろ]のかばんを買[か]いました。",
+   "ko": "갈색 가방을 샀습니다."
+  }
  },
  {
   "word": "毎朝",
   "reading": "まいあさ",
   "meaning": "매일 아침",
-  "readingType": "혼합"
+  "readingType": "혼합",
+  "example": {
+   "jp": "毎朝[まいあさ]、六時[ろくじ]に起[お]きて歩[ある]きます。",
+   "ko": "매일 아침 6시에 일어나 걷습니다."
+  }
  },
  {
   "word": "夕方",
   "reading": "ゆうがた",
   "meaning": "저녁",
-  "readingType": "혼합"
+  "readingType": "혼합",
+  "example": {
+   "jp": "夕方[ゆうがた]から風[かぜ]が強[つよ]くなりました。",
+   "ko": "저녁부터 바람이 강해졌습니다."
+  }
  }
 ]

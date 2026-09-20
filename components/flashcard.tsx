@@ -38,11 +38,26 @@ export function Flashcard({
     <div className="flex flex-1 flex-col gap-5 overflow-y-auto p-5">
       {/* 앞면 */}
       <div className="flex flex-col items-center gap-2 pt-8 text-center">
-        {showReading && (
-          <p className="font-jp text-sub text-lg">
-            {card.deck === "kanji" ? card.on.concat(card.kun).join("・") : card.reading}
-          </p>
-        )}
+        {showReading &&
+          (card.deck === "kanji" ? (
+            // 음독·훈독은 섞어 놓으면 어느 쪽인지 구분이 안 된다
+            <dl className="text-sub flex flex-col items-center gap-0.5 text-lg">
+              {card.on.length > 0 && (
+                <div className="flex items-baseline gap-2">
+                  <dt className="text-muted text-xs">음</dt>
+                  <dd className="font-jp">{card.on.join("・")}</dd>
+                </div>
+              )}
+              {card.kun.length > 0 && (
+                <div className="flex items-baseline gap-2">
+                  <dt className="text-muted text-xs">훈</dt>
+                  <dd className="font-jp">{card.kun.join("・")}</dd>
+                </div>
+              )}
+            </dl>
+          ) : (
+            <p className="font-jp text-sub text-lg">{card.reading}</p>
+          ))}
         <p className="font-jp text-6xl leading-tight">
           {card.deck === "kanji" ? card.char : card.word}
         </p>
