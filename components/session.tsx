@@ -128,7 +128,7 @@ export function Session({ deck }: { deck: DeckId }) {
 
   if (done) {
     return (
-      <div className="pt-safe pb-safe flex min-h-dvh flex-col items-center justify-center gap-4 p-8 text-center">
+      <div className="flex min-h-dvh flex-col items-center justify-center gap-4 p-8 text-center">
         <p className="text-3xl font-semibold">오늘치 끝</p>
         <p className="text-sub">
           {done.total}장 중 {done.correct}장을 한 번에 맞혔어요
@@ -144,7 +144,7 @@ export function Session({ deck }: { deck: DeckId }) {
 
   if (!card) {
     return (
-      <div className="pt-safe pb-safe flex min-h-dvh flex-col items-center justify-center gap-4 p-8 text-center">
+      <div className="flex min-h-dvh flex-col items-center justify-center gap-4 p-8 text-center">
         <p className="text-sub">오늘 학습할 카드가 없어요.</p>
         <Link href="/">
           <Button>홈으로</Button>
@@ -154,8 +154,8 @@ export function Session({ deck }: { deck: DeckId }) {
   }
 
   return (
-    <div className="flex h-dvh flex-col px-safe">
-      <header className="pt-safe flex items-center gap-3 px-4 py-2">
+    <div className="flex h-dvh flex-col pl-[env(safe-area-inset-left)] pr-[env(safe-area-inset-right)]">
+      <header className="mt-[env(safe-area-inset-top)] flex items-center gap-3 px-4 py-2">
         <Link href="/" aria-label="홈으로" className="text-sub">
           <ArrowLeft size={22} />
         </Link>

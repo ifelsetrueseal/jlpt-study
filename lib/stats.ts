@@ -1,6 +1,5 @@
 import { cardKey, INTERVALS } from "./srs";
 import type { Card, HistoryEntry, ProgressMap } from "./types";
-import { addDays } from "./utils";
 
 /** stage 가 여기 이상이면 '익혔다'로 센다 — 복습 간격 21일 이상 */
 const LEARNED_STAGE = 3;
@@ -26,22 +25,6 @@ export function deckProgress(
     if (p.stage >= LEARNED_STAGE) learned += 1;
   }
   return { total: cards.length, started, learned };
-}
-
-/** 하루에 여러 세션을 돌 수 있으니 날짜별로 합친다. 오늘이 마지막 칸. */
-export function dailyCounts(
-  history: HistoryEntry[],
-  now: string,
-  days = 7,
-): { date: string; count: number }[] {
-  const byDate = new Map<string, number>();
-  for (const h of history) {
-    byDate.set(h.date, (byDate.get(h.date) ?? 0) + h.total);
-  }
-  return Array.from({ length: days }, (_, i) => {
-    const date = addDays(now, i - days + 1);
-    return { date, count: byDate.get(date) ?? 0 };
-  });
 }
 
 export type Totals = {

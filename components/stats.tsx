@@ -1,6 +1,5 @@
 "use client";
 
-import { cn } from "@/lib/utils";
 import type { DeckProgress } from "@/lib/stats";
 
 /**
@@ -55,67 +54,6 @@ export function MeterLegend() {
         <i className="bg-accent/70 inline-block h-2 w-2 rounded-full" />
         학습 중
       </span>
-    </div>
-  );
-}
-
-const WEEKDAY = ["일", "월", "화", "수", "목", "금", "토"];
-
-/** 최근 며칠간 하루에 몇 장 봤는지. 꾸준함이 보이는 게 목적이라 눈금은 안 그린다. */
-export function WeekBars({
-  data,
-  today,
-}: {
-  data: { date: string; count: number }[];
-  today: string;
-}) {
-  const max = Math.max(...data.map((d) => d.count), 1);
-  const peak = data.findIndex((d) => d.count === max && d.count > 0);
-
-  return (
-    <div className="flex h-24 gap-0.5">
-      {data.map((d, i) => {
-        const isToday = d.date === today;
-        return (
-          <div
-            key={d.date}
-            className="flex h-full flex-1 flex-col items-center"
-          >
-            {/* 숫자는 가장 많이 한 날에만 — 모든 막대에 붙이면 읽히지 않는다 */}
-            <span className="text-muted h-4 text-[10px] tabular-nums">
-              {i === peak ? d.count : ""}
-            </span>
-            {/*
-              막대는 부모 높이의 비율이라 부모에 확정 높이가 있어야 한다.
-              flex-1 로 높이를 확정하고 그 안에서 바닥에 붙여 키운다.
-            */}
-            <div
-              className="relative w-full flex-1"
-              // 숫자를 막대마다 찍으면 읽히지 않으니, 값은 여기에 붙여둔다
-              title={`${d.date} ${d.count}장`}
-              aria-label={`${d.date} ${d.count}장`}
-            >
-              <div
-                className={cn(
-                  "absolute bottom-0 w-full rounded-t-[4px]",
-                  d.count > 0 ? "bg-accent" : "bg-elev",
-                )}
-                style={{
-                  height: d.count > 0 ? `${(d.count / max) * 100}%` : "2px",
-                }}
-              />
-            </div>
-            <span
-              className={cn(
-                "mt-1 text-[11px]",
-                isToday ? "text-text font-medium" : "text-muted",
-              )}
-            >
-              {WEEKDAY[new Date(`${d.date}T00:00:00`).getDay()]}
-            </span>
-          </div>
-        );
-      })}
     </div>
   );
 }

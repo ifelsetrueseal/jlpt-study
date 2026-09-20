@@ -6,7 +6,6 @@ import { CaretRight, Fire } from "@phosphor-icons/react/dist/ssr";
 import { DECKS } from "@/lib/decks";
 import { splitDue } from "@/lib/srs";
 import {
-  dailyCounts,
   deckProgress,
   totals,
   type DeckProgress,
@@ -23,19 +22,13 @@ import {
 import type { DeckId } from "@/lib/types";
 import { today } from "@/lib/utils";
 import { Card } from "@/components/ui/card";
-import {
-  MeterLegend,
-  ProgressMeter,
-  StatTile,
-  WeekBars,
-} from "@/components/stats";
+import { MeterLegend, ProgressMeter, StatTile } from "@/components/stats";
 
 const DECK_IDS: DeckId[] = ["kanji", "word"];
 
 type Stats = {
   due: Record<DeckId, { review: number; fresh: number }>;
   progress: Record<DeckId, DeckProgress>;
-  week: { date: string; count: number }[];
   totals: Totals;
   streak: number;
   notes: number;
@@ -44,7 +37,6 @@ type Stats = {
 export default function Home() {
   const [stats, setStats] = useState<Stats | null>(null);
   const [size, setSize] = useState(20);
-  const now = today();
 
   useEffect(() => {
     const progress = loadProgress();
@@ -63,7 +55,6 @@ export default function Home() {
     setStats({
       due,
       progress: deckStats,
-      week: dailyCounts(history, nowDate),
       totals: totals(history),
       streak: streak(history, nowDate),
       notes: Object.keys(loadNotes()).length,
@@ -77,8 +68,8 @@ export default function Home() {
   }
 
   return (
-    <main className="pt-safe pb-safe px-safe flex flex-col gap-4 p-5">
-      <header className="flex items-end justify-between pt-6">
+    <main className="pt-safe pb-safe px-safe flex flex-col gap-4">
+      <header className="flex items-end justify-between">
         <h1 className="text-2xl font-semibold">JLPT 암기</h1>
         {!!stats?.streak && (
           <span className="text-sub flex items-center gap-1 text-sm">
@@ -123,16 +114,6 @@ export default function Home() {
               />
             ))}
             <MeterLegend />
-          </Card>
-
-          <Card className="flex flex-col gap-3 p-5">
-            <div className="flex items-baseline justify-between">
-              <p className="text-sm font-medium">최근 7일</p>
-              <p className="text-muted text-xs tabular-nums">
-                {stats.week.reduce((s, d) => s + d.count, 0)}장
-              </p>
-            </div>
-            <WeekBars data={stats.week} today={now} />
           </Card>
 
           <Card className="grid grid-cols-4 gap-2 p-5">
