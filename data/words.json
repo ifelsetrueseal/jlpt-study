@@ -1,0 +1,1292 @@
+[
+ {
+  "word": "青い",
+  "reading": "あおい",
+  "meaning": "파랗다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "赤い",
+  "reading": "あかい",
+  "meaning": "빨갛다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "明るい",
+  "reading": "あかるい",
+  "meaning": "밝다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "秋",
+  "reading": "あき",
+  "meaning": "가을",
+  "readingType": "훈독"
+ },
+ {
+  "word": "開ける",
+  "reading": "あける",
+  "meaning": "열다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "味",
+  "reading": "あじ",
+  "meaning": "맛",
+  "readingType": "훈독"
+ },
+ {
+  "word": "頭",
+  "reading": "あたま",
+  "meaning": "머리",
+  "readingType": "훈독"
+ },
+ {
+  "word": "暑い",
+  "reading": "あつい",
+  "meaning": "덥다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "暑さ",
+  "reading": "あつさ",
+  "meaning": "더위",
+  "readingType": "훈독"
+ },
+ {
+  "word": "集まる",
+  "reading": "あつまる",
+  "meaning": "모이다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "集める",
+  "reading": "あつめる",
+  "meaning": "모으다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "姉",
+  "reading": "あね",
+  "meaning": "언니, 누나",
+  "readingType": "훈독"
+ },
+ {
+  "word": "洗う",
+  "reading": "あらう",
+  "meaning": "씻다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "歩く",
+  "reading": "あるく",
+  "meaning": "걷다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "池",
+  "reading": "いけ",
+  "meaning": "연못",
+  "readingType": "훈독"
+ },
+ {
+  "word": "石",
+  "reading": "いし",
+  "meaning": "돌",
+  "readingType": "훈독"
+ },
+ {
+  "word": "急ぐ",
+  "reading": "いそぐ",
+  "meaning": "서두르다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "糸",
+  "reading": "いと",
+  "meaning": "실",
+  "readingType": "훈독"
+ },
+ {
+  "word": "妹",
+  "reading": "いもうと",
+  "meaning": "여동생",
+  "readingType": "훈독"
+ },
+ {
+  "word": "色",
+  "reading": "いろ",
+  "meaning": "색",
+  "readingType": "훈독"
+ },
+ {
+  "word": "動く",
+  "reading": "うごく",
+  "meaning": "움직이다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "歌",
+  "reading": "うた",
+  "meaning": "노래",
+  "readingType": "훈독"
+ },
+ {
+  "word": "歌う",
+  "reading": "うたう",
+  "meaning": "노래를 부르다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "写す",
+  "reading": "うつす",
+  "meaning": "베끼다, 찍다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "海",
+  "reading": "うみ",
+  "meaning": "바다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "売る",
+  "reading": "うる",
+  "meaning": "팔다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "売れる",
+  "reading": "うれる",
+  "meaning": "팔리다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "起きる",
+  "reading": "おきる",
+  "meaning": "일어나다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "送る",
+  "reading": "おくる",
+  "meaning": "보내다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "行う",
+  "reading": "おこなう",
+  "meaning": "행하다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "教える",
+  "reading": "おしえる",
+  "meaning": "가르치다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "押す",
+  "reading": "おす",
+  "meaning": "누르다, 밀다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "お姉さん",
+  "reading": "おねえさん",
+  "meaning": "언니, 누나",
+  "readingType": "훈독"
+ },
+ {
+  "word": "重い",
+  "reading": "おもい",
+  "meaning": "무겁다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "親指",
+  "reading": "おやゆび",
+  "meaning": "엄지",
+  "readingType": "훈독"
+ },
+ {
+  "word": "泳ぐ",
+  "reading": "およぐ",
+  "meaning": "헤엄치다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "終わる",
+  "reading": "おわる",
+  "meaning": "끝나다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "帰る",
+  "reading": "かえる",
+  "meaning": "돌아가다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "顔",
+  "reading": "かお",
+  "meaning": "얼굴",
+  "readingType": "훈독"
+ },
+ {
+  "word": "貸す",
+  "reading": "かす",
+  "meaning": "빌려주다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "風",
+  "reading": "かぜ",
+  "meaning": "바람",
+  "readingType": "훈독"
+ },
+ {
+  "word": "数える",
+  "reading": "かぞえる",
+  "meaning": "세다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "方",
+  "reading": "かた",
+  "meaning": "분, 사람(높임)",
+  "readingType": "훈독"
+ },
+ {
+  "word": "紙",
+  "reading": "かみ",
+  "meaning": "종이",
+  "readingType": "훈독"
+ },
+ {
+  "word": "通う",
+  "reading": "かよう",
+  "meaning": "다니다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "体",
+  "reading": "からだ",
+  "meaning": "몸",
+  "readingType": "훈독"
+ },
+ {
+  "word": "軽い",
+  "reading": "かるい",
+  "meaning": "가볍다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "代わり",
+  "reading": "かわり",
+  "meaning": "대신",
+  "readingType": "훈독"
+ },
+ {
+  "word": "考える",
+  "reading": "かんがえる",
+  "meaning": "생각하다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "決まる",
+  "reading": "きまる",
+  "meaning": "결정되다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "薬",
+  "reading": "くすり",
+  "meaning": "약",
+  "readingType": "훈독"
+ },
+ {
+  "word": "首",
+  "reading": "くび",
+  "meaning": "목",
+  "readingType": "훈독"
+ },
+ {
+  "word": "雲",
+  "reading": "くも",
+  "meaning": "구름",
+  "readingType": "훈독"
+ },
+ {
+  "word": "暗い",
+  "reading": "くらい",
+  "meaning": "어둡다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "黒い",
+  "reading": "くろい",
+  "meaning": "검다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "声",
+  "reading": "こえ",
+  "meaning": "목소리",
+  "readingType": "훈독"
+ },
+ {
+  "word": "氷",
+  "reading": "こおり",
+  "meaning": "얼음",
+  "readingType": "훈독"
+ },
+ {
+  "word": "心",
+  "reading": "こころ",
+  "meaning": "마음",
+  "readingType": "훈독"
+ },
+ {
+  "word": "答える",
+  "reading": "こたえる",
+  "meaning": "대답하다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "寒い",
+  "reading": "さむい",
+  "meaning": "춥다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "皿",
+  "reading": "さら",
+  "meaning": "접시",
+  "readingType": "훈독"
+ },
+ {
+  "word": "死ぬ",
+  "reading": "しぬ",
+  "meaning": "죽다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "知る",
+  "reading": "しる",
+  "meaning": "알다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "白い",
+  "reading": "しろい",
+  "meaning": "하얗다, 희다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "好きだ",
+  "reading": "すきだ",
+  "meaning": "좋아하다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "少し",
+  "reading": "すこし",
+  "meaning": "조금",
+  "readingType": "훈독"
+ },
+ {
+  "word": "進む",
+  "reading": "すすむ",
+  "meaning": "나아가다, 진행되다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "楽しい",
+  "reading": "たのしい",
+  "meaning": "즐겁다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "足りない",
+  "reading": "たりない",
+  "meaning": "모자라다, 부족하다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "足りる",
+  "reading": "たりる",
+  "meaning": "충분하다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "近い",
+  "reading": "ちかい",
+  "meaning": "가깝다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "力",
+  "reading": "ちから",
+  "meaning": "힘",
+  "readingType": "훈독"
+ },
+ {
+  "word": "使う",
+  "reading": "つかう",
+  "meaning": "사용하다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "机",
+  "reading": "つくえ",
+  "meaning": "책상",
+  "readingType": "훈독"
+ },
+ {
+  "word": "強い",
+  "reading": "つよい",
+  "meaning": "강하다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "手紙",
+  "reading": "てがみ",
+  "meaning": "편지",
+  "readingType": "훈독"
+ },
+ {
+  "word": "遠い",
+  "reading": "とおい",
+  "meaning": "멀다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "遠く",
+  "reading": "とおく",
+  "meaning": "멀리",
+  "readingType": "훈독"
+ },
+ {
+  "word": "通る",
+  "reading": "とおる",
+  "meaning": "지나다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "止まる",
+  "reading": "とまる",
+  "meaning": "멈추다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "鳥",
+  "reading": "とり",
+  "meaning": "새",
+  "readingType": "훈독"
+ },
+ {
+  "word": "夏",
+  "reading": "なつ",
+  "meaning": "여름",
+  "readingType": "훈독"
+ },
+ {
+  "word": "習う",
+  "reading": "ならう",
+  "meaning": "배우다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "眠い",
+  "reading": "ねむい",
+  "meaning": "졸리다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "眠る",
+  "reading": "ねむる",
+  "meaning": "자다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "乗る",
+  "reading": "のる",
+  "meaning": "타다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "運ぶ",
+  "reading": "はこぶ",
+  "meaning": "나르다, 옮기다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "始める",
+  "reading": "はじめる",
+  "meaning": "시작하다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "走る",
+  "reading": "はしる",
+  "meaning": "달리다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "働く",
+  "reading": "はたらく",
+  "meaning": "일하다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "花",
+  "reading": "はな",
+  "meaning": "꽃",
+  "readingType": "훈독"
+ },
+ {
+  "word": "早い",
+  "reading": "はやい",
+  "meaning": "빠르다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "早く",
+  "reading": "はやく",
+  "meaning": "일찍, 빨리",
+  "readingType": "훈독"
+ },
+ {
+  "word": "春",
+  "reading": "はる",
+  "meaning": "봄",
+  "readingType": "훈독"
+ },
+ {
+  "word": "火",
+  "reading": "ひ",
+  "meaning": "불",
+  "readingType": "훈독"
+ },
+ {
+  "word": "光",
+  "reading": "ひかり",
+  "meaning": "빛",
+  "readingType": "훈독"
+ },
+ {
+  "word": "光る",
+  "reading": "ひかる",
+  "meaning": "빛나다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "引く",
+  "reading": "ひく",
+  "meaning": "당기다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "低い",
+  "reading": "ひくい",
+  "meaning": "낮다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "昼",
+  "reading": "ひる",
+  "meaning": "낮",
+  "readingType": "훈독"
+ },
+ {
+  "word": "広い",
+  "reading": "ひろい",
+  "meaning": "넓다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "太い",
+  "reading": "ふとい",
+  "meaning": "굵다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "船",
+  "reading": "ふね",
+  "meaning": "배",
+  "readingType": "훈독"
+ },
+ {
+  "word": "冬",
+  "reading": "ふゆ",
+  "meaning": "겨울",
+  "readingType": "훈독"
+ },
+ {
+  "word": "古い",
+  "reading": "ふるい",
+  "meaning": "낡다, 오래되다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "町",
+  "reading": "まち",
+  "meaning": "도시, 마을",
+  "readingType": "훈독"
+ },
+ {
+  "word": "待つ",
+  "reading": "まつ",
+  "meaning": "기다리다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "間に合う",
+  "reading": "まにあう",
+  "meaning": "시간에 맞추다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "短い",
+  "reading": "みじかい",
+  "meaning": "짧다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "港",
+  "reading": "みなと",
+  "meaning": "항구",
+  "readingType": "훈독"
+ },
+ {
+  "word": "村",
+  "reading": "むら",
+  "meaning": "마을",
+  "readingType": "훈독"
+ },
+ {
+  "word": "目",
+  "reading": "め",
+  "meaning": "눈",
+  "readingType": "훈독"
+ },
+ {
+  "word": "持つ",
+  "reading": "もつ",
+  "meaning": "들다, 가지다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "森",
+  "reading": "もり",
+  "meaning": "숲",
+  "readingType": "훈독"
+ },
+ {
+  "word": "夜",
+  "reading": "よる",
+  "meaning": "밤",
+  "readingType": "훈독"
+ },
+ {
+  "word": "弱い",
+  "reading": "よわい",
+  "meaning": "약하다",
+  "readingType": "훈독"
+ },
+ {
+  "word": "安心",
+  "reading": "あんしん",
+  "meaning": "안심",
+  "readingType": "음독"
+ },
+ {
+  "word": "以外",
+  "reading": "いがい",
+  "meaning": "이외",
+  "readingType": "음독"
+ },
+ {
+  "word": "意見",
+  "reading": "いけん",
+  "meaning": "의견",
+  "readingType": "음독"
+ },
+ {
+  "word": "医者",
+  "reading": "いしゃ",
+  "meaning": "의사",
+  "readingType": "음독"
+ },
+ {
+  "word": "以上",
+  "reading": "いじょう",
+  "meaning": "이상",
+  "readingType": "음독"
+ },
+ {
+  "word": "一度",
+  "reading": "いちど",
+  "meaning": "한 번",
+  "readingType": "음독"
+ },
+ {
+  "word": "運転",
+  "reading": "うんてん",
+  "meaning": "운전",
+  "readingType": "음독"
+ },
+ {
+  "word": "運動",
+  "reading": "うんどう",
+  "meaning": "운동",
+  "readingType": "음독"
+ },
+ {
+  "word": "営業",
+  "reading": "えいぎょう",
+  "meaning": "영업",
+  "readingType": "음독"
+ },
+ {
+  "word": "英語",
+  "reading": "えいご",
+  "meaning": "영어",
+  "readingType": "음독"
+ },
+ {
+  "word": "音楽",
+  "reading": "おんがく",
+  "meaning": "음악",
+  "readingType": "음독"
+ },
+ {
+  "word": "会場",
+  "reading": "かいじょう",
+  "meaning": "회장, 행사장",
+  "readingType": "음독"
+ },
+ {
+  "word": "火事",
+  "reading": "かじ",
+  "meaning": "화재",
+  "readingType": "음독"
+ },
+ {
+  "word": "家族",
+  "reading": "かぞく",
+  "meaning": "가족",
+  "readingType": "음독"
+ },
+ {
+  "word": "気分",
+  "reading": "きぶん",
+  "meaning": "기분",
+  "readingType": "음독"
+ },
+ {
+  "word": "急行",
+  "reading": "きゅうこう",
+  "meaning": "급행",
+  "readingType": "음독"
+ },
+ {
+  "word": "急に",
+  "reading": "きゅうに",
+  "meaning": "급히, 갑자기",
+  "readingType": "음독"
+ },
+ {
+  "word": "教室",
+  "reading": "きょうしつ",
+  "meaning": "교실",
+  "readingType": "음독"
+ },
+ {
+  "word": "去年",
+  "reading": "きょねん",
+  "meaning": "작년",
+  "readingType": "음독"
+ },
+ {
+  "word": "銀行",
+  "reading": "ぎんこう",
+  "meaning": "은행",
+  "readingType": "음독"
+ },
+ {
+  "word": "近所",
+  "reading": "きんじょ",
+  "meaning": "근처",
+  "readingType": "음독"
+ },
+ {
+  "word": "区",
+  "reading": "く",
+  "meaning": "구(행정구역 단위)",
+  "readingType": "음독"
+ },
+ {
+  "word": "空港",
+  "reading": "くうこう",
+  "meaning": "공항",
+  "readingType": "음독"
+ },
+ {
+  "word": "計画",
+  "reading": "けいかく",
+  "meaning": "계획",
+  "readingType": "음독"
+ },
+ {
+  "word": "経験",
+  "reading": "けいけん",
+  "meaning": "경험",
+  "readingType": "음독"
+ },
+ {
+  "word": "県",
+  "reading": "けん",
+  "meaning": "현(일본 행정구역)",
+  "readingType": "음독"
+ },
+ {
+  "word": "研究",
+  "reading": "けんきゅう",
+  "meaning": "연구",
+  "readingType": "음독"
+ },
+ {
+  "word": "公園",
+  "reading": "こうえん",
+  "meaning": "공원",
+  "readingType": "음독"
+ },
+ {
+  "word": "工事",
+  "reading": "こうじ",
+  "meaning": "공사",
+  "readingType": "음독"
+ },
+ {
+  "word": "工場",
+  "reading": "こうじょう",
+  "meaning": "공장",
+  "readingType": "음독"
+ },
+ {
+  "word": "今度",
+  "reading": "こんど",
+  "meaning": "이번, 다음",
+  "readingType": "음독"
+ },
+ {
+  "word": "最近",
+  "reading": "さいきん",
+  "meaning": "최근",
+  "readingType": "음독"
+ },
+ {
+  "word": "最後",
+  "reading": "さいご",
+  "meaning": "최후, 마지막",
+  "readingType": "음독"
+ },
+ {
+  "word": "産業",
+  "reading": "さんぎょう",
+  "meaning": "산업",
+  "readingType": "음독"
+ },
+ {
+  "word": "試合",
+  "reading": "しあい",
+  "meaning": "시합",
+  "readingType": "음독"
+ },
+ {
+  "word": "質問",
+  "reading": "しつもん",
+  "meaning": "질문",
+  "readingType": "음독"
+ },
+ {
+  "word": "自転車",
+  "reading": "じてんしゃ",
+  "meaning": "자전거",
+  "readingType": "음독"
+ },
+ {
+  "word": "市民",
+  "reading": "しみん",
+  "meaning": "시민",
+  "readingType": "음독"
+ },
+ {
+  "word": "社会",
+  "reading": "しゃかい",
+  "meaning": "사회",
+  "readingType": "음독"
+ },
+ {
+  "word": "住所",
+  "reading": "じゅうしょ",
+  "meaning": "주소",
+  "readingType": "음독"
+ },
+ {
+  "word": "出発",
+  "reading": "しゅっぱつ",
+  "meaning": "출발",
+  "readingType": "음독"
+ },
+ {
+  "word": "小説",
+  "reading": "しょうせつ",
+  "meaning": "소설",
+  "readingType": "음독"
+ },
+ {
+  "word": "食堂",
+  "reading": "しょくどう",
+  "meaning": "식당",
+  "readingType": "음독"
+ },
+ {
+  "word": "食料品",
+  "reading": "しょくりょうひん",
+  "meaning": "식료품",
+  "readingType": "음독"
+ },
+ {
+  "word": "女性",
+  "reading": "じょせい",
+  "meaning": "여성",
+  "readingType": "음독"
+ },
+ {
+  "word": "人口",
+  "reading": "じんこう",
+  "meaning": "인구",
+  "readingType": "음독"
+ },
+ {
+  "word": "親切だ",
+  "reading": "しんせつだ",
+  "meaning": "친절하다",
+  "readingType": "음독"
+ },
+ {
+  "word": "新聞社",
+  "reading": "しんぶんしゃ",
+  "meaning": "신문사",
+  "readingType": "음독"
+ },
+ {
+  "word": "水道",
+  "reading": "すいどう",
+  "meaning": "수도",
+  "readingType": "음독"
+ },
+ {
+  "word": "生産",
+  "reading": "せいさん",
+  "meaning": "생산",
+  "readingType": "음독"
+ },
+ {
+  "word": "西洋",
+  "reading": "せいよう",
+  "meaning": "서양",
+  "readingType": "음독"
+ },
+ {
+  "word": "世界",
+  "reading": "せかい",
+  "meaning": "세계",
+  "readingType": "음독"
+ },
+ {
+  "word": "説明",
+  "reading": "せつめい",
+  "meaning": "설명",
+  "readingType": "음독"
+ },
+ {
+  "word": "世話",
+  "reading": "せわ",
+  "meaning": "도와줌, 보살핌",
+  "readingType": "음독"
+ },
+ {
+  "word": "祖母",
+  "reading": "そぼ",
+  "meaning": "조모, 할머니",
+  "readingType": "음독"
+ },
+ {
+  "word": "大使館",
+  "reading": "たいしかん",
+  "meaning": "대사관",
+  "readingType": "음독"
+ },
+ {
+  "word": "注意",
+  "reading": "ちゅうい",
+  "meaning": "주의",
+  "readingType": "음독"
+ },
+ {
+  "word": "中止",
+  "reading": "ちゅうし",
+  "meaning": "중지",
+  "readingType": "음독"
+ },
+ {
+  "word": "地理",
+  "reading": "ちり",
+  "meaning": "지리",
+  "readingType": "음독"
+ },
+ {
+  "word": "都合",
+  "reading": "つごう",
+  "meaning": "사정, 형편",
+  "readingType": "음독"
+ },
+ {
+  "word": "店員",
+  "reading": "てんいん",
+  "meaning": "점원",
+  "readingType": "음독"
+ },
+ {
+  "word": "都会",
+  "reading": "とかい",
+  "meaning": "도시",
+  "readingType": "음독"
+ },
+ {
+  "word": "特別だ",
+  "reading": "とくべつだ",
+  "meaning": "특별하다",
+  "readingType": "음독"
+ },
+ {
+  "word": "図書館",
+  "reading": "としょかん",
+  "meaning": "도서관",
+  "readingType": "음독"
+ },
+ {
+  "word": "特急",
+  "reading": "とっきゅう",
+  "meaning": "특급",
+  "readingType": "음독"
+ },
+ {
+  "word": "何枚",
+  "reading": "なんまい",
+  "meaning": "몇 매, 몇 장",
+  "readingType": "음독"
+ },
+ {
+  "word": "二台",
+  "reading": "にだい",
+  "meaning": "두 대",
+  "readingType": "음독"
+ },
+ {
+  "word": "日記",
+  "reading": "にっき",
+  "meaning": "일기",
+  "readingType": "음독"
+ },
+ {
+  "word": "入院",
+  "reading": "にゅういん",
+  "meaning": "입원",
+  "readingType": "음독"
+ },
+ {
+  "word": "場所",
+  "reading": "ばしょ",
+  "meaning": "장소",
+  "readingType": "음독"
+ },
+ {
+  "word": "発音",
+  "reading": "はつおん",
+  "meaning": "발음",
+  "readingType": "음독"
+ },
+ {
+  "word": "反対",
+  "reading": "はんたい",
+  "meaning": "반대",
+  "readingType": "음독"
+ },
+ {
+  "word": "病院",
+  "reading": "びょういん",
+  "meaning": "병원",
+  "readingType": "음독"
+ },
+ {
+  "word": "服",
+  "reading": "ふく",
+  "meaning": "옷",
+  "readingType": "음독"
+ },
+ {
+  "word": "不便だ",
+  "reading": "ふべんだ",
+  "meaning": "불편하다",
+  "readingType": "음독"
+ },
+ {
+  "word": "文",
+  "reading": "ぶん",
+  "meaning": "문장",
+  "readingType": "음독"
+ },
+ {
+  "word": "文学",
+  "reading": "ぶんがく",
+  "meaning": "문학",
+  "readingType": "음독"
+ },
+ {
+  "word": "勉強",
+  "reading": "べんきょう",
+  "meaning": "공부",
+  "readingType": "음독"
+ },
+ {
+  "word": "門",
+  "reading": "もん",
+  "meaning": "문",
+  "readingType": "음독"
+ },
+ {
+  "word": "野菜",
+  "reading": "やさい",
+  "meaning": "채소",
+  "readingType": "음독"
+ },
+ {
+  "word": "有名だ",
+  "reading": "ゆうめいだ",
+  "meaning": "유명하다",
+  "readingType": "음독"
+ },
+ {
+  "word": "用事",
+  "reading": "ようじ",
+  "meaning": "볼일, 용무",
+  "readingType": "음독"
+ },
+ {
+  "word": "洋服",
+  "reading": "ようふく",
+  "meaning": "양복, 옷",
+  "readingType": "음독"
+ },
+ {
+  "word": "予習",
+  "reading": "よしゅう",
+  "meaning": "예습",
+  "readingType": "음독"
+ },
+ {
+  "word": "予定",
+  "reading": "よてい",
+  "meaning": "예정",
+  "readingType": "음독"
+ },
+ {
+  "word": "予報",
+  "reading": "よほう",
+  "meaning": "예보",
+  "readingType": "음독"
+ },
+ {
+  "word": "利用",
+  "reading": "りよう",
+  "meaning": "이용",
+  "readingType": "음독"
+ },
+ {
+  "word": "旅行",
+  "reading": "りょこう",
+  "meaning": "여행",
+  "readingType": "음독"
+ },
+ {
+  "word": "お正月",
+  "reading": "おしょうがつ",
+  "meaning": "양력설, 새해",
+  "readingType": "혼합"
+ },
+ {
+  "word": "北区",
+  "reading": "きたく",
+  "meaning": "기타구(지명)",
+  "readingType": "혼합"
+ },
+ {
+  "word": "切手",
+  "reading": "きって",
+  "meaning": "우표",
+  "readingType": "혼합"
+ },
+ {
+  "word": "着物",
+  "reading": "きもの",
+  "meaning": "옷, 일본 전통 의상",
+  "readingType": "혼합"
+ },
+ {
+  "word": "仕事",
+  "reading": "しごと",
+  "meaning": "일, 직업",
+  "readingType": "혼합"
+ },
+ {
+  "word": "品物",
+  "reading": "しなもの",
+  "meaning": "물건",
+  "readingType": "혼합"
+ },
+ {
+  "word": "台所",
+  "reading": "だいどころ",
+  "meaning": "부엌",
+  "readingType": "혼합"
+ },
+ {
+  "word": "建物",
+  "reading": "たてもの",
+  "meaning": "건물",
+  "readingType": "혼합"
+ },
+ {
+  "word": "茶色",
+  "reading": "ちゃいろ",
+  "meaning": "갈색",
+  "readingType": "혼합"
+ },
+ {
+  "word": "毎朝",
+  "reading": "まいあさ",
+  "meaning": "매일 아침",
+  "readingType": "혼합"
+ },
+ {
+  "word": "夕方",
+  "reading": "ゆうがた",
+  "meaning": "저녁",
+  "readingType": "혼합"
+ }
+]

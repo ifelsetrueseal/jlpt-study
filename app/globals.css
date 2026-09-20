@@ -1,0 +1,72 @@
+/* Pretendard(한글 UI) + Noto Serif JP(한자·일본어 본문). @import 는 다른 규칙보다 먼저. */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600&display=swap");
+@import "tailwindcss";
+
+/*
+ * 밤에 폰으로 보는 암기 앱이라 다크 고정. accent 는 파랑 하나,
+ * 연상 암기법 블록만 보라색으로 따로 띄운다(이 앱의 차별점이라 눈에 걸려야 함).
+ */
+@theme {
+  --color-bg: #121212;
+  --color-card: #1e1e1e;
+  --color-elev: #2a2a2a;
+  --color-accent: #4a90ff;
+  --color-accent-weak: #1b2b45;
+  --color-mnemonic: #b07cff;
+  --color-mnemonic-weak: #241a3a;
+  --color-text: #f2f2f2;
+  --color-sub: #b0b0b0;
+  --color-muted: #7a7a7a;
+  --color-border: #333333;
+  --color-danger: #ff6b6b;
+  --color-success: #4ade80;
+  --color-warn: #ffa94d;
+
+  --radius-card: 16px;
+  --radius-control: 12px;
+
+  --font-sans: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, "Apple SD Gothic Neo", sans-serif;
+  --font-jp: "Noto Serif JP", "Hiragino Mincho ProN", serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  word-break: keep-all;
+  overscroll-behavior-y: none;
+}
+
+:where(a, button, input, textarea, select, [tabindex]):focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* 후리가나. ruby 기본 크기가 너무 커서 줄인다. */
+ruby > rt {
+  font-size: 0.5em;
+  color: var(--color-muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
