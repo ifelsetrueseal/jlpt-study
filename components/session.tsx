@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import {
+  ArrowCounterClockwise,
   ArrowLeft,
   Eye,
   EyeSlash,
@@ -21,11 +22,25 @@ import {
 import type { Card, DeckId, ProgressMap } from "@/lib/types";
 import { cn, today } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { Flashcard, type Reveal } from "@/components/flashcard";
+import {
+  Flashcard,
+  type Reveal,
+  type RevealField,
+} from "@/components/flashcard";
 import { WritingPad } from "@/components/writing-pad";
 
 const HIDDEN: Reveal = { meaning: false, reading: false, mnemonic: false };
 const SHOWN: Reveal = { meaning: true, reading: true, mnemonic: true };
+
+const REVEAL_BUTTONS: {
+  field: RevealField;
+  label: string;
+  kanjiLabel?: string;
+}[] = [
+  { field: "meaning", label: "의미" },
+  { field: "reading", label: "히라가나", kanjiLabel: "음·훈" },
+  { field: "mnemonic", label: "연상법" },
+];
 
 export function Session({ deck }: { deck: DeckId }) {
   const [queue, setQueue] = useState<Card[] | null>(null);
@@ -60,6 +75,8 @@ export function Session({ deck }: { deck: DeckId }) {
 
   const card = queue?.[0];
   const allShown = reveal.meaning && reveal.reading && reveal.mnemonic;
+  const anyShown = reveal.meaning || reveal.reading || reveal.mnemonic;
+  const show = (f: RevealField) => setReveal((r) => ({ ...r, [f]: true }));
   const remaining = queue?.length ?? 0;
   const answered = total - remaining;
 
@@ -101,7 +118,9 @@ export function Session({ deck }: { deck: DeckId }) {
   );
 
   if (queue === null) {
-    return <div className="text-muted p-8 text-center text-sm">불러오는 중…</div>;
+    return (
+      <div className="text-muted p-8 text-center text-sm">불러오는 중…</div>
+    );
   }
 
   if (done) {
@@ -165,13 +184,7 @@ export function Session({ deck }: { deck: DeckId }) {
         </button>
       </header>
 
-      <Flashcard
-        card={card}
-        reveal={reveal}
-        onReveal={(f) => setReveal((r) => ({ ...r, [f]: true }))}
-        notes={notes}
-        onNote={setNote}
-      />
+      <Flashcard card={card} reveal={reveal} notes={notes} onNote={setNote} />
 
       {writing && (
         <WritingPad
@@ -180,19 +193,45 @@ export function Session({ deck }: { deck: DeckId }) {
         />
       )}
 
-      <div className="bg-bg border-border pb-safe fixed inset-x-0 bottom-0 z-10 mx-auto flex w-full max-w-lg gap-2 border-t px-4 pt-3">
-        <Button size="lg" className="flex-1" onClick={() => answer(false)}>
-          다시 학습
-        </Button>
-        <Button
-          size="lg"
-          variant="primary"
-          className="flex-1"
-          onClick={() => answer(true)}
-        >
-          알고있음
-          <span className="block text-xs opacity-80">{dueLabel}일 후 복습</span>
-        </Button>
+      <div className="bg-bg border-border pb-safe fixed inset-x-0 bottom-0 z-10 mx-auto w-full max-w-lg border-t px-4 pt-3">
+        <div className="mb-2 flex gap-2">
+          <Button
+            variant="outline"
+            aria-label="공개한 것 다시 가리기"
+            className="px-3"
+            disabled={!anyShown}
+            onClick={() => setReveal(HIDDEN)}
+          >
+            <ArrowCounterClockwise size={18} />
+          </Button>
+          {REVEAL_BUTTONS.map(({ field, label, kanjiLabel }) => (
+            <Button
+              key={field}
+              variant="outline"
+              className="flex-1 px-2"
+              disabled={reveal[field]}
+              onClick={() => show(field)}
+            >
+              {card.deck === "kanji" ? (kanjiLabel ?? label) : label}
+            </Button>
+          ))}
+        </div>
+        <div className="flex gap-2">
+          <Button size="lg" className="flex-1" onClick={() => answer(false)}>
+            다시 학습
+          </Button>
+          <Button
+            size="lg"
+            variant="primary"
+            className="flex-1"
+            onClick={() => answer(true)}
+          >
+            알고있음
+            <span className="block text-xs opacity-80">
+              {dueLabel}일 후 복습
+            </span>
+          </Button>
+        </div>
       </div>
     </div>
   );
