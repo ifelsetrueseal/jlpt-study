@@ -9,7 +9,7 @@ import {
   EyeSlash,
   PencilSimple,
 } from "@phosphor-icons/react/dist/ssr";
-import { DECKS } from "@/lib/decks";
+import { DECKS, kanjiIn } from "@/lib/decks";
 import { buildSession, cardKey, grade, nextInterval } from "@/lib/srs";
 import {
   appendHistory,
@@ -165,15 +165,13 @@ export function Session({ deck }: { deck: DeckId }) {
             style={{ width: `${(answered / Math.max(total, 1)) * 100}%` }}
           />
         </div>
-        {card.deck === "kanji" && (
-          <button
-            onClick={() => setWriting(true)}
-            aria-label="손으로 써보기"
-            className="text-sub -mr-1 flex h-10 w-10 items-center justify-center"
-          >
-            <PencilSimple size={20} />
-          </button>
-        )}
+        <button
+          onClick={() => setWriting(true)}
+          aria-label="손으로 써보기"
+          className="text-sub -mr-1 flex h-10 w-10 items-center justify-center"
+        >
+          <PencilSimple size={20} />
+        </button>
         <button
           onClick={() => setReveal(allShown ? HIDDEN : SHOWN)}
           aria-label={allShown ? "전부 가리기" : "전부 보기"}
@@ -188,8 +186,18 @@ export function Session({ deck }: { deck: DeckId }) {
 
       <Flashcard card={card} reveal={reveal} notes={notes} onNote={setNote} />
 
-      {writing && card.deck === "kanji" && (
-        <WritingPad guide={card.char} onClose={() => setWriting(false)} />
+      {writing && (
+        <WritingPad
+          // 본보기는 한자만. 단어의 히라가나까지 넣으면 칸이 빽빽해진다.
+          guide={
+            card.deck === "kanji"
+              ? card.char
+              : kanjiIn(card.word)
+                  .map((k) => k.char)
+                  .join("")
+          }
+          onClose={() => setWriting(false)}
+        />
       )}
 
       <div className="bg-bg border-border pb-safe fixed inset-x-0 bottom-0 z-10 mx-auto w-full max-w-lg border-t px-4 pt-3">

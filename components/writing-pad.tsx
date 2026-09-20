@@ -15,7 +15,8 @@ type Point = { x: number; y: number };
 /**
  * 획을 따라 써보는 연습 패드. 글자를 흐리게 깔고 그 위에 손으로 쓴다.
  * 획은 저장하지 않는다 — 카드를 넘기면 사라지는 연습용.
- * 한자 덱에서만 쓴다 — 쓰기는 한자 한 글자 단위 훈련이라 단어에는 안 붙인다.
+ * 본보기(guide)는 한자만 받는다. 단어는 히라가나를 뺀 한자만 넘겨서
+ * 明るい → 明 처럼 칸이 빽빽해지지 않게 한다.
  */
 export function WritingPad({
   guide,
@@ -28,8 +29,8 @@ export function WritingPad({
   const strokes = useRef<Point[][]>([]);
   const drawing = useRef(false);
   const [grid, setGrid] = useState(true);
-  // 본보기 글자를 지우고 외워서 써볼 수 있게 한다
-  const [showGuide, setShowGuide] = useState(true);
+  // 본보기는 기본으로 꺼둔다. 외워서 쓰다 막히면 눈 아이콘으로 잠깐 확인.
+  const [showGuide, setShowGuide] = useState(false);
   const [count, setCount] = useState(0); // 버튼 비활성 판단용
 
   function ctx() {
@@ -119,7 +120,7 @@ export function WritingPad({
   }
 
   return (
-    <div className="bg-bg/90 fixed inset-0 z-30 flex">
+    <div className="bg-bg fixed inset-0 z-30 flex">
       <div className="relative mx-auto w-full max-w-lg">
         {/*
           연습칸. viewBox 100x100 정사각형이라 화면 비율이 달라져도
