@@ -1,0 +1,22 @@
+name: 검사
+
+# main 은 배포 전용이라, 합치기 전에 여기서 걸러낸다.
+on:
+  pull_request:
+  push:
+    branches-ignore: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx tsc --noEmit
+      - run: npx eslint app components lib
+      - run: npx vitest run
+      - run: npm run build

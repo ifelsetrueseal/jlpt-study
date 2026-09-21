@@ -8,6 +8,15 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 <!-- END:nextjs-agent-rules -->
 
+# 브랜치와 배포
+
+- `main` 은 배포 전용이다. 여기에 들어간 것이 곧
+  https://ifelsetrueseal.github.io/jlpt-study/ 에 올라간다.
+- 작업은 별도 브랜치에서 한다. 푸시하면 `.github/workflows/ci.yml` 이
+  타입·린트·테스트·빌드를 돌린다.
+- 배포하려면 작업 브랜치를 `main` 으로 합친다. `main` 푸시에
+  `.github/workflows/pages.yml` 이 붙어 자동으로 배포된다.
+
 # 코드 품질 기준
 
 Toss [Frontend Fundamentals](https://github.com/toss/frontend-fundamentals/tree/main/fundamentals/code-quality/code)
