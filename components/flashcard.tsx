@@ -17,9 +17,15 @@ export type Reveal = Record<RevealField, boolean>;
  * 읽는 사람이 두 흐름을 동시에 따라가야 해서, 덱을 고르는 분기 하나만 남기고
  * 나머지는 각자의 컴포넌트 안에서 자기 것만 다루게 했다.
  */
-export function Flashcard({ card, reveal }: { card: CardData; reveal: Reveal }) {
+export function Flashcard({
+  card,
+  reveal,
+}: {
+  card: CardData;
+  reveal: Reveal;
+}) {
   return (
-    <div className="flex flex-1 flex-col gap-5 overflow-y-auto overscroll-contain px-5 pb-44">
+    <div className="flex flex-1 flex-col gap-5 overflow-y-auto overscroll-contain px-5 pb-6">
       {card.deck === "kanji" ? (
         <KanjiCard kanji={card} reveal={reveal} />
       ) : (
@@ -159,7 +165,9 @@ function Face({
 }) {
   return (
     <div className="flex flex-col items-center gap-2 pt-10 text-center">
-      <div className={`flex flex-col justify-end ${readingSlot}`}>{reading}</div>
+      <div className={`flex flex-col justify-end ${readingSlot}`}>
+        {reading}
+      </div>
       {/*
         스피커는 absolute 로 띄운다. 흐름에 끼면 그만큼 글자가 왼쪽으로
         밀려서 화면 정중앙을 벗어난다.

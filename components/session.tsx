@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import {
   ArrowCounterClockwise,
@@ -22,7 +22,6 @@ import {
 } from "@/components/flashcard";
 import { NotesProvider } from "@/components/notes-context";
 import { WritingPad } from "@/components/writing-pad";
-import { useEffect } from "react";
 
 const HIDDEN: Reveal = { meaning: false, reading: false, mnemonic: false };
 const SHOWN: Reveal = { meaning: true, reading: true, mnemonic: true };
@@ -130,7 +129,13 @@ export function Session({ deck }: { deck: DeckId }) {
           <WritingPad guide={guideOf(card)} onClose={() => setWriting(false)} />
         )}
 
-        <div className="bg-bg border-border pb-safe fixed inset-x-0 bottom-0 z-10 mx-auto w-full max-w-lg border-t px-4 pt-3">
+        {/*
+          푸터는 흐름 안에 둔다. h-dvh 컨테이너의 마지막 칸이라 화면 아래에
+          붙고, 카드 영역(flex-1)이 딱 푸터 위에서 끝난다. fixed 로 띄우면
+          카드가 푸터 밑으로 흘러서 아래 여백을 따로 맞춰줘야 하는데,
+          그 값이 기기 여백만큼 어긋나 '내 암기법' 줄이 가렸다.
+        */}
+        <div className="bg-bg border-border pb-safe shrink-0 border-t px-4 pt-3">
           <div className="mb-2 flex gap-2">
             <Button
               variant="outline"
