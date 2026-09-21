@@ -40,9 +40,12 @@ export const saveProgress = (p: ProgressMap) => write(KEYS.progress, p);
 export const loadNotes = (): Record<string, string> => read(KEYS.notes, {});
 export const saveNotes = (n: Record<string, string>) => write(KEYS.notes, n);
 
+/** 홈 통계가 최근 몇 주를 보면 충분해서 이 정도만 남긴다 */
+const HISTORY_LIMIT = 60;
+
 export const loadHistory = (): HistoryEntry[] => read(KEYS.history, []);
 export function appendHistory(entry: HistoryEntry): HistoryEntry[] {
-  const next = [entry, ...loadHistory()].slice(0, 60);
+  const next = [entry, ...loadHistory()].slice(0, HISTORY_LIMIT);
   write(KEYS.history, next);
   return next;
 }

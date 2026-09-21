@@ -11,6 +11,9 @@ import {
 
 type Point = { x: number; y: number };
 
+/** 연습칸(viewBox 100x100) 안에서 본보기 글자가 차지할 폭의 비율 */
+const GUIDE_WIDTH = 84;
+
 /**
  * 획을 따라 써보는 연습 패드. 글자를 흐리게 깔고 그 위에 손으로 쓴다.
  * 획은 저장하지 않는다 — 카드를 넘기면 사라지는 연습용.
@@ -151,7 +154,7 @@ export function WritingPad({
                 y="50"
                 textAnchor="middle"
                 dominantBaseline="central"
-                fontSize={84 / guide.length}
+                fontSize={GUIDE_WIDTH / guide.length}
                 fill="white"
                 fillOpacity="0.08"
                 className="font-jp"
