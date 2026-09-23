@@ -17,20 +17,18 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - 배포하려면 작업 브랜치를 `main` 으로 합친다. `main` 푸시에
   `.github/workflows/pages.yml` 이 붙어 자동으로 배포된다.
 
-# 한자 데이터 점검
+# 한자 데이터
 
-`data/kanji.json` 의 조각(`parts`)은 **그 글자에 실제로 보이는 모양**이어야
-한다. 어원만 맞고 자형이 다르면 이름에 "…이 변한 꼴" 처럼 적는다.
-신자체를 구자체 기준으로 쪼개지 않도록 주의한다(楽↔樂, 発↔發, 経↔經).
+`data/kanji.json` 의 연상법을 쓰거나 고치기 전에 **`docs/mnemonics.md` 를
+먼저 읽는다.** 조각 글자는 그 한자에 실제로 보이는 자형이어야 하고,
+신자체를 구자체 기준으로 쪼개면 안 되는 등 지켜야 할 것이 있다.
 
-고친 뒤에는 공개 IDS 데이터로 전수 대조한다.
+고친 뒤에는 검사를 돌린다. 앞의 것은 CI 에서도 돈다.
 
 ```
-curl -sL -o /tmp/ids.txt https://raw.githubusercontent.com/cjkvi/cjkvi-ids/master/ids.txt
+python3 scripts/check_kanji.py          # 칩 이름 ↔ 스토리 대조
+python3 scripts/check_kanji.py --ids    # 자형 대조까지
 ```
-
-각 조각이 그 한자의 IDS 분해 트리 안에 있는지 확인하면 된다. 이체자
-코드포인트(冫/⺀, 厂/丆)는 같은 모양이라 별칭으로 묶어서 본다.
 
 # 코드 품질 기준
 

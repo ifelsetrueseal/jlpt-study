@@ -18,5 +18,6 @@ jobs:
       - run: npm ci
       - run: npx tsc --noEmit
       - run: npx eslint app components lib
+      - run: python3 scripts/check_kanji.py
       - run: npx vitest run
       - run: npm run build
