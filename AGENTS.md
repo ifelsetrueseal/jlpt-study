@@ -17,6 +17,21 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - 배포하려면 작업 브랜치를 `main` 으로 합친다. `main` 푸시에
   `.github/workflows/pages.yml` 이 붙어 자동으로 배포된다.
 
+# 한자 데이터 점검
+
+`data/kanji.json` 의 조각(`parts`)은 **그 글자에 실제로 보이는 모양**이어야
+한다. 어원만 맞고 자형이 다르면 이름에 "…이 변한 꼴" 처럼 적는다.
+신자체를 구자체 기준으로 쪼개지 않도록 주의한다(楽↔樂, 発↔發, 経↔經).
+
+고친 뒤에는 공개 IDS 데이터로 전수 대조한다.
+
+```
+curl -sL -o /tmp/ids.txt https://raw.githubusercontent.com/cjkvi/cjkvi-ids/master/ids.txt
+```
+
+각 조각이 그 한자의 IDS 분해 트리 안에 있는지 확인하면 된다. 이체자
+코드포인트(冫/⺀, 厂/丆)는 같은 모양이라 별칭으로 묶어서 본다.
+
 # 코드 품질 기준
 
 Toss [Frontend Fundamentals](https://github.com/toss/frontend-fundamentals/tree/main/fundamentals/code-quality/code)
