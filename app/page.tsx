@@ -108,7 +108,7 @@ export default function Home() {
             <Question size={24} className="text-accent" />
             <div>
               <p className="text-lg font-medium">N4 문제 풀이</p>
-              <p className="text-sub mt-1 text-sm">교재 기출 10 · 응용 5</p>
+              <p className="text-sub mt-1 text-sm">교재 기출 64 · 응용 5</p>
             </div>
           </div>
           <CaretRight size={20} className="text-muted" />

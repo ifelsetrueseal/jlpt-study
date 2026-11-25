@@ -2,6 +2,8 @@ import { expect, test } from "vitest";
 import { gradeChoice, validateQuestions, type Question } from "./quiz";
 import { QUESTIONS } from "../data/questions";
 import words from "../data/words.json";
+import wordBatch02 from "../data/words-batch-02.json";
+import { validateWords } from "./words";
 
 const question: Question = {
   id: "q1",
@@ -50,9 +52,24 @@ test("보기별 해석이 비어 있으면 거부한다", () => {
   expect(() => validateQuestions([malformed])).toThrow("q1: 보기 해석이 비어 있습니다");
 });
 
-test("교재 10문제와 N4 응용 5문제를 제공한다", () => {
-  expect(QUESTIONS).toHaveLength(15);
-  expect(QUESTIONS.filter((item) => item.source.type === "textbook")).toHaveLength(10);
+test("사용법 문제는 출제 단어를 질문에 보여줘야 한다", () => {
+  expect(() =>
+    validateQuestions([{ ...question, type: "usage", target: "薬", prompt: "알맞은 문장을 고르세요." }]),
+  ).toThrow("q1: 출제 대상이 질문에 표시되지 않았습니다");
+});
+
+test("단어 데이터의 필수 필드와 읽기 유형을 검증한다", () => {
+  expect(() =>
+    validateWords([{ word: "薬", reading: "", meaning: "약", readingType: "음독" }]),
+  ).toThrow("단어 읽기가 비어 있습니다");
+  expect(() =>
+    validateWords([{ word: "薬", reading: "くすり", meaning: "약", readingType: "잘못됨" }]),
+  ).toThrow("薬: 읽기 유형이 올바르지 않습니다");
+});
+
+test("교재 64문제와 N4 응용 5문제를 제공한다", () => {
+  expect(QUESTIONS).toHaveLength(69);
+  expect(QUESTIONS.filter((item) => item.source.type === "textbook")).toHaveLength(64);
   expect(QUESTIONS.every((item) => item.choices.length === 4)).toBe(true);
 });
 
@@ -64,4 +81,21 @@ test("검수한 교재 어휘 24개가 단어 덱에 모두 있다", () => {
   ];
   const wordsInDeck = new Set(words.map((item) => item.word));
   expect(textbookWords.filter((word) => !wordsInDeck.has(word))).toEqual([]);
+});
+
+test("추가 교재 단어는 기존 덱과 중복 없이 합쳐진다", () => {
+  const allWords = [...words, ...wordBatch02];
+  expect(allWords).toHaveLength(952);
+  expect(new Set(allWords.map((item) => item.word)).size).toBe(allWords.length);
+});
+
+test("모든 문제 ID가 고유하고 보기 해설이 완전하다", () => {
+  expect(new Set(QUESTIONS.map((item) => item.id)).size).toBe(QUESTIONS.length);
+  expect(
+    QUESTIONS.every((item) =>
+      item.choiceFeedback.every(
+        (feedback) => feedback.reading && feedback.translationKo && feedback.feedbackKo,
+      ),
+    ),
+  ).toBe(true);
 });

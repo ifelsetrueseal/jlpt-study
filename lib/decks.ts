@@ -1,13 +1,15 @@
 import kanjiData from "@/data/kanji.json";
 import wordData from "@/data/words.json";
+import wordBatch02 from "@/data/words-batch-02.json";
 import type { Card, DeckId, Kanji, Word } from "./types";
+import { validateWords } from "./words";
 
 /*
  * 덱 소스. 지금은 JSON 번들, 나중에 Supabase 로 바꿀 때 이 파일만 건드린다.
  */
 
 export const KANJI: Kanji[] = kanjiData as Kanji[];
-export const WORDS: Word[] = wordData as Word[];
+export const WORDS: Word[] = validateWords([...wordData, ...wordBatch02]);
 
 const kanjiByChar = new Map(KANJI.map((k) => [k.char, k]));
 

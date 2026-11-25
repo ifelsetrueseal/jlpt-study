@@ -1,0 +1,2216 @@
+[
+ {
+  "id": "tb-img-3200-1",
+  "type": "synonym",
+  "prompt": "あめが ざあざあ ふって います。",
+  "target": "ざあざあ",
+  "choices": [
+   "あめが いちにちじゅう ふって います。",
+   "あめが ときどき ふって います。",
+   "あめが よわく ふって います。",
+   "あめが つよく ふって います。"
+  ],
+  "answerIndex": 3,
+  "explanationKo": "ざあざあ는 비가 세차게 내리는 모양입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "あめが いちにちじゅう ふって います",
+    "translationKo": "비가 하루 종일 내리고 있습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "あめが ときどき ふって います",
+    "translationKo": "비가 때때로 내리고 있습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "あめが よわく ふって います",
+    "translationKo": "비가 약하게 내리고 있습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "あめが つよく ふって います",
+    "translationKo": "비가 세차게 내리고 있습니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3200.JPG",
+   "questionNumber": 1
+  }
+ },
+ {
+  "id": "tb-img-3200-2",
+  "type": "synonym",
+  "prompt": "わたしの いもうとは けっこんして いません。",
+  "target": "けっこんして いません",
+  "choices": [
+   "わたしの いもうとは どくしんです。",
+   "わたしの いもうとは りこんしました。",
+   "わたしの いもうとは かれしと わかれました。",
+   "わたしの いもうとは ともだちと くらして います。"
+  ],
+  "answerIndex": 0,
+  "explanationKo": "결혼하지 않은 상태는 独身(どくしん)입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "わたしの いもうとは どくしんです",
+    "translationKo": "제 여동생은 독신입니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "わたしの いもうとは りこんしました",
+    "translationKo": "제 여동생은 이혼했습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "わたしの いもうとは かれしと わかれました",
+    "translationKo": "제 여동생은 남자 친구와 헤어졌습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "わたしの いもうとは ともだちと くらして います",
+    "translationKo": "제 여동생은 친구와 살고 있습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3200.JPG",
+   "questionNumber": 2
+  }
+ },
+ {
+  "id": "tb-img-3200-3",
+  "type": "synonym",
+  "prompt": "ミーティングの ときの 話は だれにも 言わないで ください。",
+  "target": "だれにも 言わないで",
+  "choices": [
+   "ミーティングの ときの 話は つまらないです。",
+   "ミーティングの ときの 話は むずかしいです。",
+   "ミーティングの ときの 話は ぜんぶ しって います。",
+   "ミーティングの ときの 話は ひみつです。"
+  ],
+  "answerIndex": 3,
+  "explanationKo": "아무에게도 말하지 말라는 것은 비밀이라는 뜻입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "みーてぃんぐの ときの はなしは つまらないです",
+    "translationKo": "회의 때 이야기는 재미없습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "みーてぃんぐの ときの はなしは むずかしいです",
+    "translationKo": "회의 때 이야기는 어렵습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "みーてぃんぐの ときの はなしは ぜんぶ しって います",
+    "translationKo": "회의 때 이야기를 전부 알고 있습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "みーてぃんぐの ときの はなしは ひみつです",
+    "translationKo": "회의 때 이야기는 비밀입니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3200.JPG",
+   "questionNumber": 3
+  }
+ },
+ {
+  "id": "tb-img-3200-4",
+  "type": "synonym",
+  "prompt": "えきまえの レストランの おにくは かたくないです。",
+  "target": "かたくない",
+  "choices": [
+   "えきまえの レストランの おにくは あまいです。",
+   "えきまえの レストランの おにくは やわらかいです。",
+   "えきまえの レストランの おにくは あたらしいです。",
+   "えきまえの レストランの おにくは すくないです。"
+  ],
+  "answerIndex": 1,
+  "explanationKo": "硬くない는 부드럽다는 뜻입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "えきまえの れすとらんの おにくは あまいです",
+    "translationKo": "역 앞 식당의 고기는 답니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "えきまえの れすとらんの おにくは やわらかいです",
+    "translationKo": "역 앞 식당의 고기는 부드럽습니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "えきまえの れすとらんの おにくは あたらしいです",
+    "translationKo": "역 앞 식당의 고기는 신선합니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "えきまえの れすとらんの おにくは すくないです",
+    "translationKo": "역 앞 식당의 고기는 적습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3200.JPG",
+   "questionNumber": 4
+  }
+ },
+ {
+  "id": "tb-img-3200-5",
+  "type": "synonym",
+  "prompt": "人が たくさん とおる この みちは あぶなくないです。",
+  "target": "あぶなくない",
+  "choices": [
+   "人が たくさん とおる この みちは きたないです。",
+   "人が たくさん とおる この みちは すいて います。",
+   "人が たくさん とおる この みちは あんぜんです。",
+   "人が たくさん とおる この みちは せまいです。"
+  ],
+  "answerIndex": 2,
+  "explanationKo": "危なくない는 안전하다는 뜻입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "ひとが たくさん とおる この みちは きたないです",
+    "translationKo": "사람이 많이 다니는 이 길은 더럽습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "ひとが たくさん とおる この みちは すいて います",
+    "translationKo": "사람이 많이 다니는 이 길은 한산합니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "ひとが たくさん とおる この みちは あんぜんです",
+    "translationKo": "사람이 많이 다니는 이 길은 안전합니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "ひとが たくさん とおる この みちは せまいです",
+    "translationKo": "사람이 많이 다니는 이 길은 좁습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3200.JPG",
+   "questionNumber": 5
+  }
+ },
+ {
+  "id": "tb-img-3201-1",
+  "type": "synonym",
+  "prompt": "くうこうは ここから 少し とおいです。",
+  "target": "くうこう",
+  "choices": [
+   "ひこうきに のる ところは ここから 少し とおいです。",
+   "すばらしい えを 見せる ところは ここから 少し とおいです。",
+   "こうぎを 聞く ところは ここから 少し とおいです。",
+   "ふねに のる ところは ここから 少し とおいです。"
+  ],
+  "answerIndex": 0,
+  "explanationKo": "空港은 비행기를 타는 곳입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "ひこうきに のる ところは ここから すこし とおいです",
+    "translationKo": "비행기를 타는 곳은 여기서 조금 멉니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "すばらしい えを みせる ところは ここから すこし とおいです",
+    "translationKo": "훌륭한 그림을 보여 주는 곳은 여기서 조금 멉니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "こうぎを きく ところは ここから すこし とおいです",
+    "translationKo": "강의를 듣는 곳은 여기서 조금 멉니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "ふねに のる ところは ここから すこし とおいです",
+    "translationKo": "배를 타는 곳은 여기서 조금 멉니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3201.jpg",
+   "questionNumber": 1
+  }
+ },
+ {
+  "id": "tb-img-3201-2",
+  "type": "synonym",
+  "prompt": "イベントに さんかしたい 人は、はじめに なまえを 書いて ください。",
+  "target": "はじめに",
+  "choices": [
+   "イベントに さんかしたい 人は つぎに なまえを 書いて ください。",
+   "イベントに さんかしたい 人は ゆっくり なまえを 書いて ください。",
+   "イベントに さんかしたい 人は さいしょに なまえを 書いて ください。",
+   "イベントに さんかしたい 人は さいごに なまえを 書いて ください。"
+  ],
+  "answerIndex": 2,
+  "explanationKo": "はじめに와 さいしょに는 모두 ‘처음에’입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "いべんとに さんかしたい ひとは つぎに なまえを かいて ください",
+    "translationKo": "행사에 참가하고 싶은 사람은 다음에 이름을 써 주세요.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "いべんとに さんかしたい ひとは ゆっくり なまえを かいて ください",
+    "translationKo": "행사에 참가하고 싶은 사람은 천천히 이름을 써 주세요.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "いべんとに さんかしたい ひとは さいしょに なまえを かいて ください",
+    "translationKo": "행사에 참가하고 싶은 사람은 처음에 이름을 써 주세요.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "いべんとに さんかしたい ひとは さいごに なまえを かいて ください",
+    "translationKo": "행사에 참가하고 싶은 사람은 마지막에 이름을 써 주세요.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3201.jpg",
+   "questionNumber": 2
+  }
+ },
+ {
+  "id": "tb-img-3201-3",
+  "type": "synonym",
+  "prompt": "セールが はじまって 人が 多く なりました。",
+  "target": "多く なりました",
+  "choices": [
+   "セールが はじまって 人が しずかに なりました。",
+   "セールが はじまって 人が ふえました。",
+   "セールが はじまって 人が おくれました。",
+   "セールが はじまって 人が わらいました。"
+  ],
+  "answerIndex": 1,
+  "explanationKo": "多くなる는 늘어나다, 즉 増える입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "せーるが はじまって ひとが しずかに なりました",
+    "translationKo": "세일이 시작되어 사람들이 조용해졌습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "せーるが はじまって ひとが ふえました",
+    "translationKo": "세일이 시작되어 사람이 늘었습니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "せーるが はじまって ひとが おくれました",
+    "translationKo": "세일이 시작되어 사람들이 늦었습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "せーるが はじまって ひとが わらいました",
+    "translationKo": "세일이 시작되어 사람들이 웃었습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3201.jpg",
+   "questionNumber": 3
+  }
+ },
+ {
+  "id": "tb-img-3201-4",
+  "type": "synonym",
+  "prompt": "くるまは ちゅうしゃじょうに あります。",
+  "target": "ちゅうしゃじょう",
+  "choices": [
+   "くるまは ガソリンを いれる ばしょに あります。",
+   "くるまは くるまを はんばいする ばしょに あります。",
+   "くるまは くるまを とめる ばしょに あります。",
+   "くるまは しゅうりする ばしょに あります。"
+  ],
+  "answerIndex": 2,
+  "explanationKo": "駐車場은 자동차를 세우는 곳입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "くるまは がそりんを いれる ばしょに あります",
+    "translationKo": "자동차는 휘발유를 넣는 곳에 있습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "くるまは くるまを はんばいする ばしょに あります",
+    "translationKo": "자동차는 자동차를 판매하는 곳에 있습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "くるまは くるまを とめる ばしょに あります",
+    "translationKo": "자동차는 자동차를 세우는 곳에 있습니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "くるまは しゅうりする ばしょに あります",
+    "translationKo": "자동차는 수리하는 곳에 있습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3201.jpg",
+   "questionNumber": 4
+  }
+ },
+ {
+  "id": "tb-img-3201-5",
+  "type": "synonym",
+  "prompt": "あたらしく できた あの カフェは いつも すいて います。",
+  "target": "すいて います",
+  "choices": [
+   "あたらしく できた あの カフェは みせが あたらしいです。",
+   "あたらしく できた あの カフェは みせが しまって います。",
+   "あたらしく できた あの カフェは 人が ならんで います。",
+   "あたらしく できた あの カフェは おきゃくさんが すくないです。"
+  ],
+  "answerIndex": 3,
+  "explanationKo": "すいている는 붐비지 않아 손님이 적다는 뜻입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "あたらしく できた あの かふぇは みせが あたらしいです",
+    "translationKo": "새로 생긴 저 카페는 가게가 새롭습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "あたらしく できた あの かふぇは みせが しまって います",
+    "translationKo": "새로 생긴 저 카페는 문을 닫았습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "あたらしく できた あの かふぇは ひとが ならんで います",
+    "translationKo": "새로 생긴 저 카페에는 사람이 줄 서 있습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "あたらしく できた あの かふぇは おきゃくさんが すくないです",
+    "translationKo": "새로 생긴 저 카페는 손님이 적습니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3201.jpg",
+   "questionNumber": 5
+  }
+ },
+ {
+  "id": "tb-img-3202-1",
+  "type": "synonym",
+  "prompt": "このごろ いそがしくて うんどうできません。",
+  "target": "うんどう",
+  "choices": [
+   "このごろ いそがしくて アルバイトを していません。",
+   "このごろ いそがしくて スポーツを していません。",
+   "このごろ いそがしくて れんらくを していません。",
+   "このごろ いそがしくて せわを していません。"
+  ],
+  "answerIndex": 1,
+  "explanationKo": "運動은 스포츠를 하는 것입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "このごろ いそがしくて あるばいとを していません",
+    "translationKo": "요즘 바빠서 아르바이트를 하지 않습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "このごろ いそがしくて すぽーつを していません",
+    "translationKo": "요즘 바빠서 운동을 하지 않습니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "このごろ いそがしくて れんらくを していません",
+    "translationKo": "요즘 바빠서 연락을 하지 않습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "このごろ いそがしくて せわを していません",
+    "translationKo": "요즘 바빠서 돌보지 않습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3202.JPG",
+   "questionNumber": 1
+  }
+ },
+ {
+  "id": "tb-img-3202-2",
+  "type": "synonym",
+  "prompt": "これから しゅっちょうに 行く よういを します。",
+  "target": "よういを します",
+  "choices": [
+   "これから しゅっちょうに 行く はなしを します。",
+   "これから しゅっちょうに 行く よていが あります。",
+   "これから しゅっちょうに 行く 人を きめます。",
+   "これから しゅっちょうに 行く じゅんびを します。"
+  ],
+  "answerIndex": 3,
+  "explanationKo": "用意する는 준비하다는 뜻입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "これから しゅっちょうに いく はなしを します",
+    "translationKo": "이제 출장을 갈 이야기를 합니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "これから しゅっちょうに いく よていが あります",
+    "translationKo": "이제 출장을 갈 예정이 있습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "これから しゅっちょうに いく ひとを きめます",
+    "translationKo": "이제 출장을 갈 사람을 정합니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "これから しゅっちょうに いく じゅんびを します",
+    "translationKo": "이제 출장을 갈 준비를 합니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3202.JPG",
+   "questionNumber": 2
+  }
+ },
+ {
+  "id": "tb-img-3202-3",
+  "type": "synonym",
+  "prompt": "サッカーの しあいで かった 子どもは にこにこして いました。",
+  "target": "にこにこして いました",
+  "choices": [
+   "サッカーの しあいで かった 子どもは わらって いました。",
+   "サッカーの しあいで かった 子どもは おこって いました。",
+   "サッカーの しあいで かった 子どもは ねむって いました。",
+   "サッカーの しあいで かった 子どもは おどって いました。"
+  ],
+  "answerIndex": 0,
+  "explanationKo": "にこにこする는 생글생글 웃는 모습입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "さっかーの しあいで かった こどもは わらって いました",
+    "translationKo": "축구 시합에서 이긴 아이는 웃고 있었습니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "さっかーの しあいで かった こどもは おこって いました",
+    "translationKo": "축구 시합에서 이긴 아이는 화내고 있었습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "さっかーの しあいで かった こどもは ねむって いました",
+    "translationKo": "축구 시합에서 이긴 아이는 자고 있었습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "さっかーの しあいで かった こどもは おどって いました",
+    "translationKo": "축구 시합에서 이긴 아이는 춤추고 있었습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3202.JPG",
+   "questionNumber": 3
+  }
+ },
+ {
+  "id": "tb-img-3202-4",
+  "type": "synonym",
+  "prompt": "いちにちじゅう そとで あそんで ふくが よごれて いますね。",
+  "target": "よごれて います",
+  "choices": [
+   "いちにちじゅう そとで あそんで ふくが ぬれて いますね。",
+   "いちにちじゅう そとで あそんで ふくが あたらしいですね。",
+   "いちにちじゅう そとで あそんで ふくが きたないですね。",
+   "いちにちじゅう そとで あそんで ふくが かわいいですね。"
+  ],
+  "answerIndex": 2,
+  "explanationKo": "汚れている는 더러워져 있다는 뜻입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "いちにちじゅう そとで あそんで ふくが ぬれて いますね",
+    "translationKo": "하루 종일 밖에서 놀아서 옷이 젖어 있네요.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "いちにちじゅう そとで あそんで ふくが あたらしいですね",
+    "translationKo": "하루 종일 밖에서 놀아서 옷이 새것이네요.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "いちにちじゅう そとで あそんで ふくが きたないですね",
+    "translationKo": "하루 종일 밖에서 놀아서 옷이 더럽네요.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "いちにちじゅう そとで あそんで ふくが かわいいですね",
+    "translationKo": "하루 종일 밖에서 놀아서 옷이 귀엽네요.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3202.JPG",
+   "questionNumber": 4
+  }
+ },
+ {
+  "id": "tb-img-3202-5",
+  "type": "synonym",
+  "prompt": "しゅうまつには かぞくと いっしょに しょくじを します。",
+  "target": "しょくじを します",
+  "choices": [
+   "しゅうまつには かぞくと いっしょに おどります。",
+   "しゅうまつには かぞくと いっしょに でかけます。",
+   "しゅうまつには かぞくと いっしょに ごはんを 食べます。",
+   "しゅうまつには かぞくと いっしょに りょうりを つくります。"
+  ],
+  "answerIndex": 2,
+  "explanationKo": "食事をする는 밥을 먹다는 뜻입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "しゅうまつには かぞくと いっしょに おどります",
+    "translationKo": "주말에는 가족과 함께 춤춥니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "しゅうまつには かぞくと いっしょに でかけます",
+    "translationKo": "주말에는 가족과 함께 외출합니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "しゅうまつには かぞくと いっしょに ごはんを たべます",
+    "translationKo": "주말에는 가족과 함께 밥을 먹습니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "しゅうまつには かぞくと いっしょに りょうりを つくります",
+    "translationKo": "주말에는 가족과 함께 요리합니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3202.JPG",
+   "questionNumber": 5
+  }
+ },
+ {
+  "id": "tb-img-3203-1",
+  "type": "synonym",
+  "prompt": "いしはらさんに たのみました。",
+  "target": "たのみました",
+  "choices": [
+   "いしはらさんに おしらせしました。",
+   "いしはらさんに おかえししました。",
+   "いしはらさんに おつたえしました。",
+   "いしはらさんに おねがいしました。"
+  ],
+  "answerIndex": 3,
+  "explanationKo": "頼む는 부탁하다는 뜻입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "いしはらさんに おしらせしました",
+    "translationKo": "이시하라 씨에게 알렸습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "いしはらさんに おかえししました",
+    "translationKo": "이시하라 씨에게 돌려주었습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "いしはらさんに おつたえしました",
+    "translationKo": "이시하라 씨에게 전했습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "いしはらさんに おねがいしました",
+    "translationKo": "이시하라 씨에게 부탁했습니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3203.jpg",
+   "questionNumber": 1
+  }
+ },
+ {
+  "id": "tb-img-3203-2",
+  "type": "synonym",
+  "prompt": "れいぞうこに ある オレンジジュースは ひえて いますよ。",
+  "target": "ひえて います",
+  "choices": [
+   "れいぞうこに ある オレンジジュースは すっぱいですよ。",
+   "れいぞうこに ある オレンジジュースは つめたいですよ。",
+   "れいぞうこに ある オレンジジュースは すくないですよ。",
+   "れいぞうこに ある オレンジジュースは あまいですよ。"
+  ],
+  "answerIndex": 1,
+  "explanationKo": "冷えている는 차갑게 되어 있다는 뜻입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "れいぞうこに ある おれんじじゅーすは すっぱいですよ",
+    "translationKo": "냉장고의 오렌지주스는 셔요.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "れいぞうこに ある おれんじじゅーすは つめたいですよ",
+    "translationKo": "냉장고의 오렌지주스는 차가워요.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "れいぞうこに ある おれんじじゅーすは すくないですよ",
+    "translationKo": "냉장고의 오렌지주스는 적어요.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "れいぞうこに ある おれんじじゅーすは あまいですよ",
+    "translationKo": "냉장고의 오렌지주스는 달아요.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3203.jpg",
+   "questionNumber": 2
+  }
+ },
+ {
+  "id": "tb-img-3203-3",
+  "type": "synonym",
+  "prompt": "チームの きそくを 読んで ください。",
+  "target": "きそく",
+  "choices": [
+   "チームの ルールを 読んで ください。",
+   "チームの けいかくを 読んで ください。",
+   "チームの スケジュールを 読んで ください。",
+   "チームの やくそくを 読んで ください。"
+  ],
+  "answerIndex": 0,
+  "explanationKo": "規則은 규칙, 룰입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "ちーむの るーるを よんで ください",
+    "translationKo": "팀의 규칙을 읽어 주세요.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "ちーむの けいかくを よんで ください",
+    "translationKo": "팀의 계획을 읽어 주세요.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "ちーむの すけじゅーるを よんで ください",
+    "translationKo": "팀의 일정을 읽어 주세요.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "ちーむの やくそくを よんで ください",
+    "translationKo": "팀의 약속을 읽어 주세요.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3203.jpg",
+   "questionNumber": 3
+  }
+ },
+ {
+  "id": "tb-img-3203-4",
+  "type": "synonym",
+  "prompt": "ビルの なかで たばこを すっては いけません。",
+  "target": "たばこを すっては いけません",
+  "choices": [
+   "ビルの なかは ひろいです。",
+   "ビルの なかは こうじちゅうです。",
+   "ビルの なかは きんえんです。",
+   "ビルの なかは きけんです。"
+  ],
+  "answerIndex": 2,
+  "explanationKo": "담배를 피우면 안 된다는 것은 금연이라는 뜻입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "びるの なかは ひろいです",
+    "translationKo": "건물 안은 넓습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "びるの なかは こうじちゅうです",
+    "translationKo": "건물 안은 공사 중입니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "びるの なかは きんえんです",
+    "translationKo": "건물 안은 금연입니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "びるの なかは きけんです",
+    "translationKo": "건물 안은 위험합니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3203.jpg",
+   "questionNumber": 4
+  }
+ },
+ {
+  "id": "tb-img-3203-5",
+  "type": "synonym",
+  "prompt": "のみかいが あった とき みんなが かえった あとで かえりました。",
+  "target": "みんなが かえった あとで",
+  "choices": [
+   "のみかいが あった とき はじめに かえりました。",
+   "のみかいが あった とき さいごに かえりました。",
+   "のみかいが あった とき すぐ かえりました。",
+   "のみかいが あった とき ゆっくり かえりました。"
+  ],
+  "answerIndex": 1,
+  "explanationKo": "모두 돌아간 뒤에 갔으므로 마지막으로 돌아간 것입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "のみかいが あった とき はじめに かえりました",
+    "translationKo": "회식 때 처음으로 돌아갔습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "のみかいが あった とき さいごに かえりました",
+    "translationKo": "회식 때 마지막으로 돌아갔습니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "のみかいが あった とき すぐ かえりました",
+    "translationKo": "회식 때 바로 돌아갔습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "のみかいが あった とき ゆっくり かえりました",
+    "translationKo": "회식 때 천천히 돌아갔습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3203.jpg",
+   "questionNumber": 5
+  }
+ },
+ {
+  "id": "tb-img-3212-1",
+  "type": "usage",
+  "prompt": "「すてる」の使い方として正しいものはどれですか。",
+  "target": "すてる",
+  "choices": [
+   "ここに ごみを すてて ください。",
+   "へやを きれいに すてて ください。",
+   "ひどい ことを するのは すてて ください。",
+   "学校の 本を かばんに すてて ください。"
+  ],
+  "answerIndex": 0,
+  "explanationKo": "捨てる는 필요 없는 것을 버릴 때 씁니다.",
+  "choiceFeedback": [
+   {
+    "reading": "ここに ごみを すてて ください",
+    "translationKo": "여기에 쓰레기를 버려 주세요.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "へやを きれいに すてて ください",
+    "translationKo": "방을 깨끗하게 버려 주세요.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "ひどい ことを するのは すてて ください",
+    "translationKo": "심한 일을 하는 것은 버려 주세요.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "がっこうの ほんを かばんに すてて ください",
+    "translationKo": "학교 책을 가방에 버려 주세요.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3212.JPG",
+   "questionNumber": 1
+  }
+ },
+ {
+  "id": "tb-img-3216-1",
+  "type": "usage",
+  "prompt": "「おおぜい」の使い方として正しいものはどれですか。",
+  "target": "おおぜい",
+  "choices": [
+   "きのうの コンサートには おおぜいの 人が 来ました。",
+   "この 本は おおぜい おもしろいです。",
+   "おおぜいで りんごを 買いました。",
+   "リビングで ねこが おおぜい ねて います。"
+  ],
+  "answerIndex": 0,
+  "explanationKo": "大勢는 많은 사람을 가리키며 사람과 함께 씁니다.",
+  "choiceFeedback": [
+   {
+    "reading": "きのうの こんさーとには おおぜいの ひとが きました",
+    "translationKo": "어제 콘서트에는 많은 사람이 왔습니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "この ほんは おおぜい おもしろいです",
+    "translationKo": "이 책은 여럿 재미있습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "おおぜいで りんごを かいました",
+    "translationKo": "많은 사람으로 사과를 샀습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "りびんぐで ねこが おおぜい ねて います",
+    "translationKo": "거실에서 고양이가 여럿 자고 있습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3216.JPG",
+   "questionNumber": 1
+  }
+ },
+ {
+  "id": "tb-img-3216-2",
+  "type": "usage",
+  "prompt": "「きんじょ」の使い方として正しいものはどれですか。",
+  "target": "きんじょ",
+  "choices": [
+   "きんじょに 大きい ジムが あります。",
+   "じかんが たつのが きんじょの ように はやいです。",
+   "もう じゅういちがつなので しんねんが きんじょですね。",
+   "たなかさんは、いつも やさしくて きんじょが あつい 人です。"
+  ],
+  "answerIndex": 0,
+  "explanationKo": "近所는 집 주변이나 가까운 동네를 뜻합니다.",
+  "choiceFeedback": [
+   {
+    "reading": "きんじょに おおきい じむが あります",
+    "translationKo": "근처에 큰 헬스장이 있습니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "じかんが たつのが きんじょの ように はやいです",
+    "translationKo": "시간이 흐르는 것이 근처처럼 빠릅니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "もう じゅういちがつなので しんねんが きんじょですね",
+    "translationKo": "벌써 11월이라 새해가 근처네요.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "たなかさんは いつも やさしくて きんじょが あつい ひとです",
+    "translationKo": "다나카 씨는 늘 상냥하고 근처가 뜨거운 사람입니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3216.JPG",
+   "questionNumber": 2
+  }
+ },
+ {
+  "id": "tb-img-3216-3",
+  "type": "usage",
+  "prompt": "「たおれる」の使い方として正しいものはどれですか。",
+  "target": "たおれる",
+  "choices": [
+   "かさが たおれ、あめに ふられ、かぜを ひきました。",
+   "しろい スカートに コーヒーが たおれて こまって います。",
+   "たおれて テレビを みる じかんが いちばん すきです。",
+   "おきなわに たいふうが 来て まちの 木が たおれました。"
+  ],
+  "answerIndex": 3,
+  "explanationKo": "倒れる는 서 있던 사람이나 물체가 쓰러질 때 씁니다.",
+  "choiceFeedback": [
+   {
+    "reading": "かさが たおれ あめに ふられ かぜを ひきました",
+    "translationKo": "우산이 쓰러지고 비를 맞아 감기에 걸렸습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "しろい すかーとに こーひーが たおれて こまって います",
+    "translationKo": "흰 치마에 커피가 쓰러져 곤란합니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "たおれて てれびを みる じかんが いちばん すきです",
+    "translationKo": "쓰러져 TV를 보는 시간이 가장 좋습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "おきなわに たいふうが きて まちの きが たおれました",
+    "translationKo": "오키나와에 태풍이 와서 마을의 나무가 쓰러졌습니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3216.JPG",
+   "questionNumber": 3
+  }
+ },
+ {
+  "id": "tb-img-3216-4",
+  "type": "usage",
+  "prompt": "「そだてる」の使い方として正しいものはどれですか。",
+  "target": "そだてる",
+  "choices": [
+   "おかねを そだてて あたらしい くるまを 買う つもりです。",
+   "ミニカーを そだてるのが しゅみです。",
+   "ちちは いえで はなを そだてて います。",
+   "いっしょうけんめい そだてた ろんぶんが やっと おわりました。"
+  ],
+  "answerIndex": 2,
+  "explanationKo": "育てる는 생물 등을 기르거나 키울 때 씁니다.",
+  "choiceFeedback": [
+   {
+    "reading": "おかねを そだてて あたらしい くるまを かう つもりです",
+    "translationKo": "돈을 길러 새 차를 살 생각입니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "みにかーを そだてるのが しゅみです",
+    "translationKo": "미니카를 기르는 것이 취미입니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "ちちは いえで はなを そだてて います",
+    "translationKo": "아버지는 집에서 꽃을 기르고 있습니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "いっしょうけんめい そだてた ろんぶんが やっと おわりました",
+    "translationKo": "열심히 기른 논문이 드디어 끝났습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3216.JPG",
+   "questionNumber": 4
+  }
+ },
+ {
+  "id": "tb-img-3216-5",
+  "type": "usage",
+  "prompt": "「けしき」の使い方として正しいものはどれですか。",
+  "target": "けしき",
+  "choices": [
+   "ひとを けしきで はんだんしては いけません。",
+   "やまの うえから みる けしきは とても きれいで、くうきも いいです。",
+   "しんかんせんに のって けしきが はしる ことを かんしょうしました。",
+   "あそこの けしきは においが つよくて びっくりしました。"
+  ],
+  "answerIndex": 1,
+  "explanationKo": "景色는 눈에 보이는 자연이나 거리의 풍경입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "ひとを けしきで はんだんしては いけません",
+    "translationKo": "사람을 경치로 판단하면 안 됩니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "やまの うえから みる けしきは とても きれいで くうきも いいです",
+    "translationKo": "산 위에서 보는 경치는 매우 아름답고 공기도 좋습니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "しんかんせんに のって けしきが はしる ことを かんしょうしました",
+    "translationKo": "신칸센을 타고 경치가 달리는 것을 감상했습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "あそこの けしきは においが つよくて びっくりしました",
+    "translationKo": "저곳 경치는 냄새가 강해 놀랐습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3216.JPG",
+   "questionNumber": 5
+  }
+ },
+ {
+  "id": "tb-img-3217-1",
+  "type": "usage",
+  "prompt": "「こむ」の使い方として正しいものはどれですか。",
+  "target": "こむ",
+  "choices": [
+   "しごとが こみすぎて よる おそく いえに かえりました。",
+   "わすれものが ないように かばんに ちゃんと こんだ ほうが いい。",
+   "おにくが やわらかく なるまで こんで ください。",
+   "やすみが つづいて いるので、くうこうは とても こんで います。"
+  ],
+  "answerIndex": 3,
+  "explanationKo": "込む는 장소에 사람이나 차량이 많아 붐빌 때 씁니다.",
+  "choiceFeedback": [
+   {
+    "reading": "しごとが こみすぎて よる おそく いえに かえりました",
+    "translationKo": "일이 너무 붐벼서 밤늦게 집에 돌아왔습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "わすれものが ないように かばんに ちゃんと こんだ ほうが いい",
+    "translationKo": "잊은 물건이 없도록 가방에 잘 붐비는 편이 좋습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "おにくが やわらかく なるまで こんで ください",
+    "translationKo": "고기가 부드러워질 때까지 붐벼 주세요.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "やすみが つづいて いるので くうこうは とても こんで います",
+    "translationKo": "연휴가 이어져 공항은 매우 붐빕니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3217.jpg",
+   "questionNumber": 1
+  }
+ },
+ {
+  "id": "tb-img-3217-2",
+  "type": "usage",
+  "prompt": "「ざあざあ」の使い方として正しいものはどれですか。",
+  "target": "ざあざあ",
+  "choices": [
+   "かぜが ざあざあ ふいて すずしいです。",
+   "おなかが すいて ごはんを ざあざあ 食べました。",
+   "てが ざあざあして ハンドクリームを 買いました。",
+   "あめが ざあざあ ふる日は おんがくが 聞きたく なります。"
+  ],
+  "answerIndex": 3,
+  "explanationKo": "ざあざあ는 비가 세차게 내리는 소리·모양에 씁니다.",
+  "choiceFeedback": [
+   {
+    "reading": "かぜが ざあざあ ふいて すずしいです",
+    "translationKo": "바람이 세차게 불어 시원합니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "おなかが すいて ごはんを ざあざあ たべました",
+    "translationKo": "배가 고파 밥을 좍좍 먹었습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "てが ざあざあして はんどくりーむを かいました",
+    "translationKo": "손이 좍좍해서 핸드크림을 샀습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "あめが ざあざあ ふる ひは おんがくが ききたく なります",
+    "translationKo": "비가 세차게 내리는 날은 음악을 듣고 싶어집니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3217.jpg",
+   "questionNumber": 2
+  }
+ },
+ {
+  "id": "tb-img-3217-3",
+  "type": "usage",
+  "prompt": "「こしょう」の使い方として正しいものはどれですか。",
+  "target": "こしょう",
+  "choices": [
+   "しんけんに かいた えが こしょうして しまいました。",
+   "ははの こしょうが ひどくて みみが いたいぐらいだ。",
+   "エレベーターが こしょうして かいだんで いっかいまで おりました。",
+   "もんだいが おきた とき、こしょうの しかたを おしえて いただけますか。"
+  ],
+  "answerIndex": 2,
+  "explanationKo": "故障する는 기계나 설비가 고장 날 때 씁니다.",
+  "choiceFeedback": [
+   {
+    "reading": "しんけんに かいた えが こしょうして しまいました",
+    "translationKo": "진지하게 그린 그림이 고장 나 버렸습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "ははの こしょうが ひどくて みみが いたいぐらいだ",
+    "translationKo": "어머니의 고장이 심해 귀가 아플 정도다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "えれべーたーが こしょうして かいだんで いっかいまで おりました",
+    "translationKo": "엘리베이터가 고장 나서 계단으로 1층까지 내려왔습니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "もんだいが おきた とき こしょうの しかたを おしえて いただけますか",
+    "translationKo": "문제가 생겼을 때 고장 방법을 알려 주시겠습니까?",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3217.jpg",
+   "questionNumber": 3
+  }
+ },
+ {
+  "id": "tb-img-3217-4",
+  "type": "usage",
+  "prompt": "「じんこう」の使い方として正しいものはどれですか。",
+  "target": "じんこう",
+  "choices": [
+   "おおくの じんこうが はしって きて びっくりしました。",
+   "ここ すうねん じんこうが だんだん へって います。",
+   "じんこうな デザインの シャツを 見つけて 買って しまいました。",
+   "サイトに とうろくしたい じんこうは まず ログインして ください。"
+  ],
+  "answerIndex": 1,
+  "explanationKo": "人口는 한 지역에 사는 사람의 수를 뜻합니다.",
+  "choiceFeedback": [
+   {
+    "reading": "おおくの じんこうが はしって きて びっくりしました",
+    "translationKo": "많은 인구가 달려와 놀랐습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "ここ すうねん じんこうが だんだん へって います",
+    "translationKo": "최근 몇 년 인구가 점점 줄고 있습니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "じんこうな でざいんの しゃつを みつけて かって しまいました",
+    "translationKo": "인구적인 디자인의 셔츠를 발견해 사 버렸습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "さいとに とうろくしたい じんこうは まず ろぐいんして ください",
+    "translationKo": "사이트에 등록하고 싶은 인구는 먼저 로그인하세요.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3217.jpg",
+   "questionNumber": 4
+  }
+ },
+ {
+  "id": "tb-img-3217-5",
+  "type": "usage",
+  "prompt": "「おもいで」の使い方として正しいものはどれですか。",
+  "target": "おもいで",
+  "choices": [
+   "この しゃしんは 子どもの ころの いい おもいでです。",
+   "わすれないように、おもいでを して おきます。",
+   "おもいでを 上手に 話し、みんな なみだを ながしました。",
+   "がっこうでは おもいででは なく、どりょくするのが だいじです。"
+  ],
+  "answerIndex": 0,
+  "explanationKo": "思い出는 과거의 기억이나 추억입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "この しゃしんは こどもの ころの いい おもいでです",
+    "translationKo": "이 사진은 어린 시절의 좋은 추억입니다.",
+    "feedbackKo": "정답: 제시문의 뜻과 같습니다."
+   },
+   {
+    "reading": "わすれないように おもいでを して おきます",
+    "translationKo": "잊지 않도록 추억을 해 둡니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "おもいでを じょうずに はなし みんな なみだを ながしました",
+    "translationKo": "추억을 잘 말해 모두 눈물을 흘렸습니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   },
+   {
+    "reading": "がっこうでは おもいででは なく どりょくするのが だいじです",
+    "translationKo": "학교에서는 추억이 아니라 노력하는 것이 중요합니다.",
+    "feedbackKo": "오답: 제시문의 핵심 뜻과 다릅니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3217.jpg",
+   "questionNumber": 5
+  }
+ },
+ {
+  "id": "tb-img-3238-11-1",
+  "type": "context",
+  "prompt": "しおを入れなくてはいけないのに、まちがえて（　）を入れてしまった。",
+  "target": "문맥에 맞는 명사",
+  "choices": [
+   "くさ",
+   "さとう",
+   "つめ",
+   "ごちそう"
+  ],
+  "answerIndex": 1,
+  "explanationKo": "「しお」와 혼동해 넣을 수 있는 조미료는 「さとう」입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "くさ",
+    "translationKo": "풀",
+    "feedbackKo": "소금과 잘못 바꿔 넣었다는 문맥에 맞지 않습니다."
+   },
+   {
+    "reading": "さとう",
+    "translationKo": "설탕",
+    "feedbackKo": "소금 대신 실수로 설탕을 넣었다는 자연스러운 문맥입니다."
+   },
+   {
+    "reading": "つめ",
+    "translationKo": "손톱",
+    "feedbackKo": "넣는 조미료가 아닙니다."
+   },
+   {
+    "reading": "ごちそう",
+    "translationKo": "진수성찬",
+    "feedbackKo": "소금과 대비되는 재료가 아닙니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3238.JPG",
+   "questionNumber": "11-1"
+  }
+ },
+ {
+  "id": "tb-img-3238-11-2",
+  "type": "context",
+  "prompt": "これほどサービスの（　）ホテルははじめてです。",
+  "target": "서비스의 상태를 나타내는 형용사",
+  "choices": [
+   "ねむい",
+   "ほそい",
+   "こわい",
+   "ひどい"
+  ],
+  "answerIndex": 3,
+  "explanationKo": "「サービスがひどい」는 서비스가 형편없다는 뜻입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "ねむい",
+    "translationKo": "졸리다",
+    "feedbackKo": "서비스를 수식할 수 없습니다."
+   },
+   {
+    "reading": "ほそい",
+    "translationKo": "가늘다",
+    "feedbackKo": "서비스의 질을 나타내지 않습니다."
+   },
+   {
+    "reading": "こわい",
+    "translationKo": "무섭다",
+    "feedbackKo": "이 문맥의 서비스 평가로 부자연스럽습니다."
+   },
+   {
+    "reading": "ひどい",
+    "translationKo": "심하다, 형편없다",
+    "feedbackKo": "서비스가 이토록 형편없는 호텔이라는 뜻으로 자연스럽습니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3238.JPG",
+   "questionNumber": "11-2"
+  }
+ },
+ {
+  "id": "tb-img-3238-11-3",
+  "type": "context",
+  "prompt": "あつまったひとにくらべて、いすの（　）がたりません。",
+  "target": "부족한 대상",
+  "choices": [
+   "えだ",
+   "すな",
+   "かず",
+   "うで"
+  ],
+  "answerIndex": 2,
+  "explanationKo": "사람 수와 비교하므로 부족한 것은 의자의 「数」입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "えだ",
+    "translationKo": "가지",
+    "feedbackKo": "의자의 수량과 관계없습니다."
+   },
+   {
+    "reading": "すな",
+    "translationKo": "모래",
+    "feedbackKo": "문맥에 맞지 않습니다."
+   },
+   {
+    "reading": "かず",
+    "translationKo": "수, 개수",
+    "feedbackKo": "모인 사람 수에 비해 의자 수가 부족하다는 뜻입니다."
+   },
+   {
+    "reading": "うで",
+    "translationKo": "팔",
+    "feedbackKo": "의자와 결합하지 않습니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3238.JPG",
+   "questionNumber": "11-3"
+  }
+ },
+ {
+  "id": "tb-img-3238-11-4",
+  "type": "context",
+  "prompt": "みんなでかんがえれば、いい（　）が出るかもしれません。",
+  "target": "생각해서 나오는 것",
+  "choices": [
+   "レシート",
+   "サービス",
+   "アイディア",
+   "ニュース"
+  ],
+  "answerIndex": 2,
+  "explanationKo": "「アイディアが出る」는 아이디어가 떠오르다/나오다라는 결합입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "れしーと",
+    "translationKo": "영수증",
+    "feedbackKo": "생각해서 나오는 것이 아닙니다."
+   },
+   {
+    "reading": "さーびす",
+    "translationKo": "서비스",
+    "feedbackKo": "「考えて出る」와 어울리지 않습니다."
+   },
+   {
+    "reading": "あいでぃあ",
+    "translationKo": "아이디어",
+    "feedbackKo": "함께 생각하면 좋은 아이디어가 나올 수 있다는 문맥입니다."
+   },
+   {
+    "reading": "にゅーす",
+    "translationKo": "뉴스",
+    "feedbackKo": "논의 결과로 나오는 대상이 아닙니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3238.JPG",
+   "questionNumber": "11-4"
+  }
+ },
+ {
+  "id": "tb-img-3238-11-5",
+  "type": "context",
+  "prompt": "あつければ（　）をぬいで、うすいシャツにきかえたらどうですか。",
+  "target": "벗는 옷",
+  "choices": [
+   "タオル",
+   "サンダル",
+   "セーター",
+   "アクセサリー"
+  ],
+  "answerIndex": 2,
+  "explanationKo": "더우면 스웨터를 벗고 얇은 셔츠로 갈아입으라는 뜻입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "たおる",
+    "translationKo": "수건",
+    "feedbackKo": "보통 「脱ぐ」의 대상이 아닙니다."
+   },
+   {
+    "reading": "さんだる",
+    "translationKo": "샌들",
+    "feedbackKo": "벗을 수 있지만 얇은 셔츠로 갈아입는 문맥과 맞지 않습니다."
+   },
+   {
+    "reading": "せーたー",
+    "translationKo": "스웨터",
+    "feedbackKo": "더울 때 벗고 얇은 셔츠로 갈아입는 옷입니다."
+   },
+   {
+    "reading": "あくせさりー",
+    "translationKo": "액세서리",
+    "feedbackKo": "셔츠로 갈아입는 것과 관계없습니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3238.JPG",
+   "questionNumber": "11-5"
+  }
+ },
+ {
+  "id": "tb-img-3238-11-6",
+  "type": "context",
+  "prompt": "そのドレスには100万円の（　）がついていた。",
+  "target": "가격 표시",
+  "choices": [
+   "ゆびわ",
+   "うりば",
+   "しかた",
+   "ねだん"
+  ],
+  "answerIndex": 3,
+  "explanationKo": "「値段がついている」는 가격이 매겨져 있다는 뜻입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "ゆびわ",
+    "translationKo": "반지",
+    "feedbackKo": "100만 엔의 표시가 붙었다는 문맥과 맞지 않습니다."
+   },
+   {
+    "reading": "うりば",
+    "translationKo": "판매장",
+    "feedbackKo": "드레스에 붙는 것이 아닙니다."
+   },
+   {
+    "reading": "しかた",
+    "translationKo": "방법",
+    "feedbackKo": "가격과 연결되지 않습니다."
+   },
+   {
+    "reading": "ねだん",
+    "translationKo": "가격",
+    "feedbackKo": "드레스에 100만 엔 가격이 붙어 있었다는 뜻입니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3238.JPG",
+   "questionNumber": "11-6"
+  }
+ },
+ {
+  "id": "tb-img-3238-11-7",
+  "type": "context",
+  "prompt": "やまもとさんは（　）にたいせつなゆびわをぬすまれました。",
+  "target": "훔친 사람",
+  "choices": [
+   "どろぼう",
+   "はなみ",
+   "とちゅう",
+   "わりあい"
+  ],
+  "answerIndex": 0,
+  "explanationKo": "피해 피동 「どろぼうに〜をぬすまれる」의 형태입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "どろぼう",
+    "translationKo": "도둑",
+    "feedbackKo": "도둑에게 중요한 반지를 도난당했다는 뜻입니다."
+   },
+   {
+    "reading": "はなみ",
+    "translationKo": "꽃구경",
+    "feedbackKo": "사람이 아니며 피동문의 행위자가 될 수 없습니다."
+   },
+   {
+    "reading": "とちゅう",
+    "translationKo": "도중",
+    "feedbackKo": "행위자를 나타내지 않습니다."
+   },
+   {
+    "reading": "わりあい",
+    "translationKo": "비율",
+    "feedbackKo": "문맥에 맞지 않습니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3238.JPG",
+   "questionNumber": "11-7"
+  }
+ },
+ {
+  "id": "tb-img-3238-11-8",
+  "type": "context",
+  "prompt": "わたしのいもうとは、さくらホテルの（　）ではたらいています。",
+  "target": "호텔 직무/장소",
+  "choices": [
+   "おまつり",
+   "おいわい",
+   "うけつけ",
+   "いなか"
+  ],
+  "answerIndex": 2,
+  "explanationKo": "호텔에서 일하는 장소로는 「受付」가 자연스럽습니다.",
+  "choiceFeedback": [
+   {
+    "reading": "おまつり",
+    "translationKo": "축제",
+    "feedbackKo": "호텔 근무 장소가 아닙니다."
+   },
+   {
+    "reading": "おいわい",
+    "translationKo": "축하",
+    "feedbackKo": "직무나 부서가 아닙니다."
+   },
+   {
+    "reading": "うけつけ",
+    "translationKo": "접수처, 프런트",
+    "feedbackKo": "호텔 프런트에서 일한다는 자연스러운 표현입니다."
+   },
+   {
+    "reading": "いなか",
+    "translationKo": "시골",
+    "feedbackKo": "호텔 내부의 근무 부서가 아닙니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3238.JPG",
+   "questionNumber": "11-8"
+  }
+ },
+ {
+  "id": "tb-img-3238-11-9",
+  "type": "context",
+  "prompt": "わたしたちは学生なので、まだ（　）は考えていません。",
+  "target": "아직 고려하지 않는 인생사",
+  "choices": [
+   "そうたい",
+   "たいいん",
+   "けっこん",
+   "げしゅく"
+  ],
+  "answerIndex": 2,
+  "explanationKo": "「まだ結婚は考えていません」은 아직 결혼을 생각하지 않는다는 뜻입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "そうたい",
+    "translationKo": "조퇴",
+    "feedbackKo": "학생이라는 이유와 자연스럽게 연결되지 않습니다."
+   },
+   {
+    "reading": "たいいん",
+    "translationKo": "퇴원",
+    "feedbackKo": "병원 문맥이 없습니다."
+   },
+   {
+    "reading": "けっこん",
+    "translationKo": "결혼",
+    "feedbackKo": "아직 학생이라 결혼을 생각하지 않는다는 뜻입니다."
+   },
+   {
+    "reading": "げしゅく",
+    "translationKo": "하숙",
+    "feedbackKo": "학생 신분과 반대되는 내용이 아닙니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3238.JPG",
+   "questionNumber": "11-9"
+  }
+ },
+ {
+  "id": "tb-img-3238-11-10",
+  "type": "context",
+  "prompt": "めずらしいなまえですねえ。いちど（　）、わすれませんね。",
+  "target": "이름과 어울리는 동사",
+  "choices": [
+   "ならったら",
+   "つくったら",
+   "おぼえたら",
+   "べんきょうしたら"
+  ],
+  "answerIndex": 2,
+  "explanationKo": "「一度覚えたら忘れない」는 한번 기억하면 잊지 않는다는 조건 표현입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "ならったら",
+    "translationKo": "배우면",
+    "feedbackKo": "이름을 한 번 배우다보다 기억하다가 자연스럽습니다."
+   },
+   {
+    "reading": "つくったら",
+    "translationKo": "만들면",
+    "feedbackKo": "이름을 접한 뒤 잊지 않는다는 문맥과 맞지 않습니다."
+   },
+   {
+    "reading": "おぼえたら",
+    "translationKo": "기억하면, 외우면",
+    "feedbackKo": "한번 기억하면 잊지 않는다는 뜻입니다."
+   },
+   {
+    "reading": "べんきょうしたら",
+    "translationKo": "공부하면",
+    "feedbackKo": "이름과 직접 결합하기 어렵습니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3238.JPG",
+   "questionNumber": "11-10"
+  }
+ },
+ {
+  "id": "tb-img-3243--1",
+  "type": "grammar",
+  "prompt": "あしたは試験です。（　）、妹は天気ばかり気にしています。",
+  "target": "대조 접속사",
+  "choices": [
+   "しかし",
+   "それで",
+   "たとえば",
+   "それから"
+  ],
+  "answerIndex": 0,
+  "explanationKo": "앞뒤 내용이 기대와 반대이므로 역접 「しかし」가 맞습니다.",
+  "choiceFeedback": [
+   {
+    "reading": "しかし",
+    "translationKo": "그러나",
+    "feedbackKo": "시험인데도 여동생은 날씨만 신경 쓴다는 대조를 나타냅니다."
+   },
+   {
+    "reading": "それで",
+    "translationKo": "그래서",
+    "feedbackKo": "원인·결과 관계가 아닙니다."
+   },
+   {
+    "reading": "たとえば",
+    "translationKo": "예를 들면",
+    "feedbackKo": "예시가 이어지지 않습니다."
+   },
+   {
+    "reading": "それから",
+    "translationKo": "그리고 나서",
+    "feedbackKo": "시간적 순서가 아닙니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3243.JPG",
+   "questionNumber": "接続詞-1"
+  }
+ },
+ {
+  "id": "tb-img-3243--2",
+  "type": "grammar",
+  "prompt": "きのうの登山は中止になりました。（　）、あられが降っていたからです。",
+  "target": "이유 제시 접속사",
+  "choices": [
+   "たとえば",
+   "それに",
+   "だから",
+   "なぜなら"
+  ],
+  "answerIndex": 3,
+  "explanationKo": "「なぜなら〜からです」는 ‘왜냐하면 ~이기 때문입니다’의 짝입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "たとえば",
+    "translationKo": "예를 들면",
+    "feedbackKo": "이유 설명을 도입하지 않습니다."
+   },
+   {
+    "reading": "それに",
+    "translationKo": "게다가",
+    "feedbackKo": "추가 정보가 아니라 이유 설명입니다."
+   },
+   {
+    "reading": "だから",
+    "translationKo": "그러니까",
+    "feedbackKo": "뒤의 「からです」와 역할이 겹치며 방향이 맞지 않습니다."
+   },
+   {
+    "reading": "なぜなら",
+    "translationKo": "왜냐하면",
+    "feedbackKo": "앞 문장의 이유를 뒤에서 설명하는 표현입니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3243.JPG",
+   "questionNumber": "接続詞-2"
+  }
+ },
+ {
+  "id": "tb-img-3243--3",
+  "type": "grammar",
+  "prompt": "先生は休みです。（　）、今日は数学の授業はありません。",
+  "target": "결과 접속사",
+  "choices": [
+   "でも",
+   "だが",
+   "ですから",
+   "すると"
+  ],
+  "answerIndex": 2,
+  "explanationKo": "첫 문장이 원인, 둘째 문장이 결과이므로 「ですから」가 맞습니다.",
+  "choiceFeedback": [
+   {
+    "reading": "でも",
+    "translationKo": "하지만",
+    "feedbackKo": "대조가 아니라 인과 관계입니다."
+   },
+   {
+    "reading": "だが",
+    "translationKo": "그러나",
+    "feedbackKo": "역접이 필요하지 않습니다."
+   },
+   {
+    "reading": "ですから",
+    "translationKo": "그러므로",
+    "feedbackKo": "선생님이 쉬므로 수업이 없다는 결과를 연결합니다."
+   },
+   {
+    "reading": "すると",
+    "translationKo": "그러자",
+    "feedbackKo": "어떤 동작 직후 발생한 사건이 아닙니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3243.JPG",
+   "questionNumber": "接続詞-3"
+  }
+ },
+ {
+  "id": "tb-img-3243--4",
+  "type": "grammar",
+  "prompt": "風が強かったし、（　）雨も降っていました。",
+  "target": "추가 접속사",
+  "choices": [
+   "だから",
+   "それに",
+   "それなら",
+   "たとえば"
+  ],
+  "answerIndex": 1,
+  "explanationKo": "「し」와 함께 같은 방향의 정보를 더하는 「それに」가 자연스럽습니다.",
+  "choiceFeedback": [
+   {
+    "reading": "だから",
+    "translationKo": "그러니까",
+    "feedbackKo": "결과가 아니라 나쁜 날씨 조건의 추가입니다."
+   },
+   {
+    "reading": "それに",
+    "translationKo": "게다가",
+    "feedbackKo": "바람이 강한 데 더해 비도 왔다는 뜻입니다."
+   },
+   {
+    "reading": "それなら",
+    "translationKo": "그렇다면",
+    "feedbackKo": "상대의 말에 대한 조건적 반응이 아닙니다."
+   },
+   {
+    "reading": "たとえば",
+    "translationKo": "예를 들면",
+    "feedbackKo": "예시가 아닙니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3243.JPG",
+   "questionNumber": "接続詞-4"
+  }
+ },
+ {
+  "id": "tb-img-3243--5",
+  "type": "grammar",
+  "prompt": "私はケーキとクッキー、（　）アイスクリームも食べました。",
+  "target": "열거 접속사",
+  "choices": [
+   "なぜなら",
+   "それとも",
+   "けれども",
+   "それから"
+  ],
+  "answerIndex": 3,
+  "explanationKo": "케이크와 쿠키에 아이스크림을 추가로 열거하므로 「それから」가 맞습니다.",
+  "choiceFeedback": [
+   {
+    "reading": "なぜなら",
+    "translationKo": "왜냐하면",
+    "feedbackKo": "이유가 이어지지 않습니다."
+   },
+   {
+    "reading": "それとも",
+    "translationKo": "아니면",
+    "feedbackKo": "선택 질문이 아닙니다."
+   },
+   {
+    "reading": "けれども",
+    "translationKo": "하지만",
+    "feedbackKo": "대조가 없습니다."
+   },
+   {
+    "reading": "それから",
+    "translationKo": "그리고, 그다음",
+    "feedbackKo": "먹은 음식을 이어 열거합니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3243.JPG",
+   "questionNumber": "接続詞-5"
+  }
+ },
+ {
+  "id": "tb-img-3243--6",
+  "type": "grammar",
+  "prompt": "おとしよりにざせきをゆずりました。（　）、たいへんよろこんでくれました。",
+  "target": "연속 결과 접속사",
+  "choices": [
+   "しかし",
+   "すると",
+   "でも",
+   "なぜなら"
+  ],
+  "answerIndex": 1,
+  "explanationKo": "한 행동 뒤 곧이어 생긴 결과에는 「すると」를 씁니다.",
+  "choiceFeedback": [
+   {
+    "reading": "しかし",
+    "translationKo": "그러나",
+    "feedbackKo": "반대 결과가 아닙니다."
+   },
+   {
+    "reading": "すると",
+    "translationKo": "그러자",
+    "feedbackKo": "자리를 양보하자 기뻐했다는 연속 사건입니다."
+   },
+   {
+    "reading": "でも",
+    "translationKo": "하지만",
+    "feedbackKo": "대조가 아닙니다."
+   },
+   {
+    "reading": "なぜなら",
+    "translationKo": "왜냐하면",
+    "feedbackKo": "이유 설명이 아닙니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3243.JPG",
+   "questionNumber": "接続詞-6"
+  }
+ },
+ {
+  "id": "tb-img-3243--7",
+  "type": "grammar",
+  "prompt": "うめはすでに咲いた。（　）さくらはまだ咲いていない。",
+  "target": "대조 접속사",
+  "choices": [
+   "だが",
+   "または",
+   "それに",
+   "だから"
+  ],
+  "answerIndex": 0,
+  "explanationKo": "매화와 벚꽃의 개화 상태가 대비되므로 「だが」가 맞습니다.",
+  "choiceFeedback": [
+   {
+    "reading": "だが",
+    "translationKo": "하지만",
+    "feedbackKo": "매화는 폈지만 벚꽃은 아직이라는 대조입니다."
+   },
+   {
+    "reading": "または",
+    "translationKo": "또는",
+    "feedbackKo": "선택 관계가 아닙니다."
+   },
+   {
+    "reading": "それに",
+    "translationKo": "게다가",
+    "feedbackKo": "같은 방향의 추가가 아닙니다."
+   },
+   {
+    "reading": "だから",
+    "translationKo": "그러니까",
+    "feedbackKo": "인과 관계가 아닙니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3243.JPG",
+   "questionNumber": "接続詞-7"
+  }
+ },
+ {
+  "id": "tb-img-3260-2--1",
+  "type": "grammar",
+  "prompt": "このジュースはトマトの味（　）します。",
+  "target": "감각을 나타내는 조사",
+  "choices": [
+   "を",
+   "の",
+   "で",
+   "が"
+  ],
+  "answerIndex": 3,
+  "explanationKo": "냄새·소리·맛·느낌에는 「〜がする」를 씁니다.",
+  "choiceFeedback": [
+   {
+    "reading": "を",
+    "translationKo": "~을/를",
+    "feedbackKo": "「味をする」라고 하지 않습니다."
+   },
+   {
+    "reading": "の",
+    "translationKo": "~의",
+    "feedbackKo": "술어 「します」와 연결되지 않습니다."
+   },
+   {
+    "reading": "で",
+    "translationKo": "~로/에서",
+    "feedbackKo": "맛을 느끼는 구문이 아닙니다."
+   },
+   {
+    "reading": "が",
+    "translationKo": "~이/가",
+    "feedbackKo": "「味がする」는 ~한 맛이 난다는 표현입니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3260 2.JPG",
+   "questionNumber": "文法-1"
+  }
+ },
+ {
+  "id": "tb-img-3260-2--3",
+  "type": "grammar",
+  "prompt": "（　）としたとき、友だちが電話をかけてきました。",
+  "target": "〜ようとした",
+  "choices": [
+   "入る",
+   "入って",
+   "入ろう",
+   "入るよう"
+  ],
+  "answerIndex": 2,
+  "explanationKo": "「동사 의지형＋とする」는 막 ~하려고 하다라는 뜻입니다.",
+  "choiceFeedback": [
+   {
+    "reading": "はいる",
+    "translationKo": "들어가다",
+    "feedbackKo": "의지형이 아니어서 「とした」와 결합하지 않습니다."
+   },
+   {
+    "reading": "はいって",
+    "translationKo": "들어가서",
+    "feedbackKo": "て형 뒤에는 이 문형을 쓸 수 없습니다."
+   },
+   {
+    "reading": "はいろう",
+    "translationKo": "들어가려고",
+    "feedbackKo": "의지형 + とした로 막 들어가려던 순간을 뜻합니다."
+   },
+   {
+    "reading": "はいるよう",
+    "translationKo": "들어가도록",
+    "feedbackKo": "목적·지시의 「よう」이며 시도 문형이 아닙니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3260 2.JPG",
+   "questionNumber": "文法-3"
+  }
+ },
+ {
+  "id": "tb-img-3260-2--4",
+  "type": "grammar",
+  "prompt": "その荷物は私がお持ち（　）。",
+  "target": "お〜する 겸양 표현",
+  "choices": [
+   "です",
+   "います",
+   "します",
+   "なります"
+  ],
+  "answerIndex": 2,
+  "explanationKo": "자신의 행동을 낮추어 말할 때 「お＋ます형 어간＋します」를 씁니다.",
+  "choiceFeedback": [
+   {
+    "reading": "です",
+    "translationKo": "입니다",
+    "feedbackKo": "「お持ちです」는 상대의 행동을 높이는 형태입니다."
+   },
+   {
+    "reading": "います",
+    "translationKo": "있습니다",
+    "feedbackKo": "「お持ちいます」는 성립하지 않습니다."
+   },
+   {
+    "reading": "します",
+    "translationKo": "하겠습니다",
+    "feedbackKo": "「お持ちします」는 내가 들어 드리겠다는 겸양 표현입니다."
+   },
+   {
+    "reading": "なります",
+    "translationKo": "되십니다",
+    "feedbackKo": "「お持ちになります」는 상대의 행동을 높이는 존경 표현입니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3260 2.JPG",
+   "questionNumber": "文法-4"
+  }
+ },
+ {
+  "id": "tb-img-3260-2--5",
+  "type": "grammar",
+  "prompt": "バスを（　）としたとき、ころんでけがをしました。",
+  "target": "〜ようとした",
+  "choices": [
+   "おり",
+   "おりる",
+   "おりて",
+   "おりよう"
+  ],
+  "answerIndex": 3,
+  "explanationKo": "「降りる」의 의지형은 「降りよう」이며 「〜ようとしたとき」로 막 하려던 순간을 표현합니다.",
+  "choiceFeedback": [
+   {
+    "reading": "おり",
+    "translationKo": "내리(어간)",
+    "feedbackKo": "의지형이 아닙니다."
+   },
+   {
+    "reading": "おりる",
+    "translationKo": "내리다",
+    "feedbackKo": "사전형은 「とした」 앞에서 시도를 나타내지 않습니다."
+   },
+   {
+    "reading": "おりて",
+    "translationKo": "내려서",
+    "feedbackKo": "て형은 이 문형과 결합하지 않습니다."
+   },
+   {
+    "reading": "おりよう",
+    "translationKo": "내리려고",
+    "feedbackKo": "버스에서 내리려던 순간이라는 뜻입니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3260 2.JPG",
+   "questionNumber": "文法-5"
+  }
+ },
+ {
+  "id": "tb-img-3260-2--6",
+  "type": "grammar",
+  "prompt": "A「そのざっし、（　）おわったら貸してくれませんか。」B「ええ、いいですよ。」",
+  "target": "〜おわる",
+  "choices": [
+   "読む",
+   "読み",
+   "読め",
+   "読んだ"
+  ],
+  "answerIndex": 1,
+  "explanationKo": "동작의 완료는 「ます형 어간＋終わる」로 나타내므로 「読み終わったら」가 됩니다.",
+  "choiceFeedback": [
+   {
+    "reading": "よむ",
+    "translationKo": "읽다",
+    "feedbackKo": "「終わる」 앞에는 ます형 어간을 씁니다."
+   },
+   {
+    "reading": "よみ",
+    "translationKo": "읽기/읽고",
+    "feedbackKo": "「読み終わる」로 ‘다 읽다’를 만듭니다."
+   },
+   {
+    "reading": "よめ",
+    "translationKo": "읽어라/읽을 수 있어",
+    "feedbackKo": "명령형·가능형 어간은 맞지 않습니다."
+   },
+   {
+    "reading": "よんだ",
+    "translationKo": "읽었다",
+    "feedbackKo": "과거형 뒤에 「終わる」를 붙이지 않습니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3260 2.JPG",
+   "questionNumber": "文法-6"
+  }
+ },
+ {
+  "id": "tb-img-3260-2--7",
+  "type": "grammar",
+  "prompt": "このりんごはおいしい（　）食べてみましょう。",
+  "target": "〜かどうか",
+  "choices": [
+   "ように",
+   "ことが",
+   "かどうか",
+   "だろうを"
+  ],
+  "answerIndex": 2,
+  "explanationKo": "확실하지 않은 양자 여부를 목적절로 넣을 때 「〜かどうか」를 씁니다.",
+  "choiceFeedback": [
+   {
+    "reading": "ように",
+    "translationKo": "~하도록",
+    "feedbackKo": "시험해 보는 내용의 불확실성을 나타내지 않습니다."
+   },
+   {
+    "reading": "ことが",
+    "translationKo": "~하는 것이",
+    "feedbackKo": "뒤의 「食べてみましょう」와 연결되지 않습니다."
+   },
+   {
+    "reading": "かどうか",
+    "translationKo": "~인지 아닌지",
+    "feedbackKo": "맛있는지 아닌지 먹어 보자는 뜻입니다."
+   },
+   {
+    "reading": "だろうを",
+    "translationKo": "~일 것임을(비문)",
+    "feedbackKo": "문법적으로 성립하지 않습니다."
+   }
+  ],
+  "source": {
+   "type": "textbook",
+   "image": "IMG_3260 2.JPG",
+   "questionNumber": "文法-7"
+  }
+ }
+]

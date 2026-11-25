@@ -1,4 +1,5 @@
 import { validateQuestions, type Question } from "../lib/quiz";
+import batch02 from "./questions-batch-02.json";
 
 type Definition = Omit<Question, "choiceFeedback" | "source"> & {
   translations: string[];
@@ -58,4 +59,5 @@ export const QUESTIONS = validateQuestions([
   question({ id: "gen-q3", type: "synonym", prompt: "「用意します」と意味がいちばん近いものはどれですか。", choices: ["準備します", "忘れます", "運転します", "説明します"], readings: ["じゅんびします", "わすれます", "うんてんします", "せつめいします"], answerIndex: 0, translations: ["준비합니다", "잊습니다", "운전합니다", "설명합니다"], feedback: ["用意する와 같이 준비한다는 뜻입니다.", "잊는다는 뜻으로 반대 문맥입니다.", "차량을 운전한다는 뜻입니다.", "내용을 설명한다는 뜻입니다."], explanationKo: "用意する와 準備する는 준비하다는 뜻으로 가깝습니다.", source: { type: "generated", basedOnWord: "用意", level: "N4" } }),
   question({ id: "gen-q4", type: "usage", prompt: "「必要」の使い方として正しいものはどれですか。", choices: ["申し込みには写真が必要です。", "パンが必要に増えました。", "駅まで必要を歩きます。", "妹は必要を喜びました。"], readings: ["もうしこみには しゃしんが ひつようです。", "パンが ひつように ふえました。", "えきまで ひつようを あるきます。", "いもうとは ひつようを よろこびました。"], answerIndex: 0, translations: ["신청에는 사진이 필요합니다.", "빵이 필요하게 늘었습니다.", "역까지 필요를 걷습니다.", "여동생은 필요를 기뻐했습니다."], feedback: ["必要だ의 자연스러운 사용입니다.", "必要に増える라는 연결은 자연스럽지 않습니다.", "必要를 걷는 대상으로 사용할 수 없습니다.", "必要를 기뻐하는 대상으로 사용할 수 없습니다."], explanationKo: "必要だ는 무엇이 필요하다고 말할 때 씁니다.", source: { type: "generated", basedOnWord: "必要", level: "N4" } }),
   question({ id: "gen-q5", type: "context", prompt: "このパンはかたくありません。とても（　　　）です。", choices: ["柔らかい", "暗い", "眠い", "危ない"], readings: ["やわらかい", "くらい", "ねむい", "あぶない"], answerIndex: 0, translations: ["부드럽다", "어둡다", "졸리다", "위험하다"], feedback: ["かたくない와 같은 방향의 뜻입니다.", "밝기의 상태라서 빵의 단단함과 관계없습니다.", "사람의 졸린 상태를 나타냅니다.", "위험한 상태를 나타내며 촉감과 관계없습니다."], explanationKo: "かたくない와 의미가 이어지는 말은 柔らかい입니다.", source: { type: "generated", basedOnWord: "柔らかい", level: "N4" } }),
+  ...(batch02 as Question[]),
 ]);
