@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { CaretRight, Fire } from "@phosphor-icons/react/dist/ssr";
+import { CaretRight, Fire, Question } from "@phosphor-icons/react/dist/ssr";
 import { DECKS } from "@/lib/decks";
 import { splitDue } from "@/lib/srs";
 import {
@@ -101,6 +101,19 @@ export default function Home() {
           </Link>
         );
       })}
+
+      <Link href="/quiz">
+        <Card className="flex items-center justify-between p-5">
+          <div className="flex items-center gap-3">
+            <Question size={24} className="text-accent" />
+            <div>
+              <p className="text-lg font-medium">N4 문제 풀이</p>
+              <p className="text-sub mt-1 text-sm">교재 기출 10 · 응용 5</p>
+            </div>
+          </div>
+          <CaretRight size={20} className="text-muted" />
+        </Card>
+      </Link>
 
       {stats && (
         <>
